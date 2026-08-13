@@ -265,6 +265,217 @@ def toc_html(article: Tag) -> str:
 </details>"""
 
 
+CH14_SLUGS = [
+    "ed-as",
+    "ikea",
+    "airtox-b2b",
+    "boozt",
+    "lakrids-bulow-b2b",
+    "too-good-to-go",
+    "jysk-b2c",
+    "jysk-b2b",
+    "soestrene-grene",
+    "joe-the-juice",
+]
+
+
+def add_heading_ids(article: Tag) -> None:
+    for i, h in enumerate(article.find_all("h3"), start=1):
+        if not h.get("id"):
+            h["id"] = f"s{i}"
+
+
+def toc_html_h3(article: Tag) -> str:
+    headings = article.find_all("h3")
+    if not headings:
+        return ""
+    links = []
+    for h in headings:
+        anchor = h.get("id") or ""
+        inner = h.decode_contents()
+        links.append(f'<a href="#{anchor}">{inner}</a>')
+    nav = "\n".join(links)
+    return f"""<details class="toc">
+  <summary><span lang="da">Indhold</span><span lang="en">Contents</span></summary>
+  <nav>{nav}</nav>
+</details>"""
+
+
+def first_image(html_content: str, fallback: str = "assets/chapters/ch14.svg") -> str:
+    m = re.search(r'src="([^"]+)"', html_content)
+    return m.group(1) if m else fallback
+
+
+def render_case_index(cases: list[dict], prev_ch: dict | None) -> str:
+    items = []
+    for i, case in enumerate(cases):
+        items.append(
+            f'<a class="chapter-card" href="{case["file"]}">'
+            f'<img src="{html.escape(case["image"])}" alt="" width="320" height="180" loading="lazy">'
+            f'<div class="chapter-card-body">'
+            f'<span class="chapter-num">{i + 1}</span>'
+            f'<h2><span lang="da">{html.escape(case["title_da"])}</span>'
+            f'<span lang="en">{html.escape(case["title_en"])}</span></h2>'
+            f"</div></a>"
+        )
+    prev_html = ""
+    if prev_ch:
+        prev_html = (
+            f'<a class="prev" href="{prev_ch["file"]}">'
+            f'<span lang="da">← {html.escape(prev_ch["title_da"])}</span>'
+            f'<span lang="en">← {html.escape(prev_ch["title_en"])}</span></a>'
+        )
+    return f"""<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>14. Casevirksomheder – Afsætning F-C</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="lang-bar">
+    <div class="lang-bar-inner">
+      <div class="brand"><a href="afsætning-fc.html">Afsætning F–C</a> · <span lang="da">Kapitel 14</span><span lang="en">Chapter 14</span></div>
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button type="button" data-set-lang="da" aria-pressed="true">DA</button>
+        <button type="button" data-set-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </header>
+  <div class="wrap wrap-wide">
+    <main class="article">
+      <p class="kicker"><span lang="da">Afsætning F–C til EUD/EUX</span><span lang="en">Marketing F–C for EUD/EUX</span></p>
+      <h1><span lang="da">14. Casevirksomheder</span><span lang="en">14. Case companies</span></h1>
+      <div class="chapter-grid">
+        {"".join(items)}
+      </div>
+      <nav class="chapter-nav">{prev_html}</nav>
+    </main>
+  </div>
+  <script src="assets/i18n.js"></script>
+</body>
+</html>
+"""
+
+
+def render_case_page(
+    *,
+    title_da: str,
+    title_en: str,
+    article_html: str,
+    toc: str,
+    prev_nav: dict | None,
+    next_nav: dict | None,
+) -> str:
+    prev_html = ""
+    next_html = ""
+    if prev_nav:
+        prev_html = (
+            f'<a class="prev" href="{prev_nav["file"]}">'
+            f'<span lang="da">← {html.escape(prev_nav["title_da"])}</span>'
+            f'<span lang="en">← {html.escape(prev_nav["title_en"])}</span></a>'
+        )
+    if next_nav:
+        next_html = (
+            f'<a class="next" href="{next_nav["file"]}">'
+            f'<span lang="da">{html.escape(next_nav["title_da"])} →</span>'
+            f'<span lang="en">{html.escape(next_nav["title_en"])} →</span></a>'
+        )
+    return f"""<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{html.escape(title_da)} – Afsætning F-C</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="lang-bar">
+    <div class="lang-bar-inner">
+      <div class="brand"><a href="afsætning-fc.html">Afsætning F–C</a> · <a href="kapitel-14.html"><span lang="da">Kapitel 14</span><span lang="en">Chapter 14</span></a></div>
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button type="button" data-set-lang="da" aria-pressed="true">DA</button>
+        <button type="button" data-set-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </header>
+  <div class="wrap">
+    {toc}
+    <main class="article">
+      <p class="kicker"><span lang="da">Afsætning F–C til EUD/EUX</span><span lang="en">Marketing F–C for EUD/EUX</span></p>
+      <h1 id="s0"><span lang="da">{html.escape(title_da)}</span><span lang="en">{html.escape(title_en)}</span></h1>
+      {article_html}
+      <nav class="chapter-nav">{prev_html}{next_html}</nav>
+    </main>
+  </div>
+  <script src="assets/i18n.js"></script>
+</body>
+</html>
+"""
+
+
+def build_chapter_14(folder: Path, tr: Translator, prev_ch: dict | None) -> dict:
+    if prev_ch is None:
+        prev_ch = {
+            "file": "kapitel-13.html",
+            "title_da": "13. Kundeservice og -betjening",
+            "title_en": "13. Customer service",
+        }
+    data = extract_chapter(folder)
+    EXTRACTED.mkdir(parents=True, exist_ok=True)
+    cases: list[dict] = []
+
+    for i, section in enumerate(data["sections"]):
+        slug = CH14_SLUGS[i] if i < len(CH14_SLUGS) else f"case-{i + 1:02d}"
+        filename = f"kapitel-14-{slug}.html"
+        soup = BeautifulSoup(f'<article class="article">{section["html"]}</article>', "html.parser")
+        article = soup.article
+        add_heading_ids(article)
+        tr.translate_many(collect_strings(article) + [section["title"]])
+        bilingualize(article, tr)
+        add_boxes(article)
+        inner = article.decode_contents()
+        toc = toc_html_h3(article)
+        title_en = tr.translate(section["title"])
+        case = {
+            "slug": slug,
+            "title_da": section["title"],
+            "title_en": title_en,
+            "file": filename,
+            "image": first_image(section["html"]),
+            "inner": inner,
+            "toc": toc,
+        }
+        cases.append(case)
+
+    for i, case in enumerate(cases):
+        prev_nav = cases[i - 1] if i > 0 else prev_ch
+        next_nav = cases[i + 1] if i + 1 < len(cases) else None
+        page = render_case_page(
+            title_da=case["title_da"],
+            title_en=case["title_en"],
+            article_html=case["inner"],
+            toc=case["toc"],
+            prev_nav=prev_nav,
+            next_nav=next_nav,
+        )
+        out = ROOT / case["file"]
+        out.write_text(page, encoding="utf-8")
+        print("Wrote", out.name, flush=True)
+
+    index = render_case_index(cases, prev_ch)
+    (ROOT / "kapitel-14.html").write_text(index, encoding="utf-8")
+    print("Wrote kapitel-14.html (case index)", flush=True)
+
+    return {
+        "num": 14,
+        "title_da": "Casevirksomheder",
+        "title_en": "Case companies",
+        "file": "kapitel-14.html",
+    }
+
+
 def render_page(
     *,
     num: int,
@@ -487,10 +698,18 @@ def main() -> None:
                     }
                 )
                 continue
+            prev_ch = next((c for c in built if c["num"] == num - 1), None)
+            if num == 14:
+                ch = build_chapter_14(folder, tr, prev_ch)
+                tr.save()
+                built.append(ch)
+                if not only:
+                    (ROOT / "afsætning-fc.html").write_text(render_index(built), encoding="utf-8")
+                print(f"  case index + {len(CH14_SLUGS)} cases", flush=True)
+                continue
             ch = build_chapter(folder, tr)
             tr.save()
             built.append(ch)
-            prev_ch = next((c for c in built if c["num"] == num - 1), None)
             next_num = num + 1
             next_ch = None
             if next_num in all_nums:

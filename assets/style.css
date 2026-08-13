@@ -508,8 +508,12 @@ tr:last-child td {
 .book-card img {
   display: block;
   width: 100%;
-  aspect-ratio: 3 / 4;
-  object-fit: cover;
+  height: 14rem;
+  object-fit: contain;
+  object-position: center;
+  background: color-mix(in srgb, var(--bg) 75%, var(--accent-soft));
+  padding: 0.65rem;
+  box-sizing: border-box;
 }
 
 .book-card h2 {
@@ -558,9 +562,12 @@ tr:last-child td {
 .chapter-card img {
   display: block;
   width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
+  height: 9rem;
+  object-fit: contain;
   object-position: center;
+  background: color-mix(in srgb, var(--bg) 75%, var(--accent-soft));
+  padding: 0.65rem;
+  box-sizing: border-box;
 }
 
 .chapter-card-body {
