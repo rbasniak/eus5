@@ -31,6 +31,15 @@ UI = {
     "Tre facts": "Three facts",
     "Par-aktivitet": "Pair activity",
     "Gruppe-aktivitet": "Group activity",
+    "7.1 Forbrugernes behov": "7.1 Consumer needs",
+    "Kulturbestemte behov": "Culturally determined needs",
+    "Forbrugerens behov": "The consumer's needs",
+    "Fysiske behov": "Physical needs",
+    "Sociale behov": "Social needs",
+    "Købstyper": "Purchase types",
+    "Købscenter": "Shopping centre",
+    "9.5 Mærke": "9.5 Brand",
+    "Mærkevare": "Brand-name product",
 }
 
 TERMS = [
@@ -64,6 +73,31 @@ TERMS = [
     ("abonnementsordning", "subscription model"),
 ]
 
+DANISH_HINT = re.compile(
+    r"[æøåÆØÅ]|"
+    r"\b(?:og|er|det|til|med|for|som|virksomhed\w*|kapitel\w*|elever\w*|markedsføring\w*|"
+    r"opgaver\w*|afsnit\w*|kunder\w*|produkt\w*|lærer\w*|eleven\w*|interne\w*|eksterne\w*|"
+    r"styrker\w*|svagheder\w*|muligheder\w*|trusler\w*|forbruger\w*|behov\w*|"
+    r"anvendelse\w*|geografi\w*|konsument\w*|producent\w*|sortiment\w*|"
+    r"organisation\w*|placering\w*|priser\w*|marked\w*|opgave\w*|begreb\w*)\b",
+    re.IGNORECASE,
+)
+
+
+def looks_danish(text: str) -> bool:
+    return bool(DANISH_HINT.search(text))
+
+
+def purge_failed_translations(cache: dict[str, str]) -> int:
+    remove = [
+        k
+        for k, v in cache.items()
+        if k == v and len(k) > 4 and looks_danish(k)
+    ]
+    for k in remove:
+        del cache[k]
+    return len(remove)
+
 
 class Translator:
     def __init__(self) -> None:
@@ -80,13 +114,13 @@ class Translator:
     def protect(self, text: str) -> str:
         out = text
         for i, (da, _en) in enumerate(TERMS):
-            out = re.sub(re.escape(da), f"[[T{i}]]", out, flags=re.IGNORECASE)
+            out = re.sub(rf"\b{re.escape(da)}\b", f"XTTERM{i}XT", out, flags=re.IGNORECASE)
         return out
 
     def unprotect(self, text: str) -> str:
         out = text
         for i, (_da, en) in enumerate(TERMS):
-            out = re.sub(rf"\[\[T{i}\]\]", en, out, flags=re.IGNORECASE)
+            out = re.sub(rf"XTTERM{i}XT", en, out, flags=re.IGNORECASE)
         return out
 
     def translate(self, text: str) -> str:
@@ -103,6 +137,35 @@ class Translator:
         self.translate_many([text])
         return self.cache.get(text, text)
 
+    def should_cache(self, src: str, dst: str) -> bool:
+        if not dst:
+            return False
+        if src != dst:
+            return True
+        if len(src) <= 4 or not looks_danish(src):
+            return True
+        return False
+
+    def translate_batch_with_retry(self, chunk: list[str]) -> list[str]:
+        protected = [self.protect(t) for t in chunk]
+        for attempt in range(4):
+            try:
+                translated = self.gt.translate_batch(protected)
+                if translated and len(translated) == len(chunk):
+                    return [self.unprotect(t or s) for t, s in zip(translated, chunk)]
+            except Exception as exc:
+                print(f"  batch retry {attempt + 1}: {str(exc)[:80]}", flush=True)
+            time.sleep(1.5 * (attempt + 1))
+        translated = []
+        for src in chunk:
+            try:
+                out = self.unprotect(self.gt.translate(self.protect(src)) or "")
+                translated.append(out or src)
+            except Exception:
+                translated.append(src)
+            time.sleep(0.15)
+        return translated
+
     def translate_many(self, texts: list[str]) -> None:
         missing = []
         seen = set()
@@ -118,26 +181,16 @@ class Translator:
         if not missing:
             return
         print(f"  translating {len(missing)} new strings ({len(self.cache)} cached)", flush=True)
-        batch_size = 25
+        batch_size = 15
         for i in range(0, len(missing), batch_size):
             chunk = missing[i : i + batch_size]
-            translated = None
-            try:
-                translated = self.gt.translate_batch(chunk)
-            except Exception as exc:
-                print("  batch fail, one-by-one:", str(exc)[:80], flush=True)
-                translated = []
-                for src in chunk:
-                    try:
-                        translated.append(self.gt.translate(src) or src)
-                    except Exception:
-                        translated.append(src)
-            if not translated or len(translated) != len(chunk):
-                translated = chunk
+            translated = self.translate_batch_with_retry(chunk)
             for src, dst in zip(chunk, translated):
-                self.cache[src] = dst or src
+                if self.should_cache(src, dst):
+                    self.cache[src] = dst
             self.save()
             print(f"  ... {min(i + batch_size, len(missing))}/{len(missing)}", flush=True)
+            time.sleep(0.35)
 
 
 def get_soup(el: Tag) -> BeautifulSoup:
@@ -679,6 +732,10 @@ def main() -> None:
     if "--only" in sys.argv:
         only = int(sys.argv[sys.argv.index("--only") + 1])
     tr = Translator()
+    if "--retranslate" in sys.argv:
+        removed = purge_failed_translations(tr.cache)
+        tr.save()
+        print(f"Purged {removed} failed cache entries", flush=True)
     folders = sorted(RAW.glob("Kapitel *"), key=lambda p: folder_num(p.name))
     if only:
         folders = [p for p in folders if folder_num(p.name) == only]
