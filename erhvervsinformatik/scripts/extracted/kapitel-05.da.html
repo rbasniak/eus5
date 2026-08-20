@@ -1,0 +1,418 @@
+<h2 id="s0">5. Programmering</h2>
+<h3>Læsemål: Programmering</h3>
+
+<p>I kapitel 5 skal du lære om:</p>
+<ul><li>Programmering:
+<ul><li><span class="term">Funktioner</span></li><li><span class="term">Variable</span></li><li>Sekvenser</li><li>Løkker</li><li><span class="term">Forgreninger</span></li></ul></li><li>Test:
+<ul><li>Systematisk fejlsøgning og kvalitetssikring</li></ul></li><li>Omsætning af problemløsninger til algoritmer gennem:
+<ul><li>Dekomposition</li><li><span class="term">Abstraktion</span></li><li><span class="term">Mønstre</span></li><li>Generaliseringer</li></ul></li></ul>
+
+<h3>Refleksionsspørgsmål</h3>
+
+<ol><li>Hvad betyder programmering?</li><li>Hvad kan du bruge viden om programmering til?</li><li>Kan alle mennesker lære at<span class="term">programmere</span>?</li></ol>
+
+<p>Med udgangspunkt i dinanalyse af et digitalt artefaktog din viden omdesignudviklingskal du nu selv til at konstruere dit forbedringsforslag til et eksisterende<span class="term">artefakt</span>, eller måske endda konstruere et helt nyt<span class="term">digitalt</span>artefakt. Derfor skal du lære om de<span class="term">processer</span>, der ligger under brugergrænsefladen i et digitalt artefakt.</p>
+<p>For at kunne forstå de underliggende processer skal du i dette kapitel arbejde med simpel programmering.</p>
+
+<h3>Præsentation til kapitel 5: Programmering</h3>
+
+<p>Præsentationen rummer de væsentlige begreber, modeller, formler og pointer i kapitlet og kan vises i fuld skærm.</p>
+<p>Brug præsentationen til:</p>
+<ul><li>Underviserens gennemgang på klassen.</li><li>Individuel læsning før eller efter arbejdet med emnet.</li></ul>
+
+<p><a href="https://docs.google.com/presentation/d/1MLDr807MDQ8jMcC-q8Epu3qNhWvLLviSk25tBu76oAI/copy?usp=sharing" target="_blank" rel="noopener">Kopier Google Slides</a></p>
+<p>Download som PowerPoint</p>
+
+<h2 id="s1">5.1 Sekvenser og variabler</h2>
+<h3>Beregninger</h3>
+
+<p>I mange erhverv er der behov for at lave beregninger af priser og omkostninger. Ofte vil disse beregninger tage udgangspunkt i et antal varer og prisen på en enkelt vare. Fx køber en kunde 20 par sikkerhedssko til en enhedspris på 799 kr. Den samlede pris er:</p>
+<p>Til at lave disse beregninger kan virksomheden anvende et<span class="term">ERP-system</span>. I dette afsnit skal du lære, hvordan programmering kan bruges til at lave beregninger i et ERP-system eller et tilsvarende IT-system.</p>
+
+<h3>Data</h3>
+
+<p>Inden vi laver vores program, er det en god idé at tage stilling til, hvilke data programmet skal arbejde med. Her skal vi træffe nogle valg, for ikke alle data er relevante at have med.</p>
+<p>I eksemplet ovenfor bruger vi kun to data i beregningen:</p>
+<ul><li>Antal</li><li>Enhedspris</li></ul>
+<p>Vi har derfor besluttet, at data om skoenes mærke, datoen for købet, kundens navn osv. er irrelevante for programmets<span class="term">funktion</span>.</p>
+<p>På fagsprog hedder det, at vi laver en<span class="term">abstraktion</span>i vores model af den virkelige verden, som indeholder flere informationer.</p>
+
+<h3>Programmering</h3>
+
+<p>For at lave programmet er vi nødt til at instruere computeren i, hvordan den skal udføre opgaven. Det kaldes at<span class="term">programmere</span>.</p>
+<p>Før vi programmerer, skal vi have en idé om, hvordan programmet skal se ud. I eksemplet ovenfor vil vi have følgende ting på skærmen:</p>
+<ul><li>Tre inputfelter, hvor brugeren indtaster varens navn, antal varer og varens pris.</li><li>En knap, som beregner prisen.</li><li>Et outputfelt, hvor det beregnede beløb vises.</li></ul>
+<p>Bemærk dog, at inputfeltet for varens navn ikke bruges i programmets beregning.</p>
+<p>Vi skal nu beskrive, hvad der skal ske, når brugeren trykker på knappen. Det gør vi ved at opdele programmet i en række skridt, som vi kalder en<span class="term">algoritme</span>.</p>
+
+<h3>Eksempel: Algoritme til beregning af beløb</h3>
+
+<ol><li>Antal varer hentes fra inputfeltet.</li><li>Varens pris hentes fra inputfeltet.</li><li>Beløbet beregnes.</li><li>Beløbet vises i outputfeltet.</li></ol>
+
+<p>Dette er et eksempel på, hvordan en løsning kan opdeles i mindre dele, som er nemmere at håndtere.<span class="term">Opdeling</span>af løsninger bruges til at beskrive en algoritme til løsning af problemet.</p>
+
+<h3>Øvelse 5.1: Beregning af beløb</h3>
+
+<ol><li>Gå ind på<a href="https://code.org/" target="_blank" rel="noopener">https://code.org/</a>.</li><li>Opret en bruger ved at klikke på &quot;Log ind&quot; i øverste højre hjørne.</li><li>Klik på &quot;Opret&quot; i øverste højre hjørne og vælg<span class="term">App</span>Lab.</li><li>Følg instruktionerne i den første video nedenfor: Design af beregner.</li><li>Følg instruktionerne i den anden video nedenfor: Programmering af beregner.</li></ol>
+
+<h3>Video: Design af beregner</h3>
+
+<h3>Video: Programmering af beregner</h3>
+
+<h3>Sekvenser og variabler</h3>
+
+<p>I videoen lærte du to begreber: Sekvenser og<span class="term">variabler</span>.</p>
+<p>En<em><span class="term">sekvens</span></em>er en liste af blokke, som udføres i rækkefølge. I programmet er der en sekvens af fire blokke med læsning af antal og pris, beregning af beløb og visning af beløb.</p>
+<p>En<em>variabel</em>er en måde at huske værdier i et program. Programmet skal huske antal varer, varens pris og det beregnede beløb. Derfor er der tre variabler til dette. Hver af disse variabler har et navn, og den tilhørende værdi gemmes i computerens lager.</p>
+
+<h3>Sekvens</h3>
+
+<p>Simpel struktur til at udføre en liste af blokke i rækkefølge.</p>
+
+<h3>Variabel</h3>
+
+<p>Et navn og et stykke lagerplads, som kan indeholde en værdi.</p>
+
+<h3>Eksempel: Kode ved beregning af beløb</h3>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/8/1/csm_Kode_beregning_1_b2449aa66d.png" alt="" loading="lazy"></figure>
+
+<h3>Test af program</h3>
+
+<p>En vigtig del af programmering er test af programmet. Formålet med en test er at undgå fejl. En test foregår ved at afprøve programmet med forskellige input.</p>
+<p>I vores program kan du afprøve programmet med indtastning af forskellige antal og priser fx 20 enheder (antal) og 799 kr. (pris). Derudover kan du teste med usædvanlige input fx 0 enheder og 2,38 enheder. Endelig kan du teste med ugyldige input som -10 og &quot;hej&quot;.</p>
+<p>For hvert af disse input bestemmer vi det forventede output:</p>
+<div class="table-wrap"><table><tr><th>Input: Antal</th><th>Input: Pris</th><th>Forventet output</th></tr><tr><td>20</td><td>799</td><td>15.980</td></tr><tr><td>3</td><td>200</td><td>600</td></tr><tr><td>0</td><td>399</td><td>0</td></tr><tr><td>4</td><td>12,50</td><td>50</td></tr><tr><td>2,38</td><td>100</td><td>(ugyldigt input)</td></tr><tr><td>-10</td><td>200</td><td>(ugyldigt input)</td></tr><tr><td>12</td><td>&quot;hej&quot;</td><td>(ugyldigt input)</td></tr></table></div>
+<p>Læg mærke til, at data i kolonnen med pris består af forskellige<span class="term">datatyper</span>:</p>
+<ul><li>De første seks input ertal.</li><li>Det sidste input består af bogstaver. Denne datatype kalder vi enstreng.</li></ul>
+<p>I næste afsnit vil du også lære om den boolske type.</p>
+
+<h3>Datatype</h3>
+
+<p>Egenskab ved data som kan være tal, streng eller boolsk type</p>
+
+<h3>Øvelse 5.2: Test af program</h3>
+
+<ol><li>Test programmet fraøvelse 5.1: Beregning af beløbmed ovenstående input og notér de tilhørende output.</li><li>Hvor afviger output fra det forventede?</li><li>Hvilke ændringer vil du foreslå til programmet?</li></ol>
+
+<h3>Øvelse 5.3: Udvidelse af program</h3>
+
+<ol><li>Udvid designet fraøvelse 5.1: Beregning af beløb, så der over det beregnede beløb er en label med teksten &quot;Beløb&quot;.</li><li>Ret i koden, så der lægges moms på det viste beløb. Du skal altså gange<em>beloeb</em>med 1,25 i den gule blok ved at tilføje<em>*1.25</em>efter<em>beloeb</em>.</li></ol>
+
+<h2 id="s2">5.2 Forgreninger</h2>
+<p>Programmet fra forrige afsnit beregnede et beløb ud fra et antal varer og en enhedspris. Vi så i testen, at programmet også forsøgte at lave beregningen, selvom brugeren indtastede ugyldige input som -10 eller &quot;hej&quot;.</p>
+<p>Vi ønsker nu, at de sidste to blokke, beregningen og visningen, kun sker, hvis de indtastede værdier er positive tal. Det gøres i programmering med en<span class="term">forgrening</span>, og det er emnet for dette afsnit.</p>
+<p>Bemærk, at der ikke skal ændres noget i designet for at gøre dette.</p>
+
+<h3>Forgrening</h3>
+
+<p>Kontrolstruktur som udfører en række sætninger, hvis en given<span class="term">betingelse</span>er sand.</p>
+
+<h3>Betingelse</h3>
+
+<p>Programmet herover gjorde grundlæggende det samme hver gang, uanset input. Det vil vi gerne ændre, så programmets opførsel afhænger af brugerens input. Vi indfører derfor enbetingelsefor, at de to sidste blokke skal køres.</p>
+<p>I vores program skal de første to blokke stadig hente indholdet af tekstfelterne. Derefter vil vi indsætte en<span class="term">variabel</span>, som kan undersøge, om de indtastede værdier er positive tal. Hvis det er positive tal, skal variablens værdi være<em>sand</em>. Ellers skal værdien være<em>falsk</em>. En sådan variabel er enboolsk type.</p>
+
+<p>Et udtryk af boolsk type i en forgrening.</p>
+
+<h3>Boolsk type</h3>
+
+<p>En<span class="term">datatype</span>som har værdien<em>sand</em>eller<em>falsk</em>.</p>
+
+<h3>Øvelse 5.4: Betingelse</h3>
+
+<ol><li>Åbn dit program fraøvelse 5.1: Beregning af beløb.</li><li>Følg instruktionerne i de to videoer nedenfor. De viser, hvordan du indsætter en boolsk type og undersøger<span class="term">variablen</span>(værdien) under programmets kørsel.</li></ol>
+
+<h3>Video: Indsættelse af boolsk type og undersøgelse af variabel</h3>
+
+<h3>Video: Betingelse ud fra både antal og pris</h3>
+
+<p>Har du udført øvelsen korrekt, skal koden i dit program se ud som i eksemplet nedenfor.</p>
+
+<h3>Eksempel: Kode ved boolsk type til ugyldigt input</h3>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/4/1/csm_Beregner_med_boolsk_type_915032d6a2.png" alt="" loading="lazy"></figure>
+
+<p>I videoen<em>Indsættelse af boolsk type og undersøgelse af variabel</em>herover bliver det vist, hvordan et klik på et linjenummer fremkalder en blå markering og et pauseikon. Det kaldes i programmering for et<em>breakpoint</em>og bruges, som forklaret i videoen, til at pause programmets kørsel på det markerede sted.</p>
+
+<h3>Øvelse 5.5: Undersøgelse af programmet</h3>
+
+<ol><li>Indsæt et<em>breakpoint</em>i anden linje fra dit program iøvelse 5.4: Betingelse.</li><li>Start programmet, indtast en værdi og tryk på knappen.</li><li>Undersøg nu variablerne<em>antal</em>,<em>pris</em>og<em>beloeb</em>ved at indtaste dem i nederste højre hjørne. Gå frem skridt for skridt ved at trykke på<em>Step in</em>.</li><li>Afprøv flere gange, hvor du både bruger tal som gyldige input samt negative tal og ord som ugyldige input.</li></ol>
+
+<h3>Øvelse 5.6: Forgrening med én gren</h3>
+
+<ol><li>Fortsæt med dit program fraøvelse 5.5: Undersøgelse af programmet.</li><li>Følg instruktionerne i videoen nedenfor. Videoen viser, hvordan du indsætter en forgrening med én gren.</li></ol>
+
+<h3>Video: Indsættelse af forgrening</h3>
+
+<h3>Eksempel: Kode ved håndtering af ugyldigt input</h3>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/3/6/csm_Beregner_med_%C3%A9n_gren_b3a4830dde.png" alt="" loading="lazy"></figure>
+
+<h3>Øvelse 5.7: Forgrening med to grene</h3>
+
+<ol><li>Fortsæt med dit program fraøvelse 5.6: Forgrening med én gren.</li><li>Følg instruktionerne i videoen nedenfor. Videoen viser, hvordan du tilføjer en gren mere til forgreningen.</li><li>Kontroller, at dit program ser ud som eksemplet nedenfor.</li></ol>
+
+<h3>Video: Tilføjelse af gren til forgreningen</h3>
+
+<h3>Eksempel: Kode ved to grene i forgreningen</h3>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/f/8/csm_Kode_beregning_2_to_forgreninger_3fad881fe0.png" alt="" loading="lazy"></figure>
+
+<h2 id="s3">5.3 Funktioner og kommentarer</h2>
+<p>I programmering når du ikke langt uden at gøre brug af andres arbejde. I beløbsberegneren gør vi fx brug af standardiserede blokke, som kan hente og indsætte værdier i tekstfelter. Det er eksempler på<span class="term">funktioner</span>, som du skal lære at bruge i dette afsnit.</p>
+<p>Derudover skal du lære at dokumentere et program med kommentarer i koden. Det er en vigtig praksis til at formidle programmeringen.</p>
+
+<h3>Funktion</h3>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/f/8/csm_Kode_beregning_2_to_forgreninger_3fad881fe0.png" alt="" loading="lazy"></figure>
+
+<p>I koden fra forrige afsnit bliver der brugt fire gule blokke. Det er eksempler på kald (anvendelse) af enfunktion, som andre har stillet til rådighed for os. Fx vil funktionen<em>setNumber</em>ændre værdien af et tekstfelt, og to parametre bestemmer, hvor og hvad der ændres:</p>
+<p>setNumber(&quot;beloeb&quot;, beloeb);</p>
+<p>Vi fortæller altså programmet, at indholdet af tekstfeltet<em>beloeb</em>skal ændres til værdien af<span class="term">variablen</span> <em>beloeb</em>. Disse to værdier er<span class="term">argumenter</span>for vores funktionskald. Kald til funktioner kan genkendes på parenteser efter funktionens navn.</p>
+<p>En funktion kan også have en returværdi. I så fald vil funktionskaldet resultere i en værdi. Det ser vi i kaldet til funktionen<em>getNumber</em>, som både har et argument og en returværdi:</p>
+<p>var antal = getNumber(&quot;antal&quot;);</p>
+<p>Hvis brugeren har indtastet tallet 14 i tekstfeltet<em>antal</em>, vil funktionskaldet returnere denne værdi:</p>
+<p>var antal = 14;</p>
+
+<p>En enhed, som løser en opgave via et funktionskald evt. med argumenter og/eller en returværdi.</p>
+
+<h3>Eksempel: Rød tekst ved ugyldigt input</h3>
+
+<p>Når brugeren indtaster en ugyldig værdi, er det vigtigt, at brugeren lægger mærke til beskeden. Derfor er det en god idé, at inputfelternes baggrund farves rødt i anden gren af<span class="term">forgreningen</span>. Dette kan gøres med funktionen<em>setProperty</em>:</p>
+<ol><li>Den gule kategori med kontroller vælges.</li><li>Blokken<em>setProperty</em>indsættes i anden gren af forgreningen.</li><li>Første argument sættes til<em>&quot;antal&quot;</em>.</li><li>Andet argument sættes til<em>&quot;background-color&quot;</em>.</li><li>Tredje argument sættes til<em>&quot;red&quot;</em>.</li></ol>
+<p>Resultatet er en blok med denne kode:</p>
+<p>setProperty(&quot;antal&quot;, &quot;background-color&quot;, &quot;red&quot;);</p>
+<p>Det samme kan gøres med felterne<em>&quot;pris&quot;</em>.</p>
+
+<h3>Øvelse 5.8: Ændring af udseende på inputfelter</h3>
+
+<p>Tag udgangspunkt i dit program fraøvelse 5.7: Forgrening med to grenetil denne øvelse:</p>
+<ol><li>Sæt baggrundsfarven til rød for ugyldigt input ved at følge eksemplet ovenfor.</li><li>Sæt baggrundsfarven til grøn for gyldigt input på samme måde i første gren.</li><li>Indsæt flere kald til funktionen<em>setProperty</em>, så udseendet af teksten ændres.</li></ol>
+
+<h3>Kommentarer</h3>
+
+<p>Blokke af koder indsættes for, at computeren kan forstå og udføre dem. De er dog ikke altid nemme at læse og forstå for personer, som ikke selv har indsat blokkene. Derfor er der behov for at supplere koden med kommentarer, så andre personer nemmere kan forstå koden.</p>
+<p>I<span class="term">App</span>Lab gøres det ved at indsætte grå kommentarblokke, som kan findes i den grønne kategori. De grå blokke starter med to skråstreger //, og efterfølgende tekst bliver ikke udført af computeren. Det er blot en kommentar.</p>
+
+<h3>Eksempel: Kode ved kommentarblokke</h3>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/2/1/csm_Kode_med_kommentarer_e62d2f8d55.png" alt="" loading="lazy"></figure>
+
+<h3>Øvelse 5.9: Indsættelse af kommentarer</h3>
+
+<p>Tag udgangspunkt i dit program fraøvelse 5.8: Ændring af udseende på inputfeltertil denne øvelse:</p>
+<ol><li>I ovenstående eksempel mangler dele af kommentarerne i tre af de grå kommentarblokke. Indsæt grå kommentarblokke i din kode og udfyld selv resten.</li><li>Indsæt yderligere to kommentarer i programmet med forklaring til koden.</li></ol>
+
+<h3>Definition af en funktion</h3>
+
+<p>Koden indeholder en grøn blok, som starter med ordet<em>function</em>og indeholder alle blokkene. Det er denne kode, som bliver kørt, når der klikkes på knappen. Den grønne blok er et eksempel på, at vi kan definere en funktion, som kan køres igen og igen. På samme måde som<em>getNumber</em>bliver kørt flere gange.</p>
+<p>Det skal du nu bruge til at lave grafiske effekter, når brugeren flytter musen hen over knappen og væk igen. Dette gøres ved at definere en funktion til hver af de to hændelser:</p>
+<ul><li>Mus over</li><li>Mus væk</li></ul>
+
+<h3>Øvelse 5.10: Definition af en funktion</h3>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/1/5/csm_Kode_ny_h%C3%A6ndelse_8d717fc2e4.png" alt="" loading="lazy"></figure>
+
+<p>Tag udgangspunkt i dit program fraøvelse 5.9: Indsættelse af kommentarertil denne øvelse:</p>
+<ol><li>Indsæt koden fra billedet ovenfor, som ved hændelsen<em>mouseover</em>får knappen til at skifte baggrundsfarve til<em>&quot;blue&quot;</em>, når musen flyttes over knappen.</li><li>Indsæt en tilsvarende funktion, som ved hændelsen<em>mouseout</em>får knappen til at skifte baggrundsfarve til<em>&quot;orange&quot;</em>, når musen flyttes væk fra knappen.<br>Tip:Skriv blot &#x27;orange&#x27; i feltet i stedet for &#x27;blue&#x27;.</li></ol>
+
+<p>Ovenfor har du set, hvordan indholdet af en funktion kan defineres og kaldes ved bestemte hændelser fx et klik på en knap. Det er dog kun ved den bestemte hændelse, at funktionen bliver kaldt.<br> <br>Det er også muligt at definere funktioner, som kan kaldes, når du ønsker det. I så fald bruger du blot en blok med funktionens navn til at kalde funktionen. Det er vist herunder med henholdsvis oprettelse og kald af en funktion.</p>
+
+<h3>Eksempel: Oprettelse af en funktion</h3>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/6/d/csm_Eksempel_1_7181539b68.png" alt="" loading="lazy"></figure>
+
+<ol><li>Opret et nyt projekt.</li><li>Klik på den grønne kategori<em>Functions</em>.</li><li>Træk blokken<em>function myFunction()</em>ind i koden.</li><li>Erstat den markerede tekst<em>myFunction</em>med<em>hej</em>.</li><li>Klik på den gule kategori<em>UI controls</em>.</li><li>Træk blokken<em>textLabel</em>ind i den grønne funktionsblok.</li><li>Erstat<em>&quot;text&quot;</em>med<em>&quot;Hejsa&quot;</em>.</li></ol>
+
+<h3>Eksempel: Kald af en funktion</h3>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/9/2/csm_Eksempel_2_7947d505b6.png" alt="" loading="lazy"></figure>
+
+<ol><li>Klik på den grønne kategori<em>Functions</em>.</li><li>Træk blokken<em>myFunction()</em>ind i koden.</li><li>Erstat<em>myFunction</em>med<em>hej.</em></li><li>Gentag trin 2 og 3.</li></ol>
+<p>Hvis du kører dit program, vil du opleve, at programmet to gange kalder funktionen<em>hej</em>, og at funktionen hver gang indsætter en label med teksten &quot;Hejsa&quot;.</p>
+
+<h3>Øvelse 5.11: Funktion til at indsætte en grøn knap</h3>
+
+<ol><li>Opret en funktion med navnet<em>&quot;knap&quot;</em>.</li><li>Udfyld funktionen med en blok, som indsætter en knap.</li><li>Kald funktionen to gange, og afprøv programmet.</li><li>Udvid funktionen, så den også bruger den gule blok<em>setProperty</em>til at lave knappen grøn.</li></ol>
+
+<h2 id="s4">5.4 Løkker</h2>
+<h3>Flere beregninger</h3>
+
+<p>I dit program fraøvelsen: Beregning af beløbkan vi beregne et beløb ud fra et antal varer og varens pris. En kunde køber dog typisk flere forskellige varer fx 20 par sikkerhedssko og 30 par handsker, så der er behov for at lave flere af disse beregninger.</p>
+<p>En af de mange fordele ved en computer er dens evne til at gentage instruktioner hurtigt og præcist. Inden for programmering får du ofte behov for at gentage en kode, og det er emnet for dette afsnit.</p>
+
+<h3>Flere rækker af felter</h3>
+
+<p>Du skal nu udvide din beløbsberegner med tre rækker af felter, så du har mulighed for at lave beregninger for tre varer. De nye felter skal have unikke ID&#x27;er, ellers kan vi ikke henvise til dem i koden. Felterne får derfor ID&#x27;erne:</p>
+<ul><li>antal0</li><li>antal1</li><li>antal2</li><li>pris0</li><li>pris1</li><li>pris2</li></ul>
+<p>Rent intuitivt vil du måske kopiere koden, så den optræder tre gange, og så skal ID&#x27;erne bare ændres. Det er dog ikke nødvendigt. I stedet kan du gentage den samme kode for hver række af felter med forskelligt ID. Der er nemlig et genkendeligt<span class="term">mønster</span>i koden, hvor kun ID&#x27;et varierer.</p>
+<p>Lige som tidligere skal du starte med at beskrive<span class="term">algoritmen</span>.</p>
+
+<h3>Eksempel: Algoritme til flere beregninger</h3>
+
+<ol><li>Gør følgende for hver række:
+<ul><li>Antal varer hentes fra inputfeltet.</li><li>Varens pris hentes fra inputfeltet.</li><li>Beløbet beregnes.</li><li>Beløbet vises i et outputfelt.</li><li>Beløbet lægges til summen.</li></ul></li><li>Summen vises i et outputfelt.</li></ol>
+
+<h3>Øvelse 5.12: Flere beregninger</h3>
+
+<p>Tag udgangspunkt i dit program fraøvelse 5.10: Definition af en funktiontil denne øvelse:</p>
+<ol><li>Åbn programmet.</li><li>Følg instruktionerne i den første video nedenfor: Design af flere rækker.</li><li>Følg instruktionerne i den anden video nedenfor: Programmering af flere rækker.</li></ol>
+
+<h3>Video: Design af flere rækker</h3>
+
+<h3>Video: Programmering af flere rækker</h3>
+
+<h3>Løkke</h3>
+
+<p>I videoerne lærte du et nyt begreb: En<em><span class="term">løkke</span></em>.</p>
+<p>En løkke bruges til at gentage en kode, og den kaldes derfor også en<em>gentagelse</em>. Løkken i dette program hedder en<em>for-løkke</em>. Den gentager koden et bestemt antal gange. I videoen gentages koden tre gange, fordi der er tre rækker med vareoplysninger.</p>
+<p><span class="term">Variablen</span> <em>i</em>bruges som en tæller til at holde styr på, hvor mange gange koden er gentaget. Den starter typisk på 0. Navnene på elementerne i brugergrænsefladen indeholder tal, så variablen<em>i</em>kan bruges til at henvise til dem:<em>pris0, pris1</em>og<em>pris2</em>.</p>
+<p>I andre programmer kan løkker fx bruges til at:</p>
+<ul><li>Lægge rabat på en liste af priser.</li><li>Søge efter personoplysninger i en liste af borgere.</li><li>Sende en mail om et arrangement til en liste af kunder.</li><li>Måle energiforbruget i en række installationer.</li><li>Sende<span class="term">tilbud</span>til en liste af kunder.</li></ul>
+
+<p>Kontrolstruktur til at gentage en liste af blokke.</p>
+
+<h3>Eksempel: Kode ved flere beregninger</h3>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/6/a/csm_Kode_beregning_4_a07be31d7b.png" alt="" loading="lazy"></figure>
+
+<h2 id="s5">Opgaver til kapitel 5</h2>
+<h3>5 skarpe til kapitel 5</h3>
+
+<ol><li>Forklar begrebet algoritme.</li><li>Nævn de elementer, som en forgrening består af.</li><li>Giv tre eksempler på brug af variable i et program.</li><li>Forklar, hvordan man kan teste et program.</li><li>Forklar forskellen på en forgrening og en løkke.</li></ol>
+
+<h3>Opgave 5.1: Chokoladeprisberegner</h3>
+
+<h3>Delopgave 1: Beregn pris</h3>
+
+<ol><li>Opret et nyt projekt i App Lab og skift til fanebladet<strong>Design</strong>.</li><li>Indsæt et inputfelt med ID&#x27;et<em>input_antal</em></li><li>Indsæt en knap med ID&#x27;et<em>knap_beregn</em></li><li>Indsæt en label med ID&#x27;et<em>output_pris</em></li><li>Skift til fanebladet<strong>Kode</strong>og indsæt koden nedenfor.</li><li>Afprøv programmet ved at indtaste antal chokolader. Prisen beregnes ud fra en fast pris på 12 kr. pr. stk.</li></ol>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/c/9/csm_Sk%C3%A6rmbillede_2025-07-06_kl._20.31.18_474a7d4df4.png" alt="" loading="lazy"></figure>
+
+<h3>Delopgave 2: Rabat ved storkøb</h3>
+
+<ol><li>Indsæt et inputfelt med ID&#x27;et<em>input_rabatgrænse</em></li><li>Lav en variabel<em>rabatgrænse</em>og hent værdien fra tekstfeltet.</li><li>Indsæt en betingelse: Hvis antal chokolader er større end grænsen, vis en rabatbesked.</li></ol>
+
+<h3>Opgave 5.2: Momsberegner</h3>
+
+<h3>Delopgave 1: Beregn pris inkl. moms</h3>
+
+<ol><li>Opret et nyt projekt i App Lab og skift til fanebladet<strong>Design</strong>.</li><li>Indsæt et inputfelt med ID&#x27;et<em>input_prisEksMoms</em>(pris ekskl. moms).</li><li>Indsæt en knap med ID&#x27;et<em>knap_beregn</em>.</li><li>Indsæt en label med ID&#x27;et<em>output_prisInklMoms.</em></li><li>Skift til fanebladet<strong>Kode</strong>og indsæt koden nedenfor.</li><li>Afprøv programmet ved at indtaste en pris ekskl. moms. Programmet skal lægge 25 % moms til.</li></ol>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/d/1/csm_Sk%C3%A6rmbillede_2025-07-06_kl._21.24.39_3ee7d20044.png" alt="" loading="lazy"></figure>
+
+<h3>Delopgave 2:</h3>
+
+<ol><li>Indsæt et tekstfelt med ID&#x27;et<em>input_momssats</em>.</li><li>Lav en variabel<em>momssats</em>og hent værdien fra tekstfeltet.</li><li>Brug<em>momssats</em>i stedet for den faste 25 %.</li><li>Ekstra opgave:Tilføj en betingelse: Hvis momssatsen er under eller lig med 0, vis en fejlbesked.</li></ol>
+
+<h3>Opgave 5.3: Lysstyring</h3>
+
+<h3>Delopgave 1: Kørsel af lysstyring</h3>
+
+<ol><li>Opret et nyt projekt i Game Lab (Spil Laboratoriet) på<a href="https://code.org/" target="_blank" rel="noopener">code.org</a>og klik på knappen &quot;Vis tekst&quot; i øverste højre hjørne.</li><li>Kopier koden herover og indsæt den i stedet for den eksisterende kode.</li><li>Tryk på &quot;Vis blokke&quot; for at få vist blokke i stedet for koden.</li><li>Kør programmet og undersøg, hvad der sker.</li></ol>
+
+<h3>Delopgave 2: Undersøgelse af lysstyring</h3>
+
+<ol><li>Ret i værdien af<em>graense</em>i linje 2, så den får en anden værdi mellem 0 og 1. Kør programmet og undersøg, hvad der sker.</li><li>Erstat<em>World.mouseX</em>med<em>World.mouseY</em>. Kør programmet og undersøg, hvad der sker.</li><li>Læs de grå kommentarblokke og se, om du kan forstå de kodeblokke, som følger efter.</li></ol>
+
+<h3>Delopgave 3: Udvidelse af lysstyring</h3>
+
+<p>Lysstyringen skal nu udvides, så pæren kan lyse med to forskellige lysstyrker:</p>
+<ul><li>Hvid, hvis det er meget mørkt</li><li>Gul</li></ul>
+<p>Algoritmen for dette er:</p>
+hvis tændt hvis lysstyrke &lt; 0.1 mal med hvid ellers mal med gul ellers mal med grå
+<ol><li>Indsæt i funktionen<em>vis</em>en blok med en forgrening, så pæren enten kan males med hvid eller gul, hvis pæren er tændt.</li></ol>
+
+<h3>Opgave 5.4: Varmestyring</h3>
+
+<h3>Delopgave 1: Kørsel af varmestyring</h3>
+
+<h3>Delopgave 2: Undersøgelse af varmestyring</h3>
+
+<ol><li>Ret i værdierne 0.1 og 0.2 i funktionen<em>simuler</em>. Kør programmet og undersøg, hvad der sker.</li><li>Ret i værdierne 18 og 24 i funktionen<em>reguler</em>. Kør programmet og undersøg, hvad der sker.</li><li>Læs de grå kommentarblokke og se, om du kan forstå de kodeblokke, som følger efter.</li></ol>
+
+<h3>Delopgave 3: Udvidelse af varmestyring</h3>
+
+<p>Simuleringen af varmestyring skal nu udvides, så der i stedet for teksterne<em>true</em>og<em>false</em>er en indikator, som er grøn eller rød. Derfor skal kodentext(taendt, 50, 110);erstattes af nogle andre blokke.</p>
+<p>Algoritmen for de nye blokke er:</p>
+hvis tændt mal med grøn ellers mal med rød tegn ellipse
+<ol><li>Indsæt i funktionen<em>vis</em>en blok med en forgrening, så indikatoren enten kan males med grøn eller rød.</li><li>Brug derefter ellipse-blokken til at tegne indikatoren.</li></ol>
+<p>Tip: Du skal følge samme mønster som iopgave 5.1: Lysstyring.</p>
+
+<h3>Opgave 5.5: Lysdæmper</h3>
+
+<h3>Delopgave 1: Kørsel af lysdæmper</h3>
+
+<h3>Delopgave 2: Undersøgelse af lysdæmper</h3>
+
+<ol><li>Ret i værdien 0.01 i funktionen<em>reguler</em>. Kør programmet og undersøg, hvad der sker.</li><li>Læs de grå kommentarblokke og se, om du kan forstå de kodeblokke, som følger efter.</li></ol>
+
+<h3>Delopgave 3: Udvidelse af lysdæmper</h3>
+
+<p>Lysdæmperen skal nu udvides, så lysstyrken begrænses af 0 og 1. Idéen med pseudokoden er, at hvis lysstyrken er på 1.00, vil den blive sat til den mindste værdi af 1.00+0.01 og 1, og dermed vil den forblive på 1.00.</p>
+<p>Algoritmen er:</p>
+hvis opad sæt lysstyrke til den mindste af lysstyrke+0.01 og 1 ellers sæt lysstyrke til den største af lysstyrke-0.01 og 0
+<ol><li>Du skal ændre i koden formouseDown(&quot;leftButton&quot;)i funktionen<em>reguler</em>.​​​​​​​</li></ol>
+<p>Tip: Du skal bruge blokke fra den orange kategori: Math.max og Math.min.</p>
+
+<h3>Opgave 5.6: Valutaomregner</h3>
+
+<h3>Delopgave 1: Lav valutaomregner</h3>
+
+<ol><li>Opret et nyt projekt i App Lab og skift til fanebladet<em>Design</em>.</li><li>Indsæt et inputfelt med ID&#x27;et<em>input_pris</em>.</li><li>Indsæt en knap med ID&#x27;et<em>knap_omregn</em>.</li><li>Indsæt en label med ID&#x27;et<em>output_pris</em>.</li><li>Skift til fanebladet<em>Kode</em>og indsæt koden nedenfor.</li><li>Afprøv programmet ved at indtaste et beløb i euro, som omregnes til kroner, når der trykkes på knappen.</li></ol>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/c/d/csm_euro_til_kroner_bd59010195.png" alt="" loading="lazy"></figure>
+
+<h3>Delopgave 2: Valutakurs</h3>
+
+<ol><li>Skift til fanebladet<em>Design</em>og indsæt et tekstfelt til valutakursen.</li><li>Skift tilbage til<em>Kode</em>, lav en variabel til valutakursen og hent værdien for denne fra tekstfeltet.</li><li>Indsæt denne variabels navn i stedet for den faste kurs på 7.45.</li><li>Afprøv programmet.</li><li>Indsæt en variabel<em>gyldig_valutakurs</em>som en betingelse for, at kursen er et positivt tal.</li><li>Indsæt en forgrening til at vise en besked, hvis valutakursen er ugyldig.</li></ol>
+
+<h3>Delopgave 3: Ny betingelse for pris</h3>
+
+<ol><li>Indsæt en variabel<em>gyldigt_beloeb</em>.</li><li>Variablen skal være en betingelse med den orange matematik-blok &amp;&amp;, som kontrollerer om<em>pris_euro</em>er over 0, og om<em>pris_euro</em>er under 10.000.</li><li>Indsæt som betingelse i forgreningen en orange matematik-blok &amp;&amp;. Denne skal udfyldes med<em>gyldig_valutakurs</em>og<em>gyldigt_beloeb</em>.</li></ol>
+
+<h3>Opgave 5.7: Adgangskode-husker</h3>
+
+<h3>Delopgave 1: Lav adgangskode-husker</h3>
+
+<ol><li>Opret et nyt projekt i App Lab og skift til fanebladet Design.</li><li>Indsæt et inputfelt med ID&#x27;et text_input_brugernavn.</li><li>Indsæt en knap med ID&#x27;et button_glemt_kode.</li><li>Indsæt et inputfelt med ID&#x27;et text_input_adgangskode.</li><li>Design brugergrænsefladen som vist nedenfor.</li><li>Skift til fanebladet Kode og indsæt koden nedenfor.</li><li>Afprøv programmet ved at indtaste adgangskoden Password1234.</li></ol>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/7/0/csm_Sk%C3%A6rmbillede_2023-07-31_kl._17.13.19_8ceb6a6467.png" alt="" loading="lazy"></figure>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/5/e/csm_Sk%C3%A6rmbillede_2023-08-01_kl._00.36.32_42270e6433.png" alt="" loading="lazy"></figure>
+
+<h3>Delopgave 2: Udvid koden</h3>
+
+<ol><li>Indsæt en ny side (navngiv den side2).</li><li>Giv den samme visuelle udtryk, som den eksisterende side.</li><li>Ændrer nu koden, så<em>både</em>brugernavn og adgangskode skal være korrekt, for at programmet skifter til side2.</li></ol>
+
+<h3>Opgave 5.8: AI-interaktivitet - Knæk koden til koden</h3>
+
+<ul><li>Tryk først på knappen: Nyt kodestykke, hvorefter der vises et kodestykke fra AppLab.</li><li>Analyser koden i felterne til venstre med hensyn til:
+<ul><li>Formål</li><li>Input</li><li>Betingelse</li><li>Output</li><li>Fejlkilder</li></ul></li><li>Få til sidst feedback på din løsning, og tilpas eventuelt til løsning.</li><li>Øv dig på et nyt kodestykke.</li></ul>
+
+<h3>Øvelser til kapitel 5</h3>
+
+<h2 id="s6">Caseopgaver til kapitel 5</h2>
+<h3>Caseopgave: Programmering i SPORT24</h3>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/b/0/csm_Logo_100_mm.ai_c992ebf814.png" alt="Logo Sport 24" loading="lazy"><figcaption>Logo Sport 24</figcaption></figure>
+
+<p>Når kunderne kommer produkter i kurven på Sport24.dk, skal der laves en beregning af det samlede beløb.</p>
+<p>SPORT 24 vil gerne have et stykke kode, som kan tage antal og pris fra inputfelterne og beregne beløbet.<br><br>Brug<span class="term">App</span>Lab fra<a href="https://code.org/" target="_blank" rel="noopener">code.org</a>i denne opgave.</p>
+<ol><li>Redegør for begrebet programmering.</li><li>Vis, hvordan man i App Lab kan udføre en simpel beregning af nogle tal.<br>(Du må gerne bruge en app, du har lavet tidligere.)</li><li>Beskriv, hvad der sker i de enkelte trin i din programmering.</li><li>Hvorfor er det vigtigt at teste programmet, inden det går online?</li></ol>
+
+<h3>Caseopgave: Programmering af pointtæller i Matas</h3>
+
+<p>Når man som medlem af Club Matas handler i Matas, får man point. Kunden får 1 point<span class="term">pr</span>. 10 kr., kunden handler for. Derudover får kunden 10 % rabat på købet, hvis man har 50 point eller derover.</p>
+<p>For at kunne tælle point automatisk har Matas fået programmeret en pointtæller i APPLab.</p>
+<p>1.Lav nedenstående tekstinput-felt, knap og tekstlabel i APPLab (Design)</p>
+<ul><li>Tekstfelt: ID &quot;beloebInput&quot;, placeholder &quot;Indtast købsbeløb i kr.</li><li>Knap: ID &quot;beregnKnap&quot;, tekst &quot;Tæl mine point&quot;</li><li>Label: ID &quot;resultatLabel&quot;, starttekst &quot;Point&quot;</li><li>Label: ID &quot;rabattekst&quot;, starttekst &quot; &quot;</li><li>Label: ID &quot;dinrabat&quot;, placeholder &quot;Din pris efter rabat er:</li><li>Label: ID &quot;rabatresultat&quot;, starttekst &quot;Pris inkl. rabat&quot;</li></ul>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/8/7/csm_EI_matas1_93514d4632.png" alt="" loading="lazy"></figure>
+
+<ol><li>Lav blokprogrammering i APPLab efter nedenstående løsning (kode).</li></ol>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/d/c/csm_Matas_programmering_74382c9c12.jpg" alt="Matas_programmering" loading="lazy"><figcaption>Matas_programmering</figcaption></figure>
+
+<ol><li>Demonstrer appen, og beskriv, hvad koden gør, hvis input er 5 kr., 400 kr. og 600 kr.</li><li>Matas er ikke helt tilfreds med det visuelle design. Kom med dit forslag til, hvordan designet kan forbedres, og præsenter dine ændringer.</li><li>Redegør for begrebet<span class="term">variabel</span>og<span class="term">forgrening</span>. Vis, hvor de bruges i koden, og forklar deres rolle.</li><li>Overvej, om der er<span class="term">funktioner</span>, som pointtælleren mangler for at fungere optimalt i appen. Kan Matas optimere<span class="term">funktionen</span>?</li></ol>

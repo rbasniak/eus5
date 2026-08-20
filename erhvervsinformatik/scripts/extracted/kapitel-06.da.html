@@ -1,0 +1,277 @@
+<h2 id="s0">6. Netværksarkitektur</h2>
+<h3>Læsemål: Netværksarkitektur</h3>
+
+<p>I kapitel 6 skal du lære om:</p>
+<ul><li>Virksomhedens IT-systemer</li><li>3-lags-arkitektur</li><li><span class="term">Protokoller</span></li><li><span class="term">Internettet</span>og World Wide Web</li></ul>
+
+<h3>Refleksionsspørgsmål</h3>
+
+<ol><li>Hvordan er virksomheders IT-systemer opbygget?</li><li>Hvad er forskellen på en klient og en server?</li><li>Hvad er forskellen på<span class="term">hardware</span>og<span class="term">software</span>?</li><li>Er der mon forskel på internettet og World Wide Web?</li></ol>
+
+<p>Formålet med dette kapitel er, at du får en grundlæggende forståelse for:</p>
+<ul><li>Hvordan IT-systemer kommunikerer med hinanden.</li><li>De underliggende<span class="term">processer</span>i software.</li><li>Internettet og World Wide Web.</li></ul>
+<p>Så du kan bidrage til den<span class="term">digitale</span>udvikling inden for din kommende branche.</p>
+
+<h3>Vigtige begreber i kapitel 6</h3>
+
+<ul><li><span class="term">ERP-system</span></li><li>3-lags arkitektur</li><li>Protokol</li><li>Internet</li></ul>
+
+<h3>Præsentation til kapitel 6: Netværksarkitektur</h3>
+
+<p>Præsentationen rummer de væsentlige begreber, modeller, formler og pointer i kapitlet og kan vises i fuld skærm.</p>
+<p>Brug præsentationen til:</p>
+<ul><li>Underviserens gennemgang på klassen.</li><li>Individuel læsning før eller efter arbejdet med emnet.</li></ul>
+
+<p><a href="https://docs.google.com/presentation/d/1xDpGIhQ6tMPyDk_phkzKo54j-DVHwNOsj5r6x0-7JPM/copy?usp=sharing" target="_blank" rel="noopener">Kopier Google Slides</a></p>
+<p>Download som PowerPoint</p>
+
+<h2 id="s1">6.1 Virksomhedens IT-system</h2>
+<h3>Enterprise Resource Planning</h3>
+
+<p>Enterprise Resource Planning (<span class="term">ERP</span>) betyder planlægning af virksomhedens<span class="term">ressourcer</span>.</p>
+
+<p>Virksomheden råder over mange ressourcer. Jo bedre virksomheden er til at planlægge og styre sine ressourcer, jo bedre står den i konkurrencen. Derfor har de fleste virksomheder et ERP-system, der samler alle virksomhedens arbejdsområder og<span class="term">arbejdsprocesser</span>i ét fælles IT-system.</p>
+<p>Dine arbejdsopgaver i virksomheden afgør, hvilke af virksomhedens ressourcer du skal styre.</p>
+<ul><li>Indkøbsafdelingen styrer indkøbene.</li><li>Lagerafdelingen styrer logistikken.</li><li>Produktionsafdelingen styrer produktionen.</li><li>Salgsafdelingen styrer relationerne til kunderne.</li><li>Økonomiafdelingen styrer økonomien.</li><li><span class="term">HR-afdelingen</span>styrer de menneskelige ressourcer osv.</li></ul>
+
+<h3>ERP-systemer</h3>
+
+<p>Der findes mange forskellige<span class="term">ERP-systemer</span>fx e-conomic, Navision, Axapta, C5 og SAP, fordi virksomhederne har forskellige behov. De fleste ERP-systemer minder dog meget om hinanden, så når først du har lært at arbejde i ét ERP-system, vil du ofte kunne bruge din viden til at arbejde i et andet ERP-system.</p>
+<p>Kernen i<span class="term">ERP-systemet</span>er en fællesdatabase, hvor alle informationer for hele virksomheden opbevares. Teknisk set er databasen bygget op af forskellige moduler, som virksomheden selv kan sammensætte og tilpasse efter individuelt behov og branche. De mest almindelige moduler i et ERP-system er:</p>
+<ul><li>Supply Chain Management (SCM) til styring af indkøb og logistik.</li><li>Manufacturing Resource Planning (MRP) til styring af produktion - gælder kun produktionsvirksomheder.</li><li>Customer Relationship Management (CRM) til håndtering af kunderelationer.</li><li>Finance Resource Management (FRM) til styring af virksomhedens økonomi.</li><li>Human Resource Management (HRM) til håndtering af de menneskelige ressourcer.</li></ul>
+
+<h3>Tillægsmoduler</h3>
+
+<p>I videoen kan du få indsigt i, hvilke muligheder virksomhederne har for at købe tillægsmoduler hos e-conomic.</p>
+
+<p>ERP-systemet skaber et &quot;real-time&quot; billede af virksomhedens ressourcer, da dataene opdateres, når en medarbejder foretager en registrering i systemet. Det betyder fx, at lige så snart lagermedarbejderen varemodtager en<span class="term">ordre</span>i systemet, så kan salgsafdelingen se, at varerne er på lager. Det er ret smart, for så kan salgsafdelingen med det samme give kunden besked om, at varerne er på lager og kan afsendes, når kunden ønsker det. Derudover kan salgsmedarbejderen i CRM-modulet se:</p>
+<ul><li>Om den pågældende kunde skal have rabat.</li><li>Hvor lang kredit kunden må tilbydes.</li></ul>
+<p>Generelt hjælper ERP-systemet altså med at effektivisere opsamling og brug af data i virksomheden.</p>
+
+<h3>Eksempel: Arbejdsprocesser i et ERP-system</h3>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/4/9/csm_044_ERP_system_7c013d3b83.png" alt="ERP-system" loading="lazy"><figcaption>ERP-system</figcaption></figure>
+
+<p>Ovenfor har vi skitseret eksempler på arbejdsprocesser i en virksomhed og arbejdsprocessernes påvirkning i ERP-systemets forskellige moduler:</p>
+<ol><li>Indkøbsafdelingen har indkøbt varer, som lagerpersonalet har varemodtaget i ERP-systemet (SCM). Salgsafdelingen kan nu informere kunderne om varernes lagerstatus (CRM).</li><li>Indkøbsafdelingen registrerer varekøbet i ERP-systemet (SCM), så økonomiafdelingen ved, at de skal betale fakturaen (FRM).</li><li>Salgsafdelingen sælger varer og registrerer dette i ERP-systemet (CRM). Indkøbsafdelingen kan herefter se, at der snart skal bestilles nye varer hjem (SCM).</li><li>Salgsafdelingen registrerer salget i ERP-systemet (CRM), så økonomiafdelingen ved, at de skal sende kunden en<span class="term">faktura</span>(FRM).</li><li>HR-afdelingen opretter medarbejdere i ERP-systemet (HRM), så økonomiafdelingen ved, at der skal udbetales løn til de ansatte (FRM).</li></ol>
+
+<h3>Fordele og ulemper ved ERP-systemer</h3>
+
+<p>Ved at samle alle moduler i ét ERP-system slipper virksomhedens ledere og medarbejdere for at skulle arbejde i flere forskellige systemer på samme tid. Hvis de forskellige systemer ikke snakker sammen, er medarbejderne også nødt til at registrere informationer flere gange. Så det kan være en fordel at samle alle virksomhedens informationer i ét ERP-system.</p>
+<p>Omvendt er det sårbart at samle alle informationer i ét ERP-system. Forestil dig, at systemet var nede, så ingen kunne arbejde, eller at ERP-systemet blev hacket, så alle informationerne var væk. Hvilken katastrofe!</p>
+
+<h3>Kommunikation mellem ERP-systemer</h3>
+
+<p>Udover at kommunikere med andre virksomheder via e-mail har virksomheden også mulighed for at sende dokumenter elektronisk via<span class="term">EDI</span>. For at virksomheden kan udveksle data elektronisk med sin samarbejdspartner, må deres computere tale samme sprog eller have en fælles standard, som man kalder det. Den mest udbredte standard i Danmark er EDIFACT (se forklaring nedenfor).</p>
+
+<h3>EDI</h3>
+
+<p>EDI er en forkortelse afElectronic Data Interchange, der betyder udveksling af elektroniske data.</p>
+
+<h3>Eksempel: Data i dokumenter</h3>
+
+<p>I en virksomhed er der mange forskellige slags dokumenter fx indkøbsordrer, fakturaer, salgsrapporter, testresultater, leveringsinformationer m.fl.</p>
+<p>Dokumenterne ser selvfølgelig meget forskellige ud. En EDI-standard bestemmer, hvor i dokumentet bestemte oplysninger kan findes. Det kan være oplysninger om fx virksomhedens navn, varenummer, antal eller varens pris. Disse oplysninger laves om til data, der kan sendes videre til andre IT-systemer.</p>
+
+<h3>EDIFACT</h3>
+
+<p>EDIFACT er en forkortelse af Electronic Data Interchange for Administration, Commerce and Transport.</p>
+
+<p>EDIFACT er den mest anvendte internationale EDI-standard, især i Europa og Asien. Den kan bruges til mange forskellige slags dokumenter. Der findes også standarder, der er lavet mere specifikt til en bestemt branche fx detailhandlen (EANCOM) eller den tyske bilindustri (VDA).</p>
+
+<p>Det er dog ikke nok at have en fælles standard. Virksomheden må også installere en speciel<span class="term">software</span>, hvis den vil benytte sig af EDI. EDI-softwaren gør det muligt for virksomheder at kommunikere elektronisk uafhængigt af IT-udstyr.</p>
+<p>Nedenfor ser du et eksempel på elektronisk udveksling af data via EDI.</p>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/7/2/csm_045_Udveksling_data_9cfe3168af.png" alt="Udveksling af data" loading="lazy"><figcaption>Udveksling af data</figcaption></figure>
+
+<p>Figuren viser, at en kinesisk leverandør skal sende en faktura fra sit ERP-system til sin danske kundes ERP-system.</p>
+<p>Da vi ikke kan læse kinesiske skrifttegn, skal informationerne i dokumentet findes og kodes om, så vi forstår dem:</p>
+<ul><li>Ved hjælp af EDI-softwaren laves fakturaen på kinesisk om til EDI-sproget EDIFACT.</li><li>EDI-dataene sendes via<span class="term">internettet</span>til den danske kunde.</li><li>For at kunden kan læse fakturaen, kodes EDI-dataene om til dansk ved hjælp af EDI-softwaren.</li></ul>
+<p>Når data sendes elektronisk via EDI, har det altså ikke nogen betydning, hvilken<span class="term">hardware</span>eller software samarbejdspartneren benytter. Det kræver blot, at begge virksomheder har EDI-softwaren.</p>
+<p>Det svarer til, at jeg kan være ligeglad med, om du arbejder på en Mac med OS X som<span class="term">styresystem</span>, selv om jeg arbejder på en pc med Windows som styresystem. For virksomhedernes IT-systemer behøver ikke at være kompatible, når de har investeret i EDI-softwaren.</p>
+
+<p>EDI-softwaren arbejder sammen med virksomhedens IT-systemer bl.a. deres ERP-system og servere. Med EDI er det nemt at udveksle produktionstal, lageroplysninger osv. Det er også muligt at lade EDI-softwaren hente data fra samarbejdspartneren, uden at nogen i den modsatte ende skal trykke på en send-knap.</p>
+<p>Når virksomheden og dens samarbejdspartnere udveksler dokumenter elektronisk, kan begge parter opnå en stor besparelse. Leverandøren behøver fx ikke at bruge tid på at taste kundensordreind, da dataene sendes direkte fra kundensERP-systemtil leverandørensERP-system. Samtidig kan leverandøren undgå irriterende tastefejl, som altid sniger sig ind, når vi taster informationer<span class="term">manuelt</span>.</p>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/e/b/csm_iStock-469852371_red_508f89b280.jpg" alt="Data integration" loading="lazy"><figcaption>Data integration</figcaption></figure>
+
+<p>Udover at virksomheden undgår irriterende tastefejl, er der følgende fordele for virksomheden ved at indføre EDI:</p>
+<ul><li>Mindre arbejde med genindtastning.</li><li>Mindre kontrol ved genindtastning.</li><li>Mindre risiko for fejl ved genindtastning.</li><li>Hurtigere og bedre kommunikation.</li><li>Tættere og bedre samarbejde.</li></ul>
+
+<h3>API</h3>
+
+<p><span class="term">API</span>er en forkortelse afApplication Programming Interface. API er et værktøj, som forbinder software eller IT-systemer, så de kan udveksle data.</p>
+
+<p>Ligesom udveksling af data ved hjælp af EDI kræver en speciel EDI-software, kræver udveksling af data ved hjælp af API også en special software, nemlig en applikation (en<span class="term">app</span>).</p>
+<p>MobilePay anvender API til bl.a. at tilbyde mobilbetaling, så du kan betale med din MobilePay app, både når du handler i fysiske butikker og på internettet.</p>
+<p>I virksomheden Visma e-conomic anvendes API til at tilbyde integration mellem fx en webshop og regnskabssystemet, så data mellem de to dele udveksles automatisk.</p>
+<p>API gør det lettere for virksomheder at udveksle data både internt og eksternt, og virksomheden kan derfor spare mange arbejdstimer og ressourcer.</p>
+<p>Virksomheden skal selvfølgelig være opmærksom på brugernes sikkerhed, især hvis virksomheden udveksler persondata.</p>
+
+<h2 id="s2">6.2 3-lags arkitektur (C)</h2>
+<h3>Forespørgsler og svar</h3>
+
+<p>Lad os sige, at vi vil åbne websiden:<span class="term">www</span>.eksempel.dk. Vi indtaster adressen i<span class="term">browseren</span>, der så kontakter den websideserver, som svarer til adressen. Serveren er en maskine, der er tilkoblet<span class="term">internettet</span>, og som altid er tændt og klar til at modtage forespørgsler fra<span class="term">browsere</span>. Når browseren forespørger indholdet af www.eksempel.dk, sørger serveren for at udlevere indholdet. Denne enkle kommunikation i to trin består af:</p>
+<ul><li>En<span class="term">forespørgsel</span>(request)</li><li>Et svar (response)</li></ul>
+<p>Generelt kommunikerer programmer over nettet ved at udveksle beskeder. Forespørgsler og svar er eksempler på beskeder.</p>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/2/1/csm_003_Request_response_modellen__72dcd97fb7.png" alt="Forespørgsel (request) og svar (response)" loading="lazy"><figcaption>Forespørgsel (request) og svar (response)</figcaption></figure>
+
+<h3>Klient-server-princippet</h3>
+
+<p>Request-response-forløbet i en kommunikation mellem browser og server er et eksempel på et designmønster, nemlig klient-server-princippet.</p>
+<p>Klienten forespørger tjenester hos serveren, og serveren svarer ved at levere de forespurgte services:</p>
+<ul><li>Klienten er aktiv – tager initiativ til en forespørgsel.</li><li>Serveren er passiv – svarer bare på forespørgsler.</li></ul>
+
+<p>I virksomheden er<strong>klienten</strong>den computer, medarbejderen bruger til sit arbejde fx til at skrive en mail til leverandøren. Mailprogrammet ligger på virksomhedens server, derfor sender medarbejderen via klienten en forespørgsel til serveren.</p>
+<p>Klienten er normalt i kontakt med en bruger. I klient-server-situationer vil vi derfor ofte referere til &quot;brugeren&quot;, underforstået at der sidder en bruger fx en medarbejder og styrer klientens forespørgsler.</p>
+
+<p><strong>Serveren</strong>er typisk en væsentligt kraftigere maskine, og en virksomhed kan godt have flere servere til hver sin opgave fx en mailserver, en webserver osv. Dette er ofte tilfældet i store virksomheder, fordi der vil være mange forespørgsler fra klienterne på én gang.</p>
+<p>Servere betjenes sjældent direkte af mennesker, derfor er der som regel hverken skærm, tastatur eller mus tilkoblet.</p>
+
+<h3>Eksempel: Typer af servere</h3>
+
+<ul><li><strong>Webserveren</strong>tilbyder adgang til webindhold. Dens klienter er typisk browsere.</li><li><strong>Spilserveren</strong>tilbyder adgang til at spille et onlinespil. Dens klienter er spilprogrammer.</li><li><strong>Printserveren</strong>tilbyder adgang til en eller flere printere. Dens klienter er tit tekstbehandlingsprogrammer, hvor brugeren beder om at få printet dokumenter.</li><li><strong>Filserveren</strong>tilbyder adgang til en samling filer. Dens klienter er særlige programmer, der kan hente filerne til brugerens computer.</li></ul>
+
+<h3>3-lags arkitektur i software</h3>
+
+<p>3-lags arkitekturen er en videreudvikling af klient-server-princippet og består af tre lag:</p>
+<ol><li>Præsentationslaget</li><li>Logiklaget</li><li>Datalaget</li></ol>
+<p>Præsentationslaget svarer til klient-delen i klient-server-princippet.</p>
+<p>Logiklaget og datalaget er en videreopdeling af server-delen i klient-server-princippet.</p>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/d/2/csm_004_Trelags_arkitektur_ce3582119d.png" alt="Trelags-arkitektur" loading="lazy"><figcaption>Trelags-arkitektur</figcaption></figure>
+
+<p>3-lags arkitektur i<span class="term">software</span>handler om, at programmer kan inddeles i tre lag:</p>
+<p><strong>1. Præsentationslaget</strong></p>
+<ul><li>Input fra brugeren ved hjælp af tastatur, museklik, berøring o.l.</li><li>Præsentation af grafik, tekst, billeder osv. til brugeren.</li></ul>
+<p><strong>2. Logiklaget</strong></p>
+<ul><li>Håndterer dataudveksling mellem præsentationslaget og datalaget fx logiske beregninger og andre manipulationer på data fra datalaget.</li></ul>
+<p><strong>3. Datalaget</strong></p>
+<ul><li>Opbevarer data.</li><li>Søger i data.</li><li>Sender data til logiklaget.</li></ul>
+
+<h3>Fordele og ulemper ved hhv. klient-server og tre-lags-arkitektur</h3>
+
+<h3>Eksempel: Webshop</h3>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/4/3/csm_iStock-1347632685_red_5ec644ef7e.jpg" alt="Kvinde ligger på sofa og surfer på nettet" loading="lazy"><figcaption>Kvinde ligger på sofa og surfer på nettet</figcaption></figure>
+
+<p>Forestil dig, at du besøger en webshop, hvor du vil søge efter et bestemt produkt fx en jakke.</p>
+<p>Præsentationslageter det, du som kunde kan se og interagere med via din browser, altså selve brugergrænsefladen for webshoppen.</p>
+<p>Du benytter dig af<span class="term">søgefeltet</span>på brugergrænsefladen og indtaster inputtet &quot;jakke&quot;. Denne information modtages nu aflogiklaget,som kontakterdatalaget.Datalaget sender nu samtlige registrerede jakker retur til logiklaget, som igen kontakter præsentationslaget, hvor jakkerne bliver vist på brugergrænsefladen.</p>
+
+<h3>Øvelse 6.1: Webshop</h3>
+
+<ol><li>Du skal ud fra figur 6.4 illustrere, hvordan eksemplet med webshoppen og søgningen på jakker foregår. Brug tegnede skærmbilleder til din illustration.</li></ol>
+
+<h3>Øvelse 6.2: Onlinespil</h3>
+
+<ol><li>Vælg et stort onlinespil som fx Counter-Strike og forklar 3-lags arkitekturen i spillet.</li></ol>
+
+<h3>Øvelse 6.3: Netbank og mobilbank</h3>
+
+<ol><li>Forklar 3-lags arkitekturen i en netbank eller mobilbank.</li></ol>
+
+<h3>Øvelse 6.4: Lagerstatus på webshop</h3>
+
+<ol><li>Forklar, hvordan en webshop kan opdeles ved hjælp af klient-server-princippet, hvis ejeren af webshoppen ønsker, at en kunde skal kunne se antallet af varer på varelageret.</li></ol>
+
+<h2 id="s3">6.3 Protokoller og internet (C)</h2>
+<h3>Protokoller</h3>
+
+<p>For atklienter og serverekan kommunikere med hinanden, er de nødt til at tale samme sprog, altså følge samme<span class="term">protokoller</span>. En<strong>protokol</strong>er altså et sæt regler for, hvordan data kan udveksles.</p>
+<p>En<strong><span class="term">netværksprotokol</span></strong>er en<span class="term">software</span>, der sørger for, at data kan overføres mellem de forskellige enheder i et fysisk netværk.</p>
+<p>Der findes mange standardprotokoller til forskellige opgaver, som er udarbejdet af ISO (International Standard Organisation) fx:</p>
+
+<h3>Internettet vs. World Wide Web</h3>
+
+<p>Et af menneskehedens største bedrifter er nok opfindelsen af internettet. For dig er internettet og World Wide Web (<span class="term">WWW</span>) måske det samme. Du tænker nok ikke over, at der er forskel. Men det er vigtigt at skelne mellem internettet og WWW, da det er forskellige teknologier, der ligger bag.</p>
+<p>Det fysiske internet kaldes på engelsk &quot;the net&quot; eller &quot;the internet&quot;, mens &quot;the web&quot; (nettet) ofte bruges om World Wide Web. I Danmark bruger vi ordet &quot;internet&quot; både om det fysiske internet og World Wide Web. Måske er det grunden til, at vi ikke er bevidste om, at der er forskel?</p>
+<p>I dette afsnit fortæller vi derfor om forskellen på det fysiske netværk internettet og World Wide Web, som gør det muligt for dig at få adgang til informationerne på internettet.</p>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/3/6/csm_iStock-1041174316_red_7560302733.jpg" alt="Internet" loading="lazy"><figcaption>Internet</figcaption></figure>
+
+<h3>Internettet</h3>
+
+<p>Internettet er<strong>et verdensomspændende fysisk netværk</strong>, der består af computernetværk, altså et netværk af computernetværk.</p>
+<p>Internettet består af kabelforbindelser og vigtige knudepunkter, såkaldte<span class="term">core</span>routere. Disse routere er særligt velegnede til at sende data hurtigt videre i netværket. Knudepunkterne forbindes med fiberoptiske kabler, der kan sende data videre med lysets hastighed. Men ældre telefonlinjer og satellitforbindelser er også en vigtig del af det fysiske netværk.</p>
+<p>Det fysiske netværk ejes af de lande, hvor kablerne og hardwaren befinder sig, samt af de store virksomheder fx<a href="http://tdc.dk/" target="_blank" rel="noopener">TDC</a>eller<a href="https://www.att.com/" target="_blank" rel="noopener">AT&amp;T</a>, der arbejder med kommunikation. Netværkets<span class="term">hardware</span>og kabler skal jævnligt opdateres for at følge udviklingen.</p>
+
+<h3>Hvordan fungerer internettet?</h3>
+
+<p>Internettet fungerer på den måde, at der over hele jordkloden står webservere og hosts tændt døgnet rundt. En host er en server eller computer, der er fysisk koblet til internettets netværk.</p>
+<p>Når du er på internettet, kobler du dig på via dit<span class="term">modem</span>, bredbånd, mobile netværk eller Wi-Fi. Faktisk får du først forbindelse til serveren hos din internetleverandør. Derfra bliver du via deres fysiske forbindelse sendt ud på internettet.</p>
+<p>Derefter har du mulighed for at surfe rundt og tjekke indhold og tjenester fra de forskellige webservere og hosts, som står til rådighed og er forbundet via World Wide Web.</p>
+
+<p>Men hvordan findes der lige præcis vej fra din computer eller<span class="term">smartphone</span>til den hjemmeside, du er gået ind på?</p>
+<ol><li>Lad os sige, at du vil læse et kapitel i denne iBog, så du åbner du din<span class="term">browser</span>og taster www.erhvervsinformatik.systime.dk.</li><li>Idet du trykker enter, vil din browser sende en elektronisk anmodning afsted til din internetudbyder. Det sker gennem din<span class="term">router</span>eller modem.</li><li>Anmodningen modtages af din internetudbyder, som sender anmodningen videre til en navneserver (DNS). Her søges efter den anmodede server.</li><li>Serveren hos Systime accepterer anmodningen om at se www.erhvervsinformatik.systime.dk, og sender derefter tekst og billeder tilbage til din browser.</li><li>Når serveren skal sende data retur, sker det ved, at dataene bliver opdelt i mindre pakker. Pakkerne rejser ikke nødvendigvis den samme vej gennem internettet – dog som regel den korteste.</li><li>Ved hjælp af din IP-adresse finder pakkerne frem til din browser, som sammensætter pakkerne i overensstemmelse med protokollerne.</li><li>Nu ser du forsiden til denne iBog på din skærm, har du mulighed for at navigere videre i bogen, hvorefter<span class="term">processen</span>gentager sig.</li></ol>
+
+<h3>Øvelse 6.5: Internettets opbygning</h3>
+
+<p>Du skal udarbejde en planche, som illustrerer ovenstående syv trin.</p>
+<ol><li>Brug Google til at finde billeder, som du kan printe ud og sætte på planchen.</li><li>Hvert billede skal have en lille tekst, som fortæller, hvad der sker på det trin.</li><li>Hæng planchen op i klassen.</li></ol>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/5/7/csm_iStock_000025911593_Large_red_2f620d4f2b.jpg" alt="WWW" loading="lazy"><figcaption>WWW</figcaption></figure>
+
+<h3>World Wide Web</h3>
+
+<p>World Wide Web blev skabt i 1989 af Sir Tim Berners-Lee. Han fik idéen til at bruge<span class="term">hyperlinks</span>mellem dokumenter. Disse links gør, at man kan forbinde ord og dokumenter på kryds og tværs af hjemmesider.</p>
+<p>World Wide Web er en række standarder eller aftaler, som bruges på hjemmesider til overførsel af filerne på det fysiske netværk, altså internettet. De data, som en hjemmeside består af, skal overholde standarderne for World Wide Web, så<span class="term">browseren</span>ved, hvad den skal vise dig.</p>
+<p>Når du går kobler dig på internettet for at se en hjemmeside eller denne iBog, bruger du en browser til at hente informationerne. Du bruger måske<a href="https://www.microsoft.com/da-dk/edge" target="_blank" rel="noopener">Microsoft Edge</a>,<a href="https://safari.da.softonic.com/" target="_blank" rel="noopener">Safari</a>eller<a href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank" rel="noopener">Google Chrome</a>. En browser henter websider fra en eller flere webservere og viser dem på din skærm. Browseren kan læse og navigere i store datamængder, især hypertekst.</p>
+<p>På den måde kan du få adgang til alle de informationer, som ligger på de forskellige computere eller servere på internettet. Så man kan sige, at World Wide Web &quot;kører&quot; i kablerne på det fysiske netværk.</p>
+
+<h2 id="s4">Opgaver til kapitel 6</h2>
+<h3>5 skarpe til kapitel 6</h3>
+
+<ol><li>Hvad er et ERP-system?</li><li>Hvad hedder de tre lag i 3-lags arkitekturen?</li><li>Forklar, hvad en klient og en server er.</li><li>Hvad dækker begrebet protokol over?</li><li>Forklar kort, hvad internettet er.</li></ol>
+
+<h3>Opgave 6.1: Quiz om netværksarkitektur</h3>
+
+<h3>Opgave 6.2: Begreber om netværksarkitektur</h3>
+
+<h3>Opgave 6.3: Instagram og netværksarkitektur</h3>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/4/7/csm_iStock-483093275_red_d1258c0dd7.jpg" alt="Instagram" loading="lazy"><figcaption>Instagram</figcaption></figure>
+
+<ol><li>Skitser Instagram ud fra klient-server-princippet.</li><li>Skitser Instagram ud fra 3-lags arkitekturen.</li><li>Vurder, hvilken model du synes virker bedst.</li></ol>
+
+<h3>Opgave 6.4: Internettet og World Wide Webs historie</h3>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/0/f/csm_iStock-1202864734_red_e7b6ff78da.jpg" alt="Forbindelser" loading="lazy"><figcaption>Forbindelser</figcaption></figure>
+
+<p>Læs eller lyt til artiklen fra dr.dk &quot;<a href="https://www.dr.dk/nyheder/viden/teknologi/verdens-foerste-hjemmeside-har-30-aars-jubilaeum-du-kan-besoege-den-her" target="_blank" rel="noopener">Verdens første hjemmeside har 30 års jubilæum: du kan besøge den her</a>&quot;, og besvar følgende spørgsmål:</p>
+<ol><li>Hvad skete der den 6. august 1991?</li><li>Hvem lavede den første hjemmeside?</li><li>Hvordan ser den første hjemmeside ud i dag?</li><li>Hvad kunne man læse på den første hjemmeside?</li><li>Hvorfor var hjemmesiden vigtig?</li><li>Hvordan blev internettet brugt før World Wide Web?</li><li>Hvad var Tim Berner-Lees vigtigste idé?</li><li>Hvad er hypertext?</li><li>Hvad er http-protokollen?</li><li>Var den første hjemmeside interessant for almindelige mennesker?</li><li>Hvad ændrede World Wide Web for brugerne?</li></ol>
+
+<h3>Opgave 6.5: Webshop</h3>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/4/8/csm_iStock-516550121_red_00800f55b9.jpg" alt="Elektriker" loading="lazy"><figcaption>Elektriker</figcaption></figure>
+
+<p>Daniel har været selvstændig elektriker i et par år og har nu fået lyst til at opbygge sin egen webshop, hvor han sælger alt fra stikkontakter til lamper. Han er nu kommet i tvivl om, hvilken IT-arkitektur webshoppen skal bygges op efter.</p>
+<p>Du skal lave en præsentation (fx PowerPoint), hvor du forklarer og illustrerer følgende.</p>
+<ol><li>Hvad er forskellen på klient-server-princippet og 3-lags arkitektur?</li><li>Udvælg tre forskellige handlinger, som en kunde kan foretage i webshoppen, eksempelvis køb af en vare. Placér hver af de tre handlinger ind i klient-server-princippet og 3-lags arkitekturen. Du kan med fordel bruge modellerne underafsnit 6.2.</li><li>Giv et begrundet svar på, om Daniel skal vælge klient-server-princippet eller 3-lags arkitekturen.Hvilke fordele og ulemper er der ved dit valg?</li></ol>
+
+<h3>Opgave 6.6: EDI</h3>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/8/1/csm_iStock-1145146614_red_d7deca36d5.jpg" alt="Medarbejder" loading="lazy"><figcaption>Medarbejder</figcaption></figure>
+
+<ol><li>Hvad står EDI for?</li><li>Forklar EDI med dine egne ord.</li><li>Hvad står EDIFACT for?</li><li>Forklar EDIFACT med dine egne ord.</li><li>Hvilke fordele har virksomheder ved at benytte EDI?</li></ol>
+
+<h3>Opgave 6.7: ERP-systemet</h3>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/2/5/csm_186_Kontoplan_010781a817.png" alt="e-conomic – Kontoplan" loading="lazy"><figcaption>e-conomic – Kontoplan</figcaption></figure>
+
+<ol><li>Udarbejd et notat på en enkelt side, der samler svarene på følgende spørgsmål:
+<ul><li>Hvad står forkortelsen ERP for?</li><li>Oversæt begrebet til et dansk udtryk.</li><li>Hvilket ERP-system har du lært at kende i Virksomhedsøkonomi?</li><li>Hvilke andre ERP-systemer kender du?</li><li>Et ERP-system er opbygget af moduler. Hvad betyder det?</li><li>Hvilket modul i ERP-systemet har du lært at arbejde med i Virksomhedsøkonomi?</li><li>Hvilke andre moduler findes der i et ERP-system?</li><li>Man taler om integration mellem modulerne i systemet. Hvad indebærer det?</li></ul></li><li>Præsenter notatets indhold for din sidemakker og giv hinanden respons og forslag til forbedringer.</li><li>Udbyg til sidst dit notat.</li></ol>
+
+<h3>Øvelser til kapitel 6</h3>
+
+<h2 id="s5">Caseopgave til kapitel 6</h2>
+<h3>Caseopgave: Netværksarkitektur</h3>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/b/0/csm_Logo_100_mm.ai_c992ebf814.png" alt="Logo Sport 24" loading="lazy"><figcaption>Logo Sport 24</figcaption></figure>
+
+<p>SPORT 24 skal håndtere en stor mængde data om fx varer, leverandører og kunder.</p>
+<p>SPORT 24s nuværende<span class="term">ERP-system</span>hedder Microsoft Navsion, som styrer en række aktiviteter som lager, indkøb, logistik og salg.</p>
+<p>SPORT 24 er ved at skifte system fra Microsoft Navision til<a href="https://elbek-vejrup.dk/business-central/" target="_blank" rel="noopener">Microsoft Dynamics 365 Business Central</a>. Et skifte er en kompleks og tidskrævende<span class="term">proces</span>, da<span class="term">ERP-systemet</span>er hjertet i virksomhedens daglige drift.</p>
+<p>Du kan læse mere omSPORT 24s brug af IT-systemeri<em>Studievaner på EUD/EUX</em>.</p>
+<ol><li>Hvad er et ERP-system?</li><li>Hvilke fordele og ulemper er der for SPORT 24 ved at anvende et ERP-system?</li><li>Giv eksempler på moduler, som SPORT 24 med fordel kan bruge i deres ERP-system. Redegør også for, hvordan modulerne samarbejder og deler data.</li><li>Kom med eksempler på, hvilke data SPORT 24 gemmer i ERP-systemet.</li><li>Anvend Leavitts model og vurder, hvordan det nye ERP-system vil påvirke dele af virksomheden.</li></ol>

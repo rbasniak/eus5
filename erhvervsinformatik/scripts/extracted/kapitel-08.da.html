@@ -1,0 +1,363 @@
+<h2 id="s0">8. Databaser</h2>
+<h3>Læsemål: Database</h3>
+
+<p>I kapitel 8 skal du lære om:</p>
+<ul><li>Databaser :
+<ul><li>Registrering af data</li><li>Anvendelse af simple databaser</li><li>Anvendelse af erhvervsfaglige databaser</li></ul></li></ul>
+
+<h3>Refleksionsspørgsmål</h3>
+
+<ol><li>Hvad er en database?</li><li>Giv eksempler på databaser.</li><li>Hvad kan virksomheder bruge databaser til?</li></ol>
+
+<p>Langt de fleste virksomheder har databaser for at kunne arbejde effektivt med data. Du skal derfor lære at arbejde struktureret med data i en database.</p>
+<p>Du skal bl.a. kunne forklare:</p>
+<ul><li>Hvordan data organiseres i databaser.</li><li>Hvordan data i databaser kan oprettes, ændres og vises i IT-systemer.</li></ul>
+
+<h3>Vigtige begreber i kapitel 8</h3>
+
+<ul><li><span class="term">Datatype</span></li><li>Primær nøgle</li><li>Redundans</li><li>Relationsdatabase</li></ul>
+
+<h3>Præsentation til kapitel 8: Databaser</h3>
+
+<p>Præsentationen rummer de væsentlige begreber, modeller, formler og pointer i kapitlet og kan vises i fuld skærm.</p>
+<p>Brug præsentationen til:</p>
+<ul><li>Underviserens gennemgang på klassen.</li><li>Individuel læsning før eller efter arbejdet med emnet.</li></ul>
+
+<p><a href="https://docs.google.com/presentation/d/1gLDUn2Pm8hg0243im4E9pklx6RNuY0pm9xpZVm-0MZ8/copy?usp=sharing" target="_blank" rel="noopener">Kopier Google Slides</a></p>
+<p>Download som PowerPoint</p>
+
+<h3>Databaseprogrammer</h3>
+
+<p>Udgivelsen tager udgangspunkt i Microsoft Access databaseprogram. Det kan give udfordringer, når eleverne, som mange gør, har en Macbook og dermed ikke kan køre Microsoft Access.</p>
+<p>Forfattergruppen har med succes anvendt Open Source programmet LibreOffice Base som alternativ. Nedenfor følger en miniguide til at komme i gang med det program:</p>
+
+<h2 id="s1">8.1 Formål med databaser</h2>
+<h3>Database</h3>
+
+<p>En<span class="term">database</span>eller et kartotek er en samling af data.</p>
+
+<p>Databaser er en stor del af vores hverdag. Du bruger dem hele tiden fx:</p>
+<ul><li>Kontakterne i din<span class="term">smartphone</span></li><li>Dine playlister på<a href="https://www.apple.com/dk/itunes/" target="_blank" rel="noopener">iTunes</a>og<a href="https://www.spotify.com/us/" target="_blank" rel="noopener">Spotify</a></li><li>Adresserne på<a href="http://www.krak.dk/" target="_blank" rel="noopener">Krak.dk</a></li><li><span class="term">Søgemaskiner</span>som<a href="https://www.google.dk/?hl=da&amp;gws_rd=cr,ssl&amp;ei=Qfd1VKbRJYLvOcuCgZgF" target="_blank" rel="noopener">Google</a></li></ul>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/4/d/csm_015_kontakt_kommunikation_294e696782.png" alt="Kontakt og kommunikation" loading="lazy"><figcaption>Kontakt og kommunikation</figcaption></figure>
+
+<p>I dette fag tænker vi selvfølgelig på virksomhedens elektroniske databaser. Dataene i en elektronisk database er ordnet på en måde, så de er lette for virksomheden at:</p>
+<ul><li>Oprette</li><li>Finde</li><li>Bruge</li><li>Sortere i</li><li>Rette</li><li>Slette igen</li></ul>
+<p>Lad os se på et eksempel, hvor virksomheden ikke har en elektronisk database.</p>
+
+<h3>Eksempel: Dagrofa Logistik</h3>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/a/c/csm_Dagrofa_red_c20a28b56c.jpg" alt="" loading="lazy"></figure>
+
+<p>Dagrofa Logistik er Dagrofas salgs- og logistikselskab med ca. 500 medarbejdere.</p>
+<p>Dagrofa Logistik leverer ikke blot dagligvarer til Dagrofas egne kæder, MENY, SPAR, Min Købmand og LET-KØB, men er også leverandør til en række kiosker, convenience-butikker og supermarkeder i Danmark og i udlandet.</p>
+<p>Der har lige været status, og lagerchefen noterer i et hæfte, at der er 1.000 liter mælk på lager.</p>
+<p>Salgschefen modtager samtidig en<span class="term">ordre</span>fra den lokale MENY-butik på 500 liter mælk til levering 2 dage senere. Da han ikke ved, at der er 1.000 liter mælk på lageret, kontakter han indkøbschefen og beder ham om at bestille 500 liter mælk fra Arla med det samme.</p>
+<p>Lagerchefen bliver rasende, da han dagen efter modtager 500 liter mælk. Der er slet ikke plads på lageret til 500 ekstra liter mælk, og holdbarhedsdatoen på de 1.000 liter mælk er i morgen!</p>
+<p>Dagrofa Logistik kan naturligvis ikke levere mælk til MENY-butikken, som udløber samme dag som leveringsdatoen. Virksomheden er derfor nødt til at registrere et tab på 1.000 liter mælk.</p>
+<ul><li>Hvilke problemer ser du ved den måde, Dagrofa Logistik arbejder på?</li></ul>
+
+<p>Medarbejderne har altså brug for orden og struktur i dataene, så de kan arbejde effektivt. De fleste virksomheder anvender derfor elektroniske databaser ellerERP-systemer, hvor alle medarbejdere har adgang til de samme data.</p>
+<p><span class="term">ERP-systemet</span>består oftest af forskellige moduler med hver sine data fx oversigt over virksomhedens:</p>
+<ul><li>Kunder (debitorer)</li><li>Leverandører (kreditorer)</li><li>Varelager</li><li>Økonomi</li><li>Medarbejdere</li></ul>
+<p>Modulerne er integrerede, så ændringer i ét modul automatisk opdateres i et andet modul.</p>
+<p>Det kan både være godt og skidt for virksomheden at anvende elektroniske databaser:</p>
+
+<div class="table-wrap"><table><tr><th>Fordele</th><th>Ulemper</th></tr><tr><td>Hurtigt at opdatere data</td><td>Fejl i data spredes hurtigt</td></tr><tr><td>Nemt at sortere og finde oplysninger</td><td>Risiko for tab af data ved IT-nedbrud</td></tr><tr><td>Nemt at dele oplysninger</td><td>Risiko for, at dataene kommer i de forkerte hænder</td></tr><tr><td>Nemt at udskrive data</td><td>Kræver uddannelse i anvendelsen af systemet</td></tr></table></div>
+
+<h3>Datalovgivning</h3>
+
+<p>Når virksomheden opbygger og anvender databaser, skal lovgivningen naturligvis overholdes. Det gælder fx<span class="term">Persondataforordningen</span>, som sikrer, at virksomheden ikke registrerer personfølsomme oplysninger. Som medarbejder har du et medansvar for, atlove og regler i forbindelse med dataoverholdes.</p>
+
+<h3>Øvelse 8.1: Registrering af dine klassekammerater</h3>
+
+<p>Forestil dig, at du skal lave en database over jeres klasse. Databasen skal gøre det nemmere at skabe kontakt til klassens elever, også når I ikke går på skolen mere.</p>
+<ol><li>Hvilke oplysninger vil være vigtige at have med i databasen?</li><li>Hvilke data må du ikke registrere om dine klassekammerater?</li><li>Hvilke oplysninger har skolen brug for at registrere, som du ikke må registrere i din database?</li><li>Sammenlign dine svar med din sidekammerats svar for at se, hvor der er ligheder og forskelle i jeres svar.</li></ol>
+<p>Tip: Læs kapitlet omdatalovgivning.</p>
+
+<h2 id="s2">8.2 Opbygning af databaser</h2>
+<p>Det er en fordel, hvis virksomhedens data er gemt i en central<span class="term">database</span>, som:</p>
+<ul><li>Opdateres løbende, så den altid indeholder de nyeste oplysninger.</li><li>Alle medarbejdere har adgang til.</li></ul>
+<p>Virksomheden har ofte forskellige databaser. Det kunne fx være en database over:</p>
+<ul><li>Leverandører</li><li>Kunder</li><li>Varer</li></ul>
+
+<h3>Tabel</h3>
+
+<p>Databaser består af en eller flere tabeller. Som du kan se, ligner en tabel et regneark:</p>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/f/c/csm_Databaser_Felt_og_Post_Leverandortabel_red_2cdb0e211a.jpg" alt="" loading="lazy"></figure>
+
+<p>En tabel:</p>
+<ul><li>Er en samling af oplysninger, der hører sammen.</li><li>Består af flere rækker, og hver række er en post.</li></ul>
+
+<h3>Post</h3>
+
+<p>Tabellen indeholder oplysninger om fx virksomhedens leverandører. Hver leverandør udgør en post i tabellen. En post:</p>
+<ul><li>Er en række af sammenhængende data.</li><li>Består af flere felter.</li></ul>
+<p>Hver af de 11 leverandører udgør altså en post i tabellen.</p>
+
+<h3>Felt</h3>
+
+<p>Hvert felt indeholder nogle bestemte oplysninger fx:</p>
+<ul><li>Leverandørnummer</li><li>Leverandørnavn</li><li>Adresse</li><li>Postnummer</li><li>By</li><li>Telefonnummer</li><li>Varegruppe</li></ul>
+<p>For hvert felt skal du angive, hvilken<span class="term">datatype</span>der skal indtastes.</p>
+
+<h3>Datatype</h3>
+
+<p>Datatypen bestemmer, hvilken type data der kan tastes i feltet.</p>
+
+<p>Når du opretter en tabel, skal du angive datatypen for hvert felt. Du skal overveje:</p>
+<ul><li>Hvilken type data feltet skal indeholde.</li><li>Hvor meget lagerplads (bytes) du har til rådighed.</li><li>Om det skal være muligt at sortere dataene.</li></ul>
+<p>Tabellen nedenfor giver dig et overblik over de vigtigste<span class="term">datatyper</span>i Microsoft Office Access&#x27; databaser.</p>
+
+<div class="table-wrap"><table><tr><th>Datatype</th><th>Forklaring</th></tr><tr><td>Tekst</td><td><p>Anvendes til fx navne, adresser eller tal, som ikke kræver beregning.</p>
+<p>Datatypen &#x27;tekst&#x27; reserverer lagerplads til, at du kan indtaste op til 255 tegn.</p></td></tr><tr><td>Tal</td><td>Anvendes til fx leverandørnummer og postnummer. For datatypen &#x27;tal&#x27; kan du vælge fra flere slags feltstørrelser der optager fra 1 til 16 byte harddiskplads, uanset hvor mange tal du indtaster.</td></tr><tr><td>Dato og klokkeslæt</td><td>Hvis du vælger datatypen &#x27;dato og klokkeslæt&#x27;, kan datoerne sorteres.</td></tr><tr><td>Valuta</td><td>Anvendes til beløb. Datatypen &#x27;valuta&#x27; optager 8 byte, uanset hvor mange tal du indtaster.</td></tr><tr><td>Autonummerering</td><td>Databasen opretter automatisk et nyt nummer for hver ny post, du indtaster.</td></tr><tr><td>Ja/Nej</td><td>Anvendes til afkrydsning: Ja eller Nej.</td></tr><tr><td>Link</td><td>Anvendes til e-mails og websites.</td></tr></table></div>
+
+<p>Som du kan se:</p>
+<ul><li>Kræver nogle datatyper mere lagerplads end andre.</li><li>Er nogle datatyper mere oplagte at bruge end andre.</li></ul>
+<p>Datatypen &#x27;tekst&#x27; er fx god til data som navne og adresser. Du kan også indtaste tal fx datoer i felter med datatypen &#x27;tekst&#x27;, men så kan du ikke sortere i datoerne. Her er det mere oplagt at vælge datatypen &#x27;dato og klokkeslæt&#x27;.</p>
+<p>Datatypen &#x27;tal&#x27; kræver ikke nær så meget lagerplads som datatypen &#x27;valuta&#x27;. Ved at vælge den rigtige datatype får du altså en bedre database.</p>
+
+<h3>Øvelse 8.2: Datatyper</h3>
+
+<p>Tag udgangspunkt iøvelsen: Registrering af dine klassekammeraterog find ud af, hvilke datatyper dine data skal være.</p>
+<ol><li>Vælg en datatype til hver af de oplysninger, du synes, er vigtige at have med i databasen.</li><li>Er der en af oplysningerne i din database, som er unik for dine klassekammerater?<br>Dvs. en oplysning, som kun én elev kan have fx CPR-nummer.</li><li>Giv et par eksempler på oplysninger om dine klassekammerater, hvor du kan bruge datatypen: ja/nej.</li></ol>
+
+<h2 id="s3">8.3 Flade databaser</h2>
+<h3>Flad database</h3>
+
+<p>Den mest simple form for<span class="term">databaser</span>er en såkaldt flad database. Her indtaster du alle oplysninger i én tabel ligesom i et regneark.</p>
+
+<h3>Microsoft Office Access</h3>
+
+<p>Du kender formentlig Microsoft Offices brugerprogrammer fx:</p>
+<ul><li>Word til tekstbehandling</li><li>Excel til talbehandling</li><li>PowerPoint til præsentationer</li><li>Publisher til Desktop Publishing</li></ul>
+<p>Microsoft har også udviklet et program til databaser, nemlig Access. Programmet bruges til oprettelse af simple databaser.</p>
+
+<h3>Video: Oprettelse af flade databaser</h3>
+
+<h3>Primær nøgle</h3>
+
+<p>Når du opretter en database, skal du vælge et af feltnavnene som primær nøgle. Du bruger primær nøglen til at identificere posten, derfor kan to poster ikke have den samme oplysning registreret under feltnavnet med primær nøglen.</p>
+<p>Sagt på en anden måde: Du skal sætte primær nøglen ved det feltnavn, som indeholder en oplysning, der er unik og entydig for posten fx:</p>
+<ul><li>CPR-nummer</li><li>Kundenummer</li><li>Virksomhedens CVR-nummer</li><li>Produkt-ID</li></ul>
+<p>Primær nøglen bruges til at fremsøge en post på fx en person. I det<span class="term">offentlige</span>bruges CPR-nummeret som primær nøgle, fordi det netop er en unik og entydig oplysning for personen.</p>
+<p>Hvis ikke kommunens sagsbehandler har en unik oplysning som CPR-nummeret, kan personen eksempelvis fremsøges på navn og adresse. Problemet er, at der kan være flere personer af samme navn fx Magne Poulsen, eller der kan være flere personer registreret på en adresse, fx hvis Magne deler lejlighed med nogle studiekammerater. Der opstår derfor risiko for at sagsbehandle den forkerte person.</p>
+
+<h3>Eksempel: Kundeklub</h3>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/a/e/csm_Databaser_Kundeklub_tabel_4c159e125b.jpeg" alt="" loading="lazy"></figure>
+
+<p>I en kundeklub kan der sagtens være andre medlemmer, som hedder det samme som dig til fornavn. Kundeklubben kan altså ikke bruge feltnavnet &#x27;Fornavn&#x27; i deres kundedatabase som primær nøgle, da det ikke er en unik og entydig oplysning om dig.</p>
+<p>For at kundeklubben ikke risikerer at registrere oplysninger på det forkerte medlem, har kundeklubben brug for en oplysning til at identificere dig, når du ringer eller henvender dig på anden måde.</p>
+<p>I tabellen ovenover er der to medlemmer, som hedder Amalie Jensen. For at kende forskel på den ene og den anden Amalie Jensen, har kundeklubben brug for en unik oplysning om medlemmerne.</p>
+<ul><li>Hvilket feltnavn synes du, at kundeklubben skal vælge som primær nøgle for ikke at forveksle de to piger med hinanden?</li></ul>
+
+<p>For at angive en primær nøgle i en tabel skal du åbne tabellen i<strong>Designvisning</strong>. Vælg det felt, som skal være primær nøgle, og klik derefter på knappen med en nøgle:</p>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/f/4/csm_Databaser_Kundeklub_Designvisning_Nogle_red_32a1218381.jpg" alt="" loading="lazy"></figure>
+
+<h3>Formular</h3>
+
+<p>En formular er en mere brugervenlig visning af en post i en tabel:</p>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/8/6/csm_Databaser_Kundeklub_Formular_med_tekst_red_ca020497f4.jpg" alt="" loading="lazy"></figure>
+
+<p>Der kan være fordele ved at indtaste oplysningerne i formularer i stedet for tabeller, da formularer er mere overskuelige og brugervenlige. I<span class="term">ERP-systemet</span> <a href="https://www.e-conomic.dk/regnskab-online?utm_campaign=1092021814&amp;utm_source=google&amp;utm_medium=cpc&amp;utm_content=294848386024&amp;utm_term=economic&amp;adgroupid=54545615242&amp;gclid=CjwKCAjw0_T4BRBlEiwAwoEiAdOUTwWirOz3EFvEcx_VBhLhn22pYet5K3bGrcMOgKZR-Zo_-CnPBBoC3uAQAvD_BwE" target="_blank" rel="noopener">e-conomic</a>foretager du fx alle dine indtastninger i formularer.</p>
+<p>Uanset om du indtaster oplysningerne i en formular eller i tabellen, oprettes posten i din database. Så vælg den metode til indtastning af data, som du synes er lettest og hurtigst.</p>
+
+<h3>Video: Oprettelse af formularer</h3>
+
+<h3>Forespørgsel</h3>
+
+<p>Du bruger en<span class="term">forespørgsel</span>til at trække bestemte data ud fra databasen. Forespørgsler er især nyttige irelationsdatabaser, da du har mulighed for at sammensætte og udtrække data fra flere tabeller på en gang.</p>
+<p>Når du anvender forespørgsler, skal du altså fortælle databasen, hvilke kriterier dataene skal søges ud fra fx leverandører, der:</p>
+<ul><li>Leverer en bestemt varegruppe eller</li><li>Bor i en bestemt by.</li></ul>
+
+<p>Forestil dig, at der i databasen over leverandører fraeksemplet med tabellenikke kun er oprettet 11, men 200 leverandører.</p>
+<p>Ved hjælp af en forespørgsel kan du nøjes med at få vist de leverandører, der er relevante for dig fx leverandører til varegruppen elektronik.</p>
+
+<h3>Video: Forespørgsel</h3>
+
+<h3>Rapport</h3>
+
+<p>Du kan sagtens printe direkte fra tabellerne og forespørgslerne, men det ser ikke særlig pænt ud. Du kan derfor oprette en rapport til at udskrive data.</p>
+
+<p>En rapport er en grafisk præsentation af data fra tabeller eller forespørgsler.</p>
+
+<h3>Video: Rapporter</h3>
+
+<h3>Øvelse 8.3: Database over din klasse</h3>
+
+<p>Tag udgangspunkt iøvelse 8.2: Datatyperog overvej, hvordan din database skal kunne bruges:</p>
+<ol><li>Hvilke data vil være relevant at kunne udtrække af databasen?</li><li>Hvorfor er det smart at lave en forespørgsel i stedet for blot at sortere dataene i databasen?</li><li>Hvad kan du bruge en formular til i databasen?</li><li>Nogle af dine klassekammerater vil gerne have printet en liste over oplysningerne, så de kan hænge den op derhjemme. Hvordan vil du imødekomme dette ønske?</li></ol>
+
+<h2 id="s4">8.4 Relationsdatabaser</h2>
+<p>En<strong>relationsdatabase</strong>består af to eller flere tabeller. Tabellerne forbindes til hinanden med relationer, deraf navnet.</p>
+<p>I relationsdatabaser undgår du redundans, fordi databasen består af flere tabeller.</p>
+
+<h3>Redundans</h3>
+
+<p>Betyder unødige gentagelser af data, altså dobbeltregistrering.</p>
+
+<p>Når der er redundans i en<span class="term">database</span>, registreres de samme data dobbelt. Det betyder, at:</p>
+<ul><li>Der spildes lagerplads på dobbeltregistreringen.</li><li>Det er sværere at vedligeholde oplysningerne i databasen.</li><li>Der lettere opstår fejl.</li></ul>
+
+<h3>Øvelse 8.4: Primær nøgle og redundans</h3>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/4/a/csm_Databaser_Leverand%C3%B8rtabel_red_daaf474409.jpg" alt="" loading="lazy"></figure>
+
+<ol><li>Hvilket feltnavn vil du sætteprimær nøglenved i tabellen?</li><li>Hvor er derredundansi tabellen?</li><li>Er der data i tabellen, som er unødvendige?</li></ol>
+
+<p>Leverandørdatabasen i øvelsen ovenfor er et eksempel på en flad database. Alle oplysninger er indsat i én tabel.</p>
+<p>Der vil typisk være redundans i en flad database, fordi du næsten ikke kan undgå at indtaste de samme data flere gange. Der er fx stor sandsynlighed for, at du kommer til at indtaste det samme postnummer og den samme by igen og igen, jo flere poster du opretter.</p>
+<p>Når du opretter en database, skal du derfor designe databasen uden redundans.</p>
+
+<h3>Database med to tabeller</h3>
+
+<p>I databasen fraøvelsenovenfor undgår du redundans ved at oprette databasen med to tabeller i stedet for:</p>
+<ul><li>En tabel med alle oplysninger om leverandørerne undtagen by.</li><li>En tabel med postnummer og by.</li></ul>
+<p>Når du forbinder de to tabeller via det fælles feltnavn &#x27;Postnummer&#x27;, er du fri for at skrive København SV hver gang, men kan nøjes med at indtaste postnummeret 2450.</p>
+
+<h3>E/R-diagram</h3>
+
+<p>Et E/R-diagram er en tegning, der viser tabellerne og forbindelsen mellem dem i relationsdatabasen:</p>
+<ul><li>E&#x27;et står for entitet (tabel).</li><li>R&#x27;et står for relation (forbindelse).</li></ul>
+
+<p>E/R-diagrammer bruges til planlægning af relationsdatabaser. Hvis ikke du planlægger, hvordan du skal opbygge din database inden oprettelsen af databasen, er der stor risiko for fejl. I værste fald skal du starte helt forfra, og det er spild af både tid og kræfter.</p>
+<p>Her ser du E/R-diagrammet for den leverandørdatabase, der oprettes ivideoennedenfor:</p>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/5/8/csm_017_E_R_diagram_257cbd87bb.png" alt="E/R-diagram for leverandørdatabase" loading="lazy"><figcaption>E/R-diagram for leverandørdatabase</figcaption></figure>
+
+<p>Som du kan se, består E/R-diagrammet af forskellige symboler. I eksemplet har symbolerne følgende betydning:</p>
+
+<div class="table-wrap"><table><tr><th>Rektangel</th><td>Er et symbol for entitet (tabel) i databasen. I vores eksempel er der to tabeller:<strong>Leverandør</strong>og<strong>Postnr By</strong>.</td></tr><tr><th>Rhombe</th><td>Symboliserer relationen (forbindelsen) imellem entiteterne. I dette tilfælde:<strong>Bor i</strong>.</td></tr><tr><th>m - 1</th><td><p>Angiver relationen. Det lille<strong>m</strong>står for mange, og<strong>1</strong>betyder en. E/R-diagrammet viser altså: Vi kan have<strong>mange</strong>leverandører i vores database, som bor i det samme postnummer (samme by), men at den enkelte leverandør kun kan bo i<strong>ét</strong>postnummer.</p></td></tr></table></div>
+
+<p>Faktisk kunne vi også vælge at oprette leverandørdatabasen med tre tabeller:</p>
+<ul><li>Varegruppe</li><li>Leverandør</li><li>Postnr By</li></ul>
+<p>Hvis vi opretter databasen med tre tabeller i stedet for to, kunne varegruppe tabellen se sådan ud:</p>
+
+<div class="table-wrap"><table><tr><th><strong>Varegruppenr</strong></th><th><strong>Varegruppe</strong></th></tr><tr><td>V1</td><td>Elektronik</td></tr><tr><td>V2</td><td>Børn &amp; Baby</td></tr><tr><td>V3</td><td>Tøj &amp; Skønhed</td></tr><tr><td>V4</td><td>Hus &amp; Have</td></tr><tr><td>V5</td><td>Bolig</td></tr></table></div>
+
+<p>I stedet for at skrive hele varegruppens navn hver gang fx Elektronik, kan du nøjes med at skrive V1. Det er smart, ikke?</p>
+<p>Hvis vi opretter databasen med tre tabeller i stedet for, kommer E/R-diagrammet også til at se anderledes ud:</p>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/c/5/csm_016_E_R_diagram2_0e6dde38f8.png" alt="E/R-diagram for leverandørdatabase med tre tabeller" loading="lazy"><figcaption>E/R-diagram for leverandørdatabase med tre tabeller</figcaption></figure>
+
+<p>E/R-diagrammet læses således:</p>
+<ul><li>En varegruppe kan have mange forskellige leverandører, men leverandøren leverer kun én varegruppe.</li><li>Mange leverandører kan bo i den samme by, men leverandøren kan kun bo i én by.</li></ul>
+
+<h3>Relationer mellem tabeller</h3>
+
+<p>I en relationsdatabase opretter du to eller flere tabeller, som knyttes til hinanden med relationer. Når du arbejder på E/R-diagrammet til en ny database, skal du altså kigge på, hvilken type relationer der er imellem tabellerne.</p>
+<p>I relationsdatabaser kan der være tre forskellige typer af relationer:</p>
+<ul><li>Én-til-én relationer (1-1)</li><li>Én-til-mange relationer (1-m eller m-1)</li><li>Mange-til-mange relationer (m-m)</li></ul>
+
+<h3>Fordele og ulemper</h3>
+
+<p>De to typer af databaser har hver sine styrker og svagheder. Inden du opretter databasen, skal du derfor overveje fordelene og ulemperne.</p>
+<p>Det er nemmere at oprette en flad database, men en relationsdatabase giver flere muligheder. Fx kan du oprette:</p>
+<ul><li>En tabel, som indeholder navne og adresser på virksomhedens leverandører.</li><li>En anden tabel med oplysninger om virksomhedens varer.</li></ul>
+<p>De to tabeller kan herefter forbindes med en relation, hvis begge tabeller har et feltnavn til fælles fx leverandørnummeret.</p>
+<p>Relationsdatabaser kan forhindre redundans. Forestil dig, at virksomheden uge efter uge bestiller den samme mængde af den samme vare hos den samme leverandør. I enflad databaseskal du registrere leverandørens oplysninger igen og igen. I en relationsdatabase kan du nøjes med at angive leverandørnummeret.</p>
+
+<div class="table-wrap"><table><tr><th></th><th>Fordele</th><th>Ulemper</th></tr><tr><th>Fladedatabaser</th><td><ul><li>Nemmere at oprette</li></ul></td><td><ul><li>Risiko for redundans</li><li>Sværere at vedligeholde</li><li>Kræver mere lagerplads</li></ul></td></tr><tr><th>Relationsdatabaser</th><td><ul><li>Undgår redundans</li><li>Lettere at vedligeholde</li><li>Kræver mindre lagerplads</li><li>Data kan forbindes på kryds og tværs, men skal kun opdateres ét sted</li></ul></td><td><ul><li>Sværere at oprette</li></ul></td></tr></table></div>
+
+<h3>Video: Relationsdatabaser</h3>
+
+<h3>Øvelse 8.5: Skab relationer i databasen over din klasse</h3>
+
+<p>Tag udgangspunkt iøvelse 8.3: Database over din klasse. Du skal nu skabe en relation i din database.</p>
+<ol><li>Hvad vil du kalde tabellen, som skal indeholde oplysninger på dine klassekammerater?</li><li>Hvilke oplysninger vil skabe redundans i tabellen?</li><li>Hvilke andre tabeller kan du oprette for at undgå redundans?</li><li>Tegn et E/R-diagram over din database.<br>Du kan fx tegne det i Word ved at bruge &quot;indsæt&quot; og &quot;figur&quot;.</li><li>Hvilken relation vil opstå imellem dine tabeller?</li><li>Du skal have en primær nøgle i hver tabel. Hvilke primær nøgler har du valgt?</li></ol>
+
+<h2 id="s5">Opgaver til kapitel 8</h2>
+<h3>5 skarpe til kapitel 8</h3>
+
+<ol><li>Forklar, hvad en database er.</li><li>Hvad er kriterierne for en primær nøgle?</li><li>Kom med fire eksempler på datatyper.</li><li>Forklar begrebet redundans med egne ord.</li><li>Hvad skal der til, for at en database er en relationsdatabase?</li></ol>
+
+<h3>Opgave 8.1: Begreber om databaser</h3>
+
+<h3>Opgave 8.2: Quiz om databaser</h3>
+
+<h3>Opgave 8.3: Begreber om databaser</h3>
+
+<h3>Opgave 8.4: Quiz om kundedatabaser</h3>
+
+<h3>Opgave 8.5: Primærnøgle i databaser</h3>
+
+<h3>Opgave 8.6: Formål med databaser</h3>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/3/1/csm_COLOURBOX3302225_red_042a57f423.jpg" alt="Netværk af computere" loading="lazy"><figcaption>Netværk af computere</figcaption></figure>
+
+<ol><li>Hvad er en database?</li><li>Hvad er formålet med databaser?</li><li>Hvilke databaser har en virksomhed typisk brug for?</li></ol>
+
+<h3>Opgave 8.7: Database hos Sneakers.dk</h3>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/1/a/csm_018_E_R_diagram_3_86eeacdf54.png" alt="E/R-diagram for kundedatabase" loading="lazy"><figcaption>E/R-diagram for kundedatabase</figcaption></figure>
+
+<p>Kunderne hos Sneakers.dk køber især fodtøj og tilbehør i webshoppen. Hjælp Sneakers.dk med at oprette en simpel database, som består af to tabeller.</p>
+<ol><li>Hvad viser E/R-diagrammet ovenfor?</li><li>Hvilke oplysninger om kunderne er relevante at tage med i tabellen<strong>Kunder</strong>?</li><li>Hvilke oplysninger om varerne er relevante at tage med i tabellen<strong>Varer</strong>?</li><li>Skriv oplysningerne i en liste i en tabel i Word eller i et regneark i Excel.</li><li>Giv forslag til feltnavne.</li></ol>
+
+<h3>Opgave 8.8: Relation mellem tabeller</h3>
+
+<h3>Opgave 8.9: Database over klassen</h3>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/1/9/csm_Egaa_56_red_a63a256dff.jpg" alt="" loading="lazy"></figure>
+
+<ol><li>Hvad er formålet med at indsamle data i dette tilfælde?</li><li>Indsaml derefter oplysninger om dine klassekammerater:
+<ul><li>Fornavn</li><li>Efternavn</li><li>Adresse</li><li>Postnummer</li><li>By</li><li>Telefonnummer</li><li>Fødselsdag</li></ul></li><li>Hvilke typer af persondata er der tale om i dette tilfælde?</li><li>Hvem er dataansvarlig i dette tilfælde?</li><li>Opret en database i Access over hele klassen (husk dig selv).</li><li>Hvor mange poster er der i din database?</li><li>Hvor mange felter består hver post af?</li><li>Hvilken datatype har du valgt for de forskellige felter? Du kan evt. svare i quizzen nedenfor.</li><li>Hvilken af oplysningerne har du valgt som primær nøgle?</li><li>Giv mindst to eksempler på forespørgsler, du kan foretage i databasen.</li><li>Hvad er formålet med at sortere (ordne) oplysninger i databasen?</li><li>Klassen indfører en kageordning, hvor fødselaren skal give kage på sin fødselsdag. Sorter din tabel efter datoer.</li><li>Hvilke rapporter kan du udskrive fra databasen?</li><li>Giv eksempler på flere felter, der kunne indgå i databasen.</li><li>Vurder, om der er tale om en flad database eller en relationsdatabase.</li><li>Hvornår skal data om klassekammeraterne slettes?</li><li>Opret en formular til indtastning af nye klassekammerater. Indbyg gerne erklæring om samtykke i formularen, idet du markerer formålet og informerer om, hvornår data slettes igen.</li><li>Bemærk, at denne database oprettes til et privat formål. Forestil dig, at en lignende database oprettes og anvendes i en virksomhed eller offentlig myndighed. Hvilke forhold iPersondataforordningenbør virksomheden/myndigheden da være særlig opmærksom på?</li></ol>
+
+<h3>Opgave 8.10: Leverandørdatabase</h3>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/5/d/csm_Leverandordatabase_red_9c20fb64d3.jpg" alt="" loading="lazy"></figure>
+
+<p><a href="https://www.bilka.dk/" target="_blank" rel="noopener">Bilka</a>er Salling Groups kæde af hypermarkeder (store supermarkeder). Der er 19 Bilka varehuse fordelt over hele Danmark. Derudover har Bilka også en webshop. På webshoppen kan kunderne købe varer inden for varegrupperne:</p>
+<ul><li>Elektronik</li><li>Bolig</li><li>Hus &amp; Have</li><li>Tøj &amp; Skønhed</li><li>Børn &amp; Baby</li><li>Sport &amp; Fritid</li><li>Hvidevarer</li></ul>
+<p>For at få overblik over leverandørerne har Salling Group brug for en leverandørdatabase:</p>
+<ol><li>Hvad er forskellen på en flad database og en relationsdatabase?</li><li>Vil du oprette leverandørdatabasen som en flad database eller en relationsdatabase?</li><li>Opret databasen i Access.</li><li>Indtast oplysningerne fra tabellen ovenfor i din database.</li><li>Forklar fordele og ulemper ved dit valg af databasetype.</li><li>Opret en forespørgsel, hvor du kan søge leverandørerne frem for hver varegruppe.</li><li>Opret en rapport med leverandørerne til Børn &amp; Baby.</li><li>Opret en formular til indtastning af en ny leverandør:
+<ul><li>Gyldendal, Klareboderne 3, 1001 København K, tlf. 3375 5555.</li><li>Leverandørnummer og varegruppe skal du selv finde på.</li></ul></li></ol>
+
+<h3>Opgave 8.11: E/R-diagram for sportsklub</h3>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/b/b/csm_COLOURBOX3543467_red_42358fd98f.jpg" alt="Symboler for forskellige sportsgrene" loading="lazy"><figcaption>Symboler for forskellige sportsgrene</figcaption></figure>
+
+<p>En sportsklub ønsker at oprette en medlemsdatabase, som indeholder følgende entiteter (tabeller) og relationer (forbindelser):</p>
+<ul><li>Bor i</li><li>Dyrker</li><li>Postnr - By</li><li>Medlem</li><li>Sportsgren</li></ul>
+<ol><li>Tegn ud fra disse oplysninger et E/R-diagram til planlægning af medlemsdatabasen.</li><li>Opret en database på baggrund af dit E/R-diagram.</li><li>Forklar dit valg af primær nøgle i hver af de tre tabeller.</li></ol>
+
+<h3>Øvelser til kapitel 8</h3>
+
+<h2 id="s6">Hands on opgaver</h2>
+
+
+<h2 id="s7">Caseopgaver til kapitel 8</h2>
+<h3>Caseopgave: Databaser i SPORT24</h3>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/b/0/csm_Logo_100_mm.ai_c992ebf814.png" alt="Logo Sport 24" loading="lazy"><figcaption>Logo Sport 24</figcaption></figure>
+
+<figure class="figure"><img src="https://erhvervsinformatik.systime.dk/fileadmin/_processed_/f/c/csm_ERP-diagram_b39091cafe.jpg" alt="E/R-diagram" loading="lazy"><figcaption>E/R-diagram</figcaption></figure>
+
+<p>Chefen for Human Resource hos SPORT 24 ønsker at skabe et overblik over medarbejderne. Hun har lavet et E/R diagram, som viser ønsket indhold i databasen.</p>
+<p>Databasen skal bruges til at registrere diverse informationer, samt om medarbejderen har en firmabil med i sin lønaftale. Nogle medarbejdere har &quot;ingen firmabil&quot;, og få har den dyreste firmabil med i deres lønaftale. Dette svarer til kategori 3, hvor medarbejderen må lease en bil op til kr. 500.000.</p>
+<ol><li>Redegør for, hvad en<span class="term">database</span>er, og kom her ind omkring begrebet relationsdatabase.</li><li>Lav databasen i Microsoft Access.</li></ol>
+<p>Databasen skal indeholde de tre tabeller med relationer.<br>I tabellen Firmabil skal du registrere:</p>
+<ul><li>Ingen</li><li>Kategori 1</li><li>Kategori 2</li><li>Kategori 3</li></ul>
+<p>Du kan med fordel lave et opslag i feltet Firmabil i tabellen Medarbejder, som selv henter kategorierne fra tabellen Firmabil.</p>
+<ol><li>Indtast 10 opdigtede medarbejdere.</li><li>Lav en<span class="term">forespørgsel</span>, der udvælger alle medarbejdere med bil i kategori 2.</li></ol>
+
+<h3>Caseopgave: Håndtering af kundedata i Matas</h3>
+
+<p>Der er meget data at holde styr på, når kunderne køber hos Matas. Matas vil derfor gerne have dig til at lave en database, som kan organisere data om Club Matas-medlemmer og deres ordrer.</p>
+<ol><li>Opret en database i Access med to tabeller: &quot;Medlemmer&quot; og &quot;Ordrer&quot;.</li></ol>
+<p>Medlemmer:</p>
+<ul><li>MedlemsID (tal, primær nøgle)</li><li>Fornavn (kort tekst, 50 tegn)</li><li>Efternavn (kort tekst, 50 tegn)</li><li>E-mail (kort tekst, 100 tegn)</li></ul>
+<p>Ordrer:</p>
+<ul><li>OrdreID (tal, primær nøgle)</li><li>MedlemsID (tal, fremmed nøgle)</li><li>Dato (dato/tid)</li><li>Beløb (valuta)</li></ul>
+<ol><li>Lav en relation mellem tabellerne (1-til-mange).</li><li>Udfyld tabellerne med nedenstående poster.</li></ol>
+<p>Medlemmer:</p>
+<ul><li>1, Anna, Jensen,anna@jensen.dk</li><li>2, Lars, Petersen,lars@outlook.com</li><li>3, Sofie, Nielsen,sofie@gmail.com</li></ul>
+<p>Ordrer:</p>
+<ul><li>101, 1, 01-03-2025, 250,00 kr.</li><li>102, 2, 02-03-2025, 99,75 kr.</li><li>103, 1, 03-03-2025, 175,50 kr.</li></ul>
+<ol><li>Redegør for begreberne redundans, relationsdatabase og primær nøgle.</li><li>Hvilke<span class="term">datatyper</span>anvendes i tabellerne, og hvilken betydning har det?</li><li>Opret en forespørgsel, som udvælger de kunder, som har afgivet ordrer på 100 kr. eller mere.</li></ol>
+<p>Matas kan benytte Big data til at lave analyser og optimere deres forretning.</p>
+<ol><li>Hvad er Big data, og hvilke Big data kan Matas med fordel bruge?</li><li>Kom med eksempler på Big data, du selv anvender.</li></ol>

@@ -1,0 +1,912 @@
+[
+  {
+    "id": "485",
+    "text": "Introduktion",
+    "chapter_folder": "Introduktion",
+    "filename": "Introduktion.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=485"
+  },
+  {
+    "id": "488",
+    "text": "Tour de iBog",
+    "chapter_folder": "Introduktion",
+    "filename": "0.1 Tour de iBog.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=488"
+  },
+  {
+    "id": "487",
+    "text": "Portfolio",
+    "chapter_folder": "Introduktion",
+    "filename": "0.2 Portfolio.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=487"
+  },
+  {
+    "id": "486",
+    "text": "Tips til læsning på skærm",
+    "chapter_folder": "Introduktion",
+    "filename": "0.3 Tips til læsning på skærm.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=486"
+  },
+  {
+    "id": "130",
+    "text": "1. Den digitale udvikling",
+    "chapter_folder": "Kapitel 1",
+    "filename": "1.0 Den digitale udvikling.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=130"
+  },
+  {
+    "id": "142",
+    "text": "1.1 Industri 4.0",
+    "chapter_folder": "Kapitel 1",
+    "filename": "1.1 Industri 4.0.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=142"
+  },
+  {
+    "id": "210",
+    "text": "1.1.1 3D-print",
+    "chapter_folder": "Kapitel 1",
+    "filename": "1.1.1 3D-print.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=210"
+  },
+  {
+    "id": "212",
+    "text": "1.1.2 Internet of Things",
+    "chapter_folder": "Kapitel 1",
+    "filename": "1.1.2 Internet of Things.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=212"
+  },
+  {
+    "id": "214",
+    "text": "1.1.3 Tracking teknologier",
+    "chapter_folder": "Kapitel 1",
+    "filename": "1.1.3 Tracking teknologier.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=214"
+  },
+  {
+    "id": "211",
+    "text": "1.1.4 Shopping med teknologi",
+    "chapter_folder": "Kapitel 1",
+    "filename": "1.1.4 Shopping med teknologi.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=211"
+  },
+  {
+    "id": "254",
+    "text": "1.1.5 Jobudvikling",
+    "chapter_folder": "Kapitel 1",
+    "filename": "1.1.5 Jobudvikling.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=254"
+  },
+  {
+    "id": "145",
+    "text": "1.2 Teknologien forandrer",
+    "chapter_folder": "Kapitel 1",
+    "filename": "1.2 Teknologien forandrer.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=145"
+  },
+  {
+    "id": "147",
+    "text": "1.2.1 Individ",
+    "chapter_folder": "Kapitel 1",
+    "filename": "1.2.1 Individ.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=147"
+  },
+  {
+    "id": "202",
+    "text": "Livslang læring",
+    "chapter_folder": "Kapitel 1",
+    "filename": "1.2.1.1 Livslang læring.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=202"
+  },
+  {
+    "id": "203",
+    "text": "E-læring",
+    "chapter_folder": "Kapitel 1",
+    "filename": "1.2.1.2 E-læring.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=203"
+  },
+  {
+    "id": "204",
+    "text": "Distancearbejde",
+    "chapter_folder": "Kapitel 1",
+    "filename": "1.2.1.3 Distancearbejde.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=204"
+  },
+  {
+    "id": "148",
+    "text": "1.2.2 Virksomhed",
+    "chapter_folder": "Kapitel 1",
+    "filename": "1.2.2 Virksomhed.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=148"
+  },
+  {
+    "id": "205",
+    "text": "Kommunikation",
+    "chapter_folder": "Kapitel 1",
+    "filename": "1.2.2.1 Kommunikation.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=205"
+  },
+  {
+    "id": "206",
+    "text": "Sociale medier",
+    "chapter_folder": "Kapitel 1",
+    "filename": "1.2.2.2 Sociale medier.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=206"
+  },
+  {
+    "id": "149",
+    "text": "1.2.3 Samfund",
+    "chapter_folder": "Kapitel 1",
+    "filename": "1.2.3 Samfund.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=149"
+  },
+  {
+    "id": "207",
+    "text": "Den digitale borger",
+    "chapter_folder": "Kapitel 1",
+    "filename": "1.2.3.1 Den digitale borger.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=207"
+  },
+  {
+    "id": "208",
+    "text": "Globalisering",
+    "chapter_folder": "Kapitel 1",
+    "filename": "1.2.3.2 Globalisering.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=208"
+  },
+  {
+    "id": "209",
+    "text": "Overvågningssamfund",
+    "chapter_folder": "Kapitel 1",
+    "filename": "1.2.3.3 Overvågningssamfund.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=209"
+  },
+  {
+    "id": "459",
+    "text": "1.3 Kunstig intelligens (AI)",
+    "chapter_folder": "Kapitel 1",
+    "filename": "1.3 Kunstig intelligens (AI).html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=459"
+  },
+  {
+    "id": "221",
+    "text": "Opgaver til kapitel 1",
+    "chapter_folder": "Kapitel 1",
+    "filename": "1.4 Opgaver til kapitel 1.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=221"
+  },
+  {
+    "id": "265",
+    "text": "Caseopgaver til kapitel 1",
+    "chapter_folder": "Kapitel 1",
+    "filename": "1.5 Caseopgaver til kapitel 1.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=265"
+  },
+  {
+    "id": "146",
+    "text": "2. Sikkerhed og adfærd",
+    "chapter_folder": "Kapitel 2",
+    "filename": "2.0 Sikkerhed og adfærd.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=146"
+  },
+  {
+    "id": "224",
+    "text": "2.1 Digital adfærd",
+    "chapter_folder": "Kapitel 2",
+    "filename": "2.1 Digital adfærd.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=224"
+  },
+  {
+    "id": "226",
+    "text": "2.1.1 Trusler fra nettet",
+    "chapter_folder": "Kapitel 2",
+    "filename": "2.1.1 Trusler fra nettet.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=226"
+  },
+  {
+    "id": "253",
+    "text": "2.1.2 Cookies",
+    "chapter_folder": "Kapitel 2",
+    "filename": "2.1.2 Cookies.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=253"
+  },
+  {
+    "id": "225",
+    "text": "2.1.3 Kildekritik",
+    "chapter_folder": "Kapitel 2",
+    "filename": "2.1.3 Kildekritik.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=225"
+  },
+  {
+    "id": "227",
+    "text": "2.1.4 Hvordan beskytter du dig på nettet?",
+    "chapter_folder": "Kapitel 2",
+    "filename": "2.1.4 Hvordan beskytter du dig på nettet-.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=227"
+  },
+  {
+    "id": "248",
+    "text": "2.2 Cybersikkerhed",
+    "chapter_folder": "Kapitel 2",
+    "filename": "2.2 Cybersikkerhed.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=248"
+  },
+  {
+    "id": "191",
+    "text": "2.2.1 Logisk sikkerhed",
+    "chapter_folder": "Kapitel 2",
+    "filename": "2.2.1 Logisk sikkerhed.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=191"
+  },
+  {
+    "id": "192",
+    "text": "2.2.2 Fysisk sikkerhed",
+    "chapter_folder": "Kapitel 2",
+    "filename": "2.2.2 Fysisk sikkerhed.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=192"
+  },
+  {
+    "id": "193",
+    "text": "2.2.3 Firewall",
+    "chapter_folder": "Kapitel 2",
+    "filename": "2.2.3 Firewall.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=193"
+  },
+  {
+    "id": "194",
+    "text": "2.2.4 Antivirusprogram",
+    "chapter_folder": "Kapitel 2",
+    "filename": "2.2.4 Antivirusprogram.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=194"
+  },
+  {
+    "id": "197",
+    "text": "2.2.5 VPN-forbindelse",
+    "chapter_folder": "Kapitel 2",
+    "filename": "2.2.5 VPN-forbindelse.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=197"
+  },
+  {
+    "id": "196",
+    "text": "2.2.6 Kryptering",
+    "chapter_folder": "Kapitel 2",
+    "filename": "2.2.6 Kryptering.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=196"
+  },
+  {
+    "id": "195",
+    "text": "2.2.7 Backup",
+    "chapter_folder": "Kapitel 2",
+    "filename": "2.2.7 Backup.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=195"
+  },
+  {
+    "id": "198",
+    "text": "2.2.8 Trådløse netværk",
+    "chapter_folder": "Kapitel 2",
+    "filename": "2.2.8 Trådløse netværk.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=198"
+  },
+  {
+    "id": "151",
+    "text": "2.3 Datalovgivning",
+    "chapter_folder": "Kapitel 2",
+    "filename": "2.3 Datalovgivning.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=151"
+  },
+  {
+    "id": "187",
+    "text": "2.3.1 Persondata",
+    "chapter_folder": "Kapitel 2",
+    "filename": "2.3.1 Persondata.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=187"
+  },
+  {
+    "id": "186",
+    "text": "2.3.2 Persondataforordningen",
+    "chapter_folder": "Kapitel 2",
+    "filename": "2.3.2 Persondataforordningen.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=186"
+  },
+  {
+    "id": "188",
+    "text": "2.3.3 Persondataforordningen og virksomheden",
+    "chapter_folder": "Kapitel 2",
+    "filename": "2.3.3 Persondataforordningen og virksomheden.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=188"
+  },
+  {
+    "id": "189",
+    "text": "2.3.4 Persondataforordningen og sociale medier",
+    "chapter_folder": "Kapitel 2",
+    "filename": "2.3.4 Persondataforordningen og sociale medier.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=189"
+  },
+  {
+    "id": "190",
+    "text": "2.3.5 Anden relevant lovgivning",
+    "chapter_folder": "Kapitel 2",
+    "filename": "2.3.5 Anden relevant lovgivning.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=190"
+  },
+  {
+    "id": "243",
+    "text": "Opgaver til kapitel 2",
+    "chapter_folder": "Kapitel 2",
+    "filename": "2.4 Opgaver til kapitel 2.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=243"
+  },
+  {
+    "id": "266",
+    "text": "Caseopgaver til kapitel 2",
+    "chapter_folder": "Kapitel 2",
+    "filename": "2.5 Caseopgaver til kapitel 2.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=266"
+  },
+  {
+    "id": "229",
+    "text": "3. Digitale artefakter",
+    "chapter_folder": "Kapitel 3",
+    "filename": "3.0 Digitale artefakter.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=229"
+  },
+  {
+    "id": "231",
+    "text": "3.1 Analyse af digitale artefakter",
+    "chapter_folder": "Kapitel 3",
+    "filename": "3.1 Analyse af digitale artefakter.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=231"
+  },
+  {
+    "id": "237",
+    "text": "3.1.1 Teknologianalyse",
+    "chapter_folder": "Kapitel 3",
+    "filename": "3.1.1 Teknologianalyse.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=237"
+  },
+  {
+    "id": "238",
+    "text": "3.1.2 Formålsanalyse",
+    "chapter_folder": "Kapitel 3",
+    "filename": "3.1.2 Formålsanalyse.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=238"
+  },
+  {
+    "id": "239",
+    "text": "3.1.3 Brugsstudier",
+    "chapter_folder": "Kapitel 3",
+    "filename": "3.1.3 Brugsstudier.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=239"
+  },
+  {
+    "id": "240",
+    "text": "3.1.4 Konsekvensvurdering",
+    "chapter_folder": "Kapitel 3",
+    "filename": "3.1.4 Konsekvensvurdering.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=240"
+  },
+  {
+    "id": "259",
+    "text": "3.1.5 Opsummering",
+    "chapter_folder": "Kapitel 3",
+    "filename": "3.1.5 Opsummering.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=259"
+  },
+  {
+    "id": "230",
+    "text": "3.2 Leavitts model",
+    "chapter_folder": "Kapitel 3",
+    "filename": "3.2 Leavitts model.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=230"
+  },
+  {
+    "id": "232",
+    "text": "3.2.1 Struktur",
+    "chapter_folder": "Kapitel 3",
+    "filename": "3.2.1 Struktur.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=232"
+  },
+  {
+    "id": "233",
+    "text": "3.2.2 Personer",
+    "chapter_folder": "Kapitel 3",
+    "filename": "3.2.2 Personer.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=233"
+  },
+  {
+    "id": "234",
+    "text": "3.2.3 Opgaver",
+    "chapter_folder": "Kapitel 3",
+    "filename": "3.2.3 Opgaver.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=234"
+  },
+  {
+    "id": "235",
+    "text": "3.2.4 Teknologi",
+    "chapter_folder": "Kapitel 3",
+    "filename": "3.2.4 Teknologi.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=235"
+  },
+  {
+    "id": "242",
+    "text": "Opgaver til kapitel 3",
+    "chapter_folder": "Kapitel 3",
+    "filename": "3.3 Opgaver til kapitel 3.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=242"
+  },
+  {
+    "id": "267",
+    "text": "Caseopgaver til kapitel 3",
+    "chapter_folder": "Kapitel 3",
+    "filename": "3.4 Caseopgaver til kapitel 3.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=267"
+  },
+  {
+    "id": "466",
+    "text": "4. Designudvikling",
+    "chapter_folder": "Kapitel 4",
+    "filename": "4.0 Designudvikling.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=466"
+  },
+  {
+    "id": "473",
+    "text": "4.1 Designprocesser",
+    "chapter_folder": "Kapitel 4",
+    "filename": "4.1 Designprocesser.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=473"
+  },
+  {
+    "id": "481",
+    "text": "4.2 Problemstilling",
+    "chapter_folder": "Kapitel 4",
+    "filename": "4.2 Problemstilling.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=481"
+  },
+  {
+    "id": "472",
+    "text": "4.3 Idégenerering",
+    "chapter_folder": "Kapitel 4",
+    "filename": "4.3 Idégenerering.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=472"
+  },
+  {
+    "id": "471",
+    "text": "4.4 Design",
+    "chapter_folder": "Kapitel 4",
+    "filename": "4.4 Design.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=471"
+  },
+  {
+    "id": "478",
+    "text": "4.4.1 Brugervenlighed",
+    "chapter_folder": "Kapitel 4",
+    "filename": "4.4.1 Brugervenlighed.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=478"
+  },
+  {
+    "id": "477",
+    "text": "4.4.2 Designprincipper",
+    "chapter_folder": "Kapitel 4",
+    "filename": "4.4.2 Designprincipper.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=477"
+  },
+  {
+    "id": "483",
+    "text": "4.4.3 Interaktionsdesign",
+    "chapter_folder": "Kapitel 4",
+    "filename": "4.4.3 Interaktionsdesign.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=483"
+  },
+  {
+    "id": "476",
+    "text": "4.4.4 Visuelt design",
+    "chapter_folder": "Kapitel 4",
+    "filename": "4.4.4 Visuelt design.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=476"
+  },
+  {
+    "id": "474",
+    "text": "4.4.5 Visuel identitet",
+    "chapter_folder": "Kapitel 4",
+    "filename": "4.4.5 Visuel identitet.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=474"
+  },
+  {
+    "id": "470",
+    "text": "4.5 Test",
+    "chapter_folder": "Kapitel 4",
+    "filename": "4.5 Test.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=470"
+  },
+  {
+    "id": "469",
+    "text": "4.6 Evaluering",
+    "chapter_folder": "Kapitel 4",
+    "filename": "4.6 Evaluering.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=469"
+  },
+  {
+    "id": "468",
+    "text": "Opgaver til kapitel 4",
+    "chapter_folder": "Kapitel 4",
+    "filename": "4.7 Opgaver til kapitel 4.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=468"
+  },
+  {
+    "id": "467",
+    "text": "Caseopgaver til kapitel 4",
+    "chapter_folder": "Kapitel 4",
+    "filename": "4.8 Caseopgaver til kapitel 4.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=467"
+  },
+  {
+    "id": "132",
+    "text": "5. Programmering",
+    "chapter_folder": "Kapitel 5",
+    "filename": "5.0 Programmering.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=132"
+  },
+  {
+    "id": "166",
+    "text": "5.1 Sekvenser og variabler",
+    "chapter_folder": "Kapitel 5",
+    "filename": "5.1 Sekvenser og variabler.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=166"
+  },
+  {
+    "id": "167",
+    "text": "5.2 Forgreninger",
+    "chapter_folder": "Kapitel 5",
+    "filename": "5.2 Forgreninger.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=167"
+  },
+  {
+    "id": "168",
+    "text": "5.3 Funktioner og kommentarer",
+    "chapter_folder": "Kapitel 5",
+    "filename": "5.3 Funktioner og kommentarer.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=168"
+  },
+  {
+    "id": "169",
+    "text": "5.4 Løkker",
+    "chapter_folder": "Kapitel 5",
+    "filename": "5.4 Løkker.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=169"
+  },
+  {
+    "id": "170",
+    "text": "Opgaver til kapitel 5",
+    "chapter_folder": "Kapitel 5",
+    "filename": "5.5 Opgaver til kapitel 5.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=170"
+  },
+  {
+    "id": "273",
+    "text": "Caseopgaver til kapitel 5",
+    "chapter_folder": "Kapitel 5",
+    "filename": "5.6 Caseopgaver til kapitel 5.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=273"
+  },
+  {
+    "id": "133",
+    "text": "6. Netværksarkitektur",
+    "chapter_folder": "Kapitel 6",
+    "filename": "6.0 Netværksarkitektur.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=133"
+  },
+  {
+    "id": "258",
+    "text": "6.1 Virksomhedens IT-system",
+    "chapter_folder": "Kapitel 6",
+    "filename": "6.1 Virksomhedens IT-system.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=258"
+  },
+  {
+    "id": "172",
+    "text": "6.2 3-lags arkitektur (C)",
+    "chapter_folder": "Kapitel 6",
+    "filename": "6.2 3-lags arkitektur (C).html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=172"
+  },
+  {
+    "id": "173",
+    "text": "6.3 Protokoller og internet (C)",
+    "chapter_folder": "Kapitel 6",
+    "filename": "6.3 Protokoller og internet (C).html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=173"
+  },
+  {
+    "id": "223",
+    "text": "Opgaver til kapitel 6",
+    "chapter_folder": "Kapitel 6",
+    "filename": "6.4 Opgaver til kapitel 6.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=223"
+  },
+  {
+    "id": "270",
+    "text": "Caseopgave til kapitel 6",
+    "chapter_folder": "Kapitel 6",
+    "filename": "6.5 Caseopgave til kapitel 6.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=270"
+  },
+  {
+    "id": "201",
+    "text": "7. Data",
+    "chapter_folder": "Kapitel 7",
+    "filename": "7.0 Data.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=201"
+  },
+  {
+    "id": "215",
+    "text": "7.1 Hvad er data?",
+    "chapter_folder": "Kapitel 7",
+    "filename": "7.1 Hvad er data-.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=215"
+  },
+  {
+    "id": "216",
+    "text": "7.2 Anvendelse af data",
+    "chapter_folder": "Kapitel 7",
+    "filename": "7.2 Anvendelse af data.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=216"
+  },
+  {
+    "id": "217",
+    "text": "7.3 Big Data",
+    "chapter_folder": "Kapitel 7",
+    "filename": "7.3 Big Data.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=217"
+  },
+  {
+    "id": "218",
+    "text": "7.4 Analyseværktøjer",
+    "chapter_folder": "Kapitel 7",
+    "filename": "7.4 Analyseværktøjer.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=218"
+  },
+  {
+    "id": "219",
+    "text": "7.5 Google Trends",
+    "chapter_folder": "Kapitel 7",
+    "filename": "7.5 Google Trends.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=219"
+  },
+  {
+    "id": "244",
+    "text": "Opgaver til kapitel 7",
+    "chapter_folder": "Kapitel 7",
+    "filename": "7.6 Opgaver til kapitel 7.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=244"
+  },
+  {
+    "id": "271",
+    "text": "Caseopgave til kapitel 7",
+    "chapter_folder": "Kapitel 7",
+    "filename": "7.7 Caseopgave til kapitel 7.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=271"
+  },
+  {
+    "id": "141",
+    "text": "8. Databaser",
+    "chapter_folder": "Kapitel 8",
+    "filename": "8.0 Databaser.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=141"
+  },
+  {
+    "id": "176",
+    "text": "8.1 Formål med databaser",
+    "chapter_folder": "Kapitel 8",
+    "filename": "8.1 Formål med databaser.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=176"
+  },
+  {
+    "id": "177",
+    "text": "8.2 Opbygning af databaser",
+    "chapter_folder": "Kapitel 8",
+    "filename": "8.2 Opbygning af databaser.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=177"
+  },
+  {
+    "id": "178",
+    "text": "8.3 Flade databaser",
+    "chapter_folder": "Kapitel 8",
+    "filename": "8.3 Flade databaser.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=178"
+  },
+  {
+    "id": "179",
+    "text": "8.4 Relationsdatabaser",
+    "chapter_folder": "Kapitel 8",
+    "filename": "8.4 Relationsdatabaser.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=179"
+  },
+  {
+    "id": "222",
+    "text": "Opgaver til kapitel 8",
+    "chapter_folder": "Kapitel 8",
+    "filename": "8.5 Opgaver til kapitel 8.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=222"
+  },
+  {
+    "id": "262",
+    "text": "Hands on opgaver",
+    "chapter_folder": "Kapitel 8",
+    "filename": "8.5.1 Hands on opgaver.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=262"
+  },
+  {
+    "id": "269",
+    "text": "Caseopgaver til kapitel 8",
+    "chapter_folder": "Kapitel 8",
+    "filename": "8.6 Caseopgaver til kapitel 8.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=269"
+  },
+  {
+    "id": "136",
+    "text": "9. Projekter",
+    "chapter_folder": "Kapitel 9",
+    "filename": "9.0 Projekter.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=136"
+  },
+  {
+    "id": "137",
+    "text": "9.1 Udvikling af et digitalt artefakt",
+    "chapter_folder": "Kapitel 9",
+    "filename": "9.1 Udvikling af et digitalt artefakt.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=137"
+  },
+  {
+    "id": "138",
+    "text": "9.2 Sundhedsapp",
+    "chapter_folder": "Kapitel 9",
+    "filename": "9.2 Sundhedsapp.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=138"
+  },
+  {
+    "id": "256",
+    "text": "9.3 e-conomic",
+    "chapter_folder": "Kapitel 9",
+    "filename": "9.3 e-conomic.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=256"
+  },
+  {
+    "id": "264",
+    "text": "9.4 MobilePay",
+    "chapter_folder": "Kapitel 9",
+    "filename": "9.4 MobilePay.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=264"
+  },
+  {
+    "id": "356",
+    "text": "9.5 iBog® som app",
+    "chapter_folder": "Kapitel 9",
+    "filename": "9.5 iBog® som app.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=356"
+  },
+  {
+    "id": "455",
+    "text": "9.6 Party-app",
+    "chapter_folder": "Kapitel 9",
+    "filename": "9.6 Party-app.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=455"
+  },
+  {
+    "id": "460",
+    "text": "9.7 Ahlsell",
+    "chapter_folder": "Kapitel 9",
+    "filename": "9.7 Ahlsell.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=460"
+  },
+  {
+    "id": "464",
+    "text": "9.8 Den digitale identitetstegnebog",
+    "chapter_folder": "Kapitel 9",
+    "filename": "9.8 Den digitale identitetstegnebog.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=464"
+  },
+  {
+    "id": "491",
+    "text": "Arkiv",
+    "chapter_folder": "Arkiv",
+    "filename": "Arkiv.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=491"
+  },
+  {
+    "id": "134",
+    "text": "4. Designudvikling",
+    "chapter_folder": "Arkiv",
+    "filename": "0.1 4. Designudvikling.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=134"
+  },
+  {
+    "id": "159",
+    "text": "4.1 Designprocesser",
+    "chapter_folder": "Arkiv",
+    "filename": "4.1 Designprocesser.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=159"
+  },
+  {
+    "id": "213",
+    "text": "4.2 Problemstilling og idégenerering",
+    "chapter_folder": "Arkiv",
+    "filename": "4.2 Problemstilling og idégenerering.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=213"
+  },
+  {
+    "id": "160",
+    "text": "4.3 Interaktionsdesign",
+    "chapter_folder": "Arkiv",
+    "filename": "4.3 Interaktionsdesign.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=160"
+  },
+  {
+    "id": "250",
+    "text": "4.3.1 Brugervenlighed",
+    "chapter_folder": "Arkiv",
+    "filename": "4.3.1 Brugervenlighed.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=250"
+  },
+  {
+    "id": "247",
+    "text": "4.3.2 Designregler",
+    "chapter_folder": "Arkiv",
+    "filename": "4.3.2 Designregler.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=247"
+  },
+  {
+    "id": "251",
+    "text": "4.3.3 Fonte og farver",
+    "chapter_folder": "Arkiv",
+    "filename": "4.3.3 Fonte og farver.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=251"
+  },
+  {
+    "id": "252",
+    "text": "4.3.4 Billeder og grafik",
+    "chapter_folder": "Arkiv",
+    "filename": "4.3.4 Billeder og grafik.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=252"
+  },
+  {
+    "id": "257",
+    "text": "4.3.5 Visuel identitet",
+    "chapter_folder": "Arkiv",
+    "filename": "4.3.5 Visuel identitet.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=257"
+  },
+  {
+    "id": "161",
+    "text": "4.4 Konstruktion",
+    "chapter_folder": "Arkiv",
+    "filename": "4.4 Konstruktion.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=161"
+  },
+  {
+    "id": "163",
+    "text": "4.5 Vurdering",
+    "chapter_folder": "Arkiv",
+    "filename": "4.5 Vurdering.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=163"
+  },
+  {
+    "id": "165",
+    "text": "Opgaver til kapitel 4",
+    "chapter_folder": "Arkiv",
+    "filename": "0.1.1 Opgaver til kapitel 4.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=165"
+  },
+  {
+    "id": "272",
+    "text": "Caseopgaver til kapitel 4",
+    "chapter_folder": "Arkiv",
+    "filename": "0.1.2 Caseopgaver til kapitel 4.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=272"
+  },
+  {
+    "id": "32",
+    "text": "Ordforklaringer",
+    "chapter_folder": "Ordforklaringer",
+    "filename": "Ordforklaringer.html",
+    "url": "https://erhvervsinformatik.systime.dk/?id=32"
+  }
+]
