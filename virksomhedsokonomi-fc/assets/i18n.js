@@ -167,7 +167,6 @@
     const audio = new Audio();
     currentAudio = audio;
     audio.preload = "auto";
-    audio.referrerPolicy = "no-referrer";
     audio.src = googleTtsUrl(text);
     audio.onended = () => {
       currentAudio = null;

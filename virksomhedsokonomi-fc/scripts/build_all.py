@@ -413,6 +413,8 @@ def render_page(
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google Translate TTS returns 404 when a non-Google Referer is sent. -->
+  <meta name="referrer" content="no-referrer">
   <title>{html.escape(title_da)} – {BOOK_SHORT}</title>
   <link rel="stylesheet" href="assets/style.css">
 </head>
