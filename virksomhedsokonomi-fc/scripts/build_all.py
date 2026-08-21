@@ -1,4 +1,4 @@
-"""Build bilingual chapter HTML pages for Erhvervsinformatik."""
+"""Build bilingual chapter HTML pages for Virksomhedsøkonomi F-C."""
 from __future__ import annotations
 
 import html
@@ -18,11 +18,12 @@ SITE_ROOT = ROOT.parent
 RAW = ROOT / "raw"
 CACHE = ROOT / "scripts" / "cache" / "i18n.json"
 EXTRACTED = ROOT / "scripts" / "extracted"
-BOOK_SLUG = "erhvervsinformatik"
+BOOK_SLUG = "virksomhedsokonomi-fc"
 BOOK_INDEX = f"{BOOK_SLUG}.html"
-BOOK_TITLE_DA = "Erhvervsinformatik til EUD/EUX"
-BOOK_TITLE_EN = "Business Informatics for EUD/EUX"
-BOOK_SHORT = "Erhvervsinformatik"
+BOOK_TITLE_DA = "Virksomhedsøkonomi F–C til EUD/EUX"
+BOOK_TITLE_EN = "Business Economics F–C for EUD/EUX"
+BOOK_SHORT = "Virksomhedsøkonomi"
+BOOK_COVER = "https://frontpage-images-production.systime.dk/generated/9788761695079/highres.webp"
 
 TRANSLATABLE = {"p", "h1", "h2", "h3", "h4", "li", "th", "td", "figcaption"}
 NESTED = {"ul", "ol", "table", "div"}
@@ -36,8 +37,6 @@ CHAPTER_SOURCES = [
     {"folder": "Kapitel 5", "num": 5, "file": "kapitel-05.html"},
     {"folder": "Kapitel 6", "num": 6, "file": "kapitel-06.html"},
     {"folder": "Kapitel 7", "num": 7, "file": "kapitel-07.html"},
-    {"folder": "Kapitel 8", "num": 8, "file": "kapitel-08.html"},
-    {"folder": "Kapitel 9", "num": 9, "file": "kapitel-09.html"},
 ]
 
 UI = {
@@ -59,65 +58,76 @@ UI = {
     "Opgaver til kapitel 5": "Tasks for chapter 5",
     "Opgaver til kapitel 6": "Tasks for chapter 6",
     "Opgaver til kapitel 7": "Tasks for chapter 7",
-    "Opgaver til kapitel 8": "Tasks for chapter 8",
     "Caseopgaver til kapitel 1": "Case tasks for chapter 1",
     "Caseopgaver til kapitel 2": "Case tasks for chapter 2",
     "Caseopgaver til kapitel 3": "Case tasks for chapter 3",
     "Caseopgaver til kapitel 4": "Case tasks for chapter 4",
     "Caseopgaver til kapitel 5": "Case tasks for chapter 5",
-    "Caseopgave til kapitel 6": "Case task for chapter 6",
-    "Caseopgave til kapitel 7": "Case task for chapter 7",
-    "Caseopgaver til kapitel 8": "Case tasks for chapter 8",
-    "Sociale medier": "Social media",
-    "Samfund": "Society",
-    "Virksomhed": "Business",
-    "Individ": "Individual",
-    "Kommunikation": "Communication",
-    "Globalisering": "Globalisation",
-    "E-læring": "E-learning",
-    "Distancearbejde": "Remote work",
-    "Livslang læring": "Lifelong learning",
-    "Den digitale borger": "The digital citizen",
-    "Overvågningssamfund": "Surveillance society",
-    "Fjernundervisning": "Remote teaching",
-    "Digital læsning": "Digital reading",
+    "Caseopgaver til kapitel 6": "Case tasks for chapter 6",
+    "Caseopgaver til kapitel 7": "Case tasks for chapter 7",
+    "Virksomheden": "The company",
+    "Regnskab": "Accounts",
+    "Budget": "Budget",
+    "Omkostninger": "Costs",
+    "Logistik": "Logistics",
+    "Økonomisystem": "Financial system",
+    "Økonomisk effektivitet": "Economic efficiency",
+    "1. Virksomheden": "1. The company",
+    "2. Regnskab": "2. Accounts",
+    "3. Budget": "3. Budget",
+    "4. Omkostninger": "4. Costs",
+    "5. Logistik": "5. Logistics",
+    "6. Økonomisystem": "6. Financial system",
+    "7. Økonomisk effektivitet": "7. Economic efficiency",
     "Tips til læsning på skærm": "Tips for reading on screen",
     "Tour de iBog": "Tour of the iBook",
-    "Portfolio": "Portfolio",
-    "Programmering": "Programming",
-    "Databaser": "Databases",
-    "5. Programmering": "5. Programming",
-    "8. Databaser": "8. Databases",
-    "2.2.6 Kryptering": "2.2.6 Encryption",
+    "Virksomhedsøkonomi": "Business economics",
+    "Debet": "Debit",
+    "Kredit": "Credit",
+    "Aktiver": "Assets",
+    "Passiver": "Liabilities",
+    "Resultatopgørelse": "Income statement",
+    "Balance": "Balance sheet",
+    "Likviditet": "Liquidity",
+    "Soliditet": "Solvency",
+    "Rentabilitet": "Profitability",
 }
 
 TERMS = [
-    ("erhvervsinformatik", "business informatics"),
-    ("kunstig intelligens", "artificial intelligence"),
-    ("databaser", "databases"),
-    ("databasen", "the database"),
-    ("database", "database"),
-    ("programmering", "programming"),
-    ("cybersikkerhed", "cybersecurity"),
-    ("firewall", "firewall"),
-    ("kryptering", "encryption"),
-    ("persondata", "personal data"),
-    ("persondataforordningen", "the GDPR"),
-    ("big data", "big data"),
-    ("netværksarkitektur", "network architecture"),
-    ("digitale artefakter", "digital artefacts"),
-    ("interaktionsdesign", "interaction design"),
-    ("brugervenlighed", "usability"),
-    ("protokoller", "protocols"),
-    ("variabler", "variables"),
-    ("funktioner", "functions"),
-    ("løkker", "loops"),
+    ("virksomhedsøkonomi", "business economics"),
+    ("regnskab", "accounts"),
+    ("regnskabet", "the accounts"),
+    ("budget", "budget"),
+    ("budgetter", "budgets"),
+    ("omkostninger", "costs"),
+    ("omkostning", "cost"),
+    ("logistik", "logistics"),
+    ("økonomisystem", "financial system"),
+    ("økonomisystemer", "financial systems"),
+    ("økonomisk effektivitet", "economic efficiency"),
+    ("likviditet", "liquidity"),
+    ("soliditet", "solvency"),
+    ("rentabilitet", "profitability"),
+    ("resultatopgørelse", "income statement"),
+    ("balance", "balance sheet"),
+    ("aktiver", "assets"),
+    ("passiver", "liabilities"),
+    ("debet", "debit"),
+    ("kredit", "credit"),
+    ("indtægter", "revenue"),
+    ("indtægt", "revenue"),
+    ("dækningsbidrag", "contribution margin"),
+    ("nøgletal", "key figures"),
+    ("lager", "inventory"),
+    ("leverandør", "supplier"),
+    ("leverandører", "suppliers"),
 ]
 
 DANISH_HINT = re.compile(
     r"[æøåÆØÅ]|"
     r"\b(?:og|er|det|til|med|for|som|virksomhed\w*|kapitel\w*|elever\w*|"
-    r"opgaver\w*|afsnit\w*|data\w*|program\w*|sikkerhed\w*|netv\w*|"
+    r"opgaver\w*|afsnit\w*|regnskab\w*|budget\w*|omkostning\w*|"
+    r"økonomi\w*|likviditet\w*|aktiv\w*|passiv\w*|indtægt\w*|"
     r"design\w*|teknologi\w*|digital\w*|system\w*|opgave\w*|begreb\w*)\b",
     re.IGNORECASE,
 )
@@ -504,13 +514,13 @@ def render_book_picker() -> str:
           <img src="afsætning-fc/assets/book1.webp" alt="" width="240" height="340" loading="lazy">
           <h2><span lang="da">Afsætning F–C til EUD/EUX</span><span lang="en">Marketing F–C for EUD/EUX</span></h2>
         </a>
-        <a class="book-card" href="virksomhedsokonomi-fc/virksomhedsokonomi-fc.html">
-          <img src="https://frontpage-images-production.systime.dk/generated/9788761695079/highres.webp" alt="" width="240" height="340" loading="lazy">
-          <h2><span lang="da">Virksomhedsøkonomi F–C til EUD/EUX</span><span lang="en">Business Economics F–C for EUD/EUX</span></h2>
-        </a>
-        <a class="book-card" href="erhvervsinformatik/{BOOK_INDEX}">
-          <img src="https://frontpage-images-production.systime.dk/generated/9788761696670/highres.webp" alt="" width="240" height="340" loading="lazy">
+        <a class="book-card" href="virksomhedsokonomi-fc/{BOOK_INDEX}">
+          <img src="{BOOK_COVER}" alt="" width="240" height="340" loading="lazy">
           <h2><span lang="da">{html.escape(BOOK_TITLE_DA)}</span><span lang="en">{html.escape(BOOK_TITLE_EN)}</span></h2>
+        </a>
+        <a class="book-card" href="erhvervsinformatik/erhvervsinformatik.html">
+          <img src="https://frontpage-images-production.systime.dk/generated/9788761696670/highres.webp" alt="" width="240" height="340" loading="lazy">
+          <h2><span lang="da">Erhvervsinformatik til EUD/EUX</span><span lang="en">Business Informatics for EUD/EUX</span></h2>
         </a>
       </div>
     </main>
@@ -609,11 +619,11 @@ def main() -> None:
             next_ch = nav_entry(built[index + 1]) if index + 1 < len(built) else None
             write_chapter_page(ch, prev_ch, next_ch)
 
-        if built and not only:
+        if built and only is None:
             (ROOT / BOOK_INDEX).write_text(render_index(built), encoding="utf-8")
     finally:
         tr.save()
-        if not only and built:
+        if only is None and built:
             (ROOT / BOOK_INDEX).write_text(render_index(built), encoding="utf-8")
             (SITE_ROOT / "index.html").write_text(render_book_picker(), encoding="utf-8")
             print(f"Wrote index.html and {BOOK_INDEX}")

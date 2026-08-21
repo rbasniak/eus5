@@ -1,0 +1,1187 @@
+[
+  {
+    "id": "129",
+    "text": "Introduktion",
+    "padding": "16px"
+  },
+  {
+    "id": "193",
+    "text": "Introduktion til Fashion Shoe",
+    "padding": "38px"
+  },
+  {
+    "id": "564",
+    "text": "Introduktion til Bygma",
+    "padding": "38px"
+  },
+  {
+    "id": "364",
+    "text": "Tour de iBog",
+    "padding": "38px"
+  },
+  {
+    "id": "130",
+    "text": "1. Virksomheden",
+    "padding": "16px"
+  },
+  {
+    "id": "131",
+    "text": "1.1 Virksomhedstyper",
+    "padding": "38px"
+  },
+  {
+    "id": "135",
+    "text": "1.1.1 Produktionsvirksomheder",
+    "padding": "60px"
+  },
+  {
+    "id": "136",
+    "text": "1.1.2 Handelsvirksomheder",
+    "padding": "60px"
+  },
+  {
+    "id": "137",
+    "text": "1.1.3 Servicevirksomheder",
+    "padding": "60px"
+  },
+  {
+    "id": "138",
+    "text": "1.1.4 Blandede virksomheder",
+    "padding": "60px"
+  },
+  {
+    "id": "574",
+    "text": "1.1.5 Bygma og virksomhedstyper",
+    "padding": "60px"
+  },
+  {
+    "id": "132",
+    "text": "1.2 Ejerformer",
+    "padding": "38px"
+  },
+  {
+    "id": "139",
+    "text": "1.2.1 Enkeltmandsvirksomhed",
+    "padding": "60px"
+  },
+  {
+    "id": "140",
+    "text": "1.2.2 Interessentskab I/S",
+    "padding": "60px"
+  },
+  {
+    "id": "141",
+    "text": "1.2.3 Anpartsselskab ApS",
+    "padding": "60px"
+  },
+  {
+    "id": "142",
+    "text": "1.2.4 Aktieselskab A/S",
+    "padding": "60px"
+  },
+  {
+    "id": "576",
+    "text": "1.2.5 Bygma og ejerformer",
+    "padding": "60px"
+  },
+  {
+    "id": "133",
+    "text": "1.3 Finansieringsformer",
+    "padding": "38px"
+  },
+  {
+    "id": "143",
+    "text": "1.3.1 Egenkapital og fremmedkapital",
+    "padding": "60px"
+  },
+  {
+    "id": "155",
+    "text": "1.3.2 Etableringsbudget",
+    "padding": "60px"
+  },
+  {
+    "id": "577",
+    "text": "1.3.3 Bygma og finansieringsformer",
+    "padding": "60px"
+  },
+  {
+    "id": "134",
+    "text": "1.4 Momssystemet",
+    "padding": "38px"
+  },
+  {
+    "id": "146",
+    "text": "1.4.1 Beregning af moms",
+    "padding": "60px"
+  },
+  {
+    "id": "144",
+    "text": "1.4.2 Købsmoms",
+    "padding": "60px"
+  },
+  {
+    "id": "147",
+    "text": "1.4.3 Salgsmoms",
+    "padding": "60px"
+  },
+  {
+    "id": "148",
+    "text": "1.4.4 Momsberegninger i butikken",
+    "padding": "60px"
+  },
+  {
+    "id": "145",
+    "text": "1.4.5 Momsafregning",
+    "padding": "60px"
+  },
+  {
+    "id": "578",
+    "text": "1.4.6 Bygma og momssystemet",
+    "padding": "60px"
+  },
+  {
+    "id": "150",
+    "text": "Opgaver til kapitel 1",
+    "padding": "38px"
+  },
+  {
+    "id": "151",
+    "text": "Opgaver: 1.1 Virksomhedstyper",
+    "padding": "60px"
+  },
+  {
+    "id": "152",
+    "text": "Opgaver: 1.2 Ejerformer",
+    "padding": "60px"
+  },
+  {
+    "id": "153",
+    "text": "Opgaver: 1.3 Finansieringsformer",
+    "padding": "60px"
+  },
+  {
+    "id": "154",
+    "text": "Opgaver: 1.4 Momssystemet",
+    "padding": "60px"
+  },
+  {
+    "id": "156",
+    "text": "Caseopgaver til kapitel 1",
+    "padding": "60px"
+  },
+  {
+    "id": "149",
+    "text": "Begrebstræning i kapitel 1",
+    "padding": "38px"
+  },
+  {
+    "id": "158",
+    "text": "2. Regnskab",
+    "padding": "16px"
+  },
+  {
+    "id": "159",
+    "text": "2.1 Virksomhedens økonomiske proces",
+    "padding": "38px"
+  },
+  {
+    "id": "580",
+    "text": "2.1.1 Bygma og økonomiske processer",
+    "padding": "60px"
+  },
+  {
+    "id": "160",
+    "text": "2.2 Regnskabets opbygning",
+    "padding": "38px"
+  },
+  {
+    "id": "161",
+    "text": "2.2.1 Bruttoavance",
+    "padding": "60px"
+  },
+  {
+    "id": "162",
+    "text": "2.2.2 Resultatopgørelse",
+    "padding": "60px"
+  },
+  {
+    "id": "163",
+    "text": "2.2.3 Balance",
+    "padding": "60px"
+  },
+  {
+    "id": "164",
+    "text": "2.2.4 Likvide beholdninger",
+    "padding": "60px"
+  },
+  {
+    "id": "207",
+    "text": "2.2.5 Bogføring",
+    "padding": "60px"
+  },
+  {
+    "id": "581",
+    "text": "2.2.6 Bygma og regnskabets opbygning",
+    "padding": "60px"
+  },
+  {
+    "id": "165",
+    "text": "2.3 Årsregnskab for personligt ejet virksomhed",
+    "padding": "38px"
+  },
+  {
+    "id": "166",
+    "text": "2.3.1 Saldobalance",
+    "padding": "60px"
+  },
+  {
+    "id": "167",
+    "text": "2.3.2 Opstilling af årsregnskabet",
+    "padding": "60px"
+  },
+  {
+    "id": "168",
+    "text": "2.3.3 Kommentarer til årsregnskabet",
+    "padding": "60px"
+  },
+  {
+    "id": "169",
+    "text": "2.4 Årsregnskab for selskab (C)",
+    "padding": "38px"
+  },
+  {
+    "id": "170",
+    "text": "2.4.1 Saldobalance (C)",
+    "padding": "60px"
+  },
+  {
+    "id": "171",
+    "text": "2.4.2 Opstilling af årsregnskabet (C)",
+    "padding": "60px"
+  },
+  {
+    "id": "190",
+    "text": "2.4.3 Resultatopgørelse (C)",
+    "padding": "60px"
+  },
+  {
+    "id": "265",
+    "text": "Resultatopgørelse uden noter (C)",
+    "padding": "80px"
+  },
+  {
+    "id": "261",
+    "text": "Resultatopgørelse med noter (C)",
+    "padding": "80px"
+  },
+  {
+    "id": "191",
+    "text": "2.4.4 Balance (C)",
+    "padding": "60px"
+  },
+  {
+    "id": "266",
+    "text": "Balance uden noter (C)",
+    "padding": "80px"
+  },
+  {
+    "id": "262",
+    "text": "Balance med noter (C)",
+    "padding": "80px"
+  },
+  {
+    "id": "172",
+    "text": "2.4.5 Kommentarer til årsregnskabet (C)",
+    "padding": "60px"
+  },
+  {
+    "id": "583",
+    "text": "2.4.6 Bygma og årsregnskab for selskaber (C)",
+    "padding": "60px"
+  },
+  {
+    "id": "173",
+    "text": "Opgaver til kapitel 2",
+    "padding": "38px"
+  },
+  {
+    "id": "201",
+    "text": "Opgaver: 2.1 Virksomhedens økonomiske proces",
+    "padding": "60px"
+  },
+  {
+    "id": "202",
+    "text": "Opgaver: 2.2 Regnskabets opbygning",
+    "padding": "60px"
+  },
+  {
+    "id": "203",
+    "text": "Opgaver: 2.3 Årsregnskab for personligt ejet virksomhed",
+    "padding": "60px"
+  },
+  {
+    "id": "204",
+    "text": "Opgaver: 2.4 Årsregnskab for selskab (C)",
+    "padding": "60px"
+  },
+  {
+    "id": "174",
+    "text": "Caseopgaver til kapitel 2",
+    "padding": "60px"
+  },
+  {
+    "id": "176",
+    "text": "Begrebstræning i kapitel 2",
+    "padding": "38px"
+  },
+  {
+    "id": "213",
+    "text": "Supplerende stof til kapitel 2",
+    "padding": "38px"
+  },
+  {
+    "id": "216",
+    "text": "Virksomhedens funktioner",
+    "padding": "60px"
+  },
+  {
+    "id": "260",
+    "text": "Opgaver: Virksomhedens funktioner",
+    "padding": "60px"
+  },
+  {
+    "id": "177",
+    "text": "3. Budget",
+    "padding": "16px"
+  },
+  {
+    "id": "178",
+    "text": "3.1 Bruttoavancebudget",
+    "padding": "38px"
+  },
+  {
+    "id": "179",
+    "text": "3.1.1 Kvartalsopdelt bruttoavancebudget",
+    "padding": "60px"
+  },
+  {
+    "id": "180",
+    "text": "3.1.2 Kontrol af bruttoavancebudget",
+    "padding": "60px"
+  },
+  {
+    "id": "584",
+    "text": "3.1.3 Bygma og bruttoavancebudget",
+    "padding": "60px"
+  },
+  {
+    "id": "181",
+    "text": "3.2 Resultatbudget",
+    "padding": "38px"
+  },
+  {
+    "id": "182",
+    "text": "3.2.1 Kontrol af resultatbudget (C)",
+    "padding": "60px"
+  },
+  {
+    "id": "183",
+    "text": "3.2.2 Kvartalsopdelt resultatbudget (C)",
+    "padding": "60px"
+  },
+  {
+    "id": "184",
+    "text": "3.2.3 Kontrol af kvartalsopdelt resultatbudget (C)",
+    "padding": "60px"
+  },
+  {
+    "id": "585",
+    "text": "3.2.4 Bygma og resultatbudget",
+    "padding": "60px"
+  },
+  {
+    "id": "185",
+    "text": "3.3 Likviditetsbudget (C)",
+    "padding": "38px"
+  },
+  {
+    "id": "186",
+    "text": "3.3.1 Likviditetsbudget ved kontant køb og salg",
+    "padding": "60px"
+  },
+  {
+    "id": "187",
+    "text": "3.3.2 Indtægt og indbetaling",
+    "padding": "60px"
+  },
+  {
+    "id": "188",
+    "text": "3.3.3 Udgift, omkostning og udbetaling",
+    "padding": "60px"
+  },
+  {
+    "id": "189",
+    "text": "3.3.4 Kvartalsopdelt likviditetsbudget",
+    "padding": "60px"
+  },
+  {
+    "id": "555",
+    "text": "Personligt ejet virksomhed",
+    "padding": "80px"
+  },
+  {
+    "id": "556",
+    "text": "Selskab",
+    "padding": "80px"
+  },
+  {
+    "id": "586",
+    "text": "3.3.5 Bygma og likviditetsbudget",
+    "padding": "60px"
+  },
+  {
+    "id": "194",
+    "text": "Opgaver til kapitel 3",
+    "padding": "38px"
+  },
+  {
+    "id": "198",
+    "text": "Opgaver: 3.1 Bruttoavancebudget",
+    "padding": "60px"
+  },
+  {
+    "id": "199",
+    "text": "Opgaver: 3.2 Resultatbudget",
+    "padding": "60px"
+  },
+  {
+    "id": "200",
+    "text": "Opgaver: 3.3 Likviditetsbudget",
+    "padding": "60px"
+  },
+  {
+    "id": "195",
+    "text": "Caseopgaver til kapitel 3",
+    "padding": "60px"
+  },
+  {
+    "id": "197",
+    "text": "Begrebstræning i kapitel 3",
+    "padding": "38px"
+  },
+  {
+    "id": "214",
+    "text": "Supplerende stof til kapitel 3",
+    "padding": "38px"
+  },
+  {
+    "id": "192",
+    "text": "4. Omkostninger",
+    "padding": "16px"
+  },
+  {
+    "id": "267",
+    "text": "4.1 Virksomhedens omkostninger",
+    "padding": "38px"
+  },
+  {
+    "id": "587",
+    "text": "4.1.1 Bygma og virksomhedens omkostninger",
+    "padding": "60px"
+  },
+  {
+    "id": "268",
+    "text": "4.2 Variable omkostninger",
+    "padding": "38px"
+  },
+  {
+    "id": "269",
+    "text": "4.2.1 Proportionale variable omkostninger",
+    "padding": "60px"
+  },
+  {
+    "id": "270",
+    "text": "4.2.2 Degressive variable omkostninger",
+    "padding": "60px"
+  },
+  {
+    "id": "271",
+    "text": "4.2.3 Progressive variable omkostninger",
+    "padding": "60px"
+  },
+  {
+    "id": "272",
+    "text": "4.2.4 Et sammensat forløb",
+    "padding": "60px"
+  },
+  {
+    "id": "273",
+    "text": "4.2.5 Dækningsbidrag",
+    "padding": "60px"
+  },
+  {
+    "id": "589",
+    "text": "4.2.6 Bygma og variable omkostninger",
+    "padding": "60px"
+  },
+  {
+    "id": "274",
+    "text": "4.3 Kapacitetsomkostninger",
+    "padding": "38px"
+  },
+  {
+    "id": "590",
+    "text": "4.3.1 Bygma og kapacitetsomkostninger",
+    "padding": "60px"
+  },
+  {
+    "id": "276",
+    "text": "4.4 Samlede omkostninger",
+    "padding": "38px"
+  },
+  {
+    "id": "275",
+    "text": "4.5 Afskrivninger",
+    "padding": "38px"
+  },
+  {
+    "id": "592",
+    "text": "Afskrivninger i Bygma",
+    "padding": "60px"
+  },
+  {
+    "id": "277",
+    "text": "4.6 Afskrivningsmetoder",
+    "padding": "38px"
+  },
+  {
+    "id": "278",
+    "text": "4.6.1 Den lineære metode",
+    "padding": "60px"
+  },
+  {
+    "id": "279",
+    "text": "4.6.2 Saldometoden",
+    "padding": "60px"
+  },
+  {
+    "id": "591",
+    "text": "4.6.3 Afskrivningsmetoder i Bygma",
+    "padding": "60px"
+  },
+  {
+    "id": "280",
+    "text": "4.7 Lønformer",
+    "padding": "38px"
+  },
+  {
+    "id": "593",
+    "text": "Lønformer i Bygma",
+    "padding": "60px"
+  },
+  {
+    "id": "281",
+    "text": "4.8 Kalkulationer",
+    "padding": "38px"
+  },
+  {
+    "id": "282",
+    "text": "4.8.1 Bidragskalkulation af varens omkostninger",
+    "padding": "60px"
+  },
+  {
+    "id": "283",
+    "text": "4.8.2 Kalkulation af varens salgspris",
+    "padding": "60px"
+  },
+  {
+    "id": "284",
+    "text": "4.9 Kalkulation i udenlandsk valuta",
+    "padding": "38px"
+  },
+  {
+    "id": "222",
+    "text": "Opgaver til kapitel 4",
+    "padding": "38px"
+  },
+  {
+    "id": "231",
+    "text": "Opgaver: 4.1 Virksomhedens omkostninger",
+    "padding": "60px"
+  },
+  {
+    "id": "232",
+    "text": "Opgaver: 4.2 Variable omkostninger",
+    "padding": "60px"
+  },
+  {
+    "id": "233",
+    "text": "Opgaver: 4.3 Kapacitetsomkostninger",
+    "padding": "60px"
+  },
+  {
+    "id": "234",
+    "text": "Opgaver: 4.4 Samlede omkostninger",
+    "padding": "60px"
+  },
+  {
+    "id": "237",
+    "text": "Opgaver: 4.5 Afskrivninger",
+    "padding": "60px"
+  },
+  {
+    "id": "235",
+    "text": "Opgaver: 4.6 Afskrivningsmetoder",
+    "padding": "60px"
+  },
+  {
+    "id": "236",
+    "text": "Opgaver: 4.7 Lønformer",
+    "padding": "60px"
+  },
+  {
+    "id": "238",
+    "text": "Opgaver: 4.8 Forkalkulation",
+    "padding": "60px"
+  },
+  {
+    "id": "239",
+    "text": "Opgaver: 4.9 Kalkulation i udenlandsk valuta",
+    "padding": "60px"
+  },
+  {
+    "id": "240",
+    "text": "Caseopgaver til kapitel 4",
+    "padding": "60px"
+  },
+  {
+    "id": "230",
+    "text": "Begrebstræning i kapitel 4",
+    "padding": "38px"
+  },
+  {
+    "id": "217",
+    "text": "Supplerende stof til kapitel 4",
+    "padding": "38px"
+  },
+  {
+    "id": "219",
+    "text": "Kalkulation i produktionsvirksomhed",
+    "padding": "60px"
+  },
+  {
+    "id": "218",
+    "text": "Efterkalkulation",
+    "padding": "60px"
+  },
+  {
+    "id": "220",
+    "text": "Personaleressourcernes effektivitet",
+    "padding": "60px"
+  },
+  {
+    "id": "221",
+    "text": "Nulpunktsberegninger",
+    "padding": "60px"
+  },
+  {
+    "id": "224",
+    "text": "Opgaver til supplerende stof i kapitel til kapitel 4",
+    "padding": "60px"
+  },
+  {
+    "id": "226",
+    "text": "Opgaver: Efterkalkulation",
+    "padding": "80px"
+  },
+  {
+    "id": "227",
+    "text": "Opgaver: Kalkulation i produktionsvirksomhed",
+    "padding": "80px"
+  },
+  {
+    "id": "228",
+    "text": "Opgaver: Personaleressourcernes effektivitet",
+    "padding": "80px"
+  },
+  {
+    "id": "229",
+    "text": "Opgaver: Nulpunktsberegninger",
+    "padding": "80px"
+  },
+  {
+    "id": "210",
+    "text": "5. Logistik",
+    "padding": "16px"
+  },
+  {
+    "id": "311",
+    "text": "5.1 Varestrømmen i handelsvirksomheder",
+    "padding": "38px"
+  },
+  {
+    "id": "312",
+    "text": "5.2 Logistikprocessen",
+    "padding": "38px"
+  },
+  {
+    "id": "313",
+    "text": "5.3 Logistikfunktionens organisering",
+    "padding": "38px"
+  },
+  {
+    "id": "318",
+    "text": "5.3.1 Arbejdsdeling",
+    "padding": "60px"
+  },
+  {
+    "id": "319",
+    "text": "5.3.2 Outsourcing",
+    "padding": "60px"
+  },
+  {
+    "id": "320",
+    "text": "5.3.3 Logistikfunktionens placering i virksomheden",
+    "padding": "60px"
+  },
+  {
+    "id": "314",
+    "text": "5.4 Optimering af virksomhedens logistik (C)",
+    "padding": "38px"
+  },
+  {
+    "id": "321",
+    "text": "5.4.1 Logistikomkostninger (C)",
+    "padding": "60px"
+  },
+  {
+    "id": "322",
+    "text": "5.4.2 Leveringsservice (C)",
+    "padding": "60px"
+  },
+  {
+    "id": "323",
+    "text": "5.4.3 Logistisk effektivitet (C)",
+    "padding": "60px"
+  },
+  {
+    "id": "315",
+    "text": "5.5 Lagermotiver (C)",
+    "padding": "38px"
+  },
+  {
+    "id": "316",
+    "text": "5.6 Indkøbsstyring (C)",
+    "padding": "38px"
+  },
+  {
+    "id": "317",
+    "text": "5.7 Optimal indkøbsstørrelse (C)",
+    "padding": "38px"
+  },
+  {
+    "id": "242",
+    "text": "Opgaver til kapitel 5",
+    "padding": "38px"
+  },
+  {
+    "id": "248",
+    "text": "Opgaver: 5.1 Varestrømmen i handelsvirksomheder",
+    "padding": "60px"
+  },
+  {
+    "id": "249",
+    "text": "Opgaver: 5.2 Logistikprocessen",
+    "padding": "60px"
+  },
+  {
+    "id": "250",
+    "text": "Opgaver: 5.3 Logistikfunktionens organisering",
+    "padding": "60px"
+  },
+  {
+    "id": "251",
+    "text": "Opgaver: 5.4 Optimering af logistikken",
+    "padding": "60px"
+  },
+  {
+    "id": "252",
+    "text": "Opgaver: 5.5 Lagermotiver (C)",
+    "padding": "60px"
+  },
+  {
+    "id": "253",
+    "text": "Opgaver: 5.6 Indkøbsstyring (C)",
+    "padding": "60px"
+  },
+  {
+    "id": "254",
+    "text": "Opgaver: 5.7 Optimal indkøbsstørrelse (C)",
+    "padding": "60px"
+  },
+  {
+    "id": "245",
+    "text": "Caseopgaver til kapitel 5",
+    "padding": "60px"
+  },
+  {
+    "id": "244",
+    "text": "Begrebstræning i kapitel 5",
+    "padding": "38px"
+  },
+  {
+    "id": "255",
+    "text": "Supplerende stof til kapitel 5",
+    "padding": "38px"
+  },
+  {
+    "id": "256",
+    "text": "Lagerstyring i produktionsvirksomhed",
+    "padding": "60px"
+  },
+  {
+    "id": "257",
+    "text": "Opgaver til supplerende stof til kapitel 5",
+    "padding": "60px"
+  },
+  {
+    "id": "258",
+    "text": "Opgaver: Lagerstyring i produktionsvirksomhed",
+    "padding": "80px"
+  },
+  {
+    "id": "211",
+    "text": "6. Økonomisystem",
+    "padding": "16px"
+  },
+  {
+    "id": "294",
+    "text": "6.1 Økonomimodul/Finansmodul",
+    "padding": "38px"
+  },
+  {
+    "id": "295",
+    "text": "6.2 Lagermodul",
+    "padding": "38px"
+  },
+  {
+    "id": "296",
+    "text": "6.3 Kreditormodul (C)",
+    "padding": "38px"
+  },
+  {
+    "id": "297",
+    "text": "6.4 Debitormodul (C)",
+    "padding": "38px"
+  },
+  {
+    "id": "298",
+    "text": "6.5 Det integrerede ERP-system (C)",
+    "padding": "38px"
+  },
+  {
+    "id": "540",
+    "text": "6.6 Cybersikkerhed",
+    "padding": "38px"
+  },
+  {
+    "id": "543",
+    "text": "6.7 ERP-systemet i Fashion Shoe",
+    "padding": "38px"
+  },
+  {
+    "id": "299",
+    "text": "Opgaver til kapitel 6",
+    "padding": "38px"
+  },
+  {
+    "id": "310",
+    "text": "Opgaver 6.1: Økonomimodul",
+    "padding": "60px"
+  },
+  {
+    "id": "324",
+    "text": "Opgaver 6.2: Lagermodul",
+    "padding": "60px"
+  },
+  {
+    "id": "325",
+    "text": "Opgaver 6.3: Kreditormodul (C)",
+    "padding": "60px"
+  },
+  {
+    "id": "326",
+    "text": "Opgaver 6.4: Debitormodul (C)",
+    "padding": "60px"
+  },
+  {
+    "id": "333",
+    "text": "Opgaver 6.5: Det integrerede ERP-system (C)",
+    "padding": "60px"
+  },
+  {
+    "id": "334",
+    "text": "Caseopgave til kapitel 6",
+    "padding": "60px"
+  },
+  {
+    "id": "327",
+    "text": "Begrebstræning i kapitel 6",
+    "padding": "38px"
+  },
+  {
+    "id": "328",
+    "text": "Supplerende stof til kapitel 6",
+    "padding": "38px"
+  },
+  {
+    "id": "330",
+    "text": "Opgaver til supplerende stof til kapitel 6",
+    "padding": "60px"
+  },
+  {
+    "id": "377",
+    "text": "Opgaver til registrering og databehandling i et ERP-system",
+    "padding": "80px"
+  },
+  {
+    "id": "212",
+    "text": "7. Økonomisk effektivitet",
+    "padding": "16px"
+  },
+  {
+    "id": "340",
+    "text": "7.1 Økonomisk effektivitet i resultatopgørelsen",
+    "padding": "38px"
+  },
+  {
+    "id": "341",
+    "text": "7.1.1 Ændring i afsætning",
+    "padding": "60px"
+  },
+  {
+    "id": "342",
+    "text": "7.1.2 Ændring i salgspris",
+    "padding": "60px"
+  },
+  {
+    "id": "343",
+    "text": "7.1.3 Ændring i kostpris",
+    "padding": "60px"
+  },
+  {
+    "id": "344",
+    "text": "7.1.4 Ændring i salgspris, kostpris og kapacitetsomkostninger",
+    "padding": "60px"
+  },
+  {
+    "id": "345",
+    "text": "7.1.5 Ændring i sammensætningen i salget (C)",
+    "padding": "60px"
+  },
+  {
+    "id": "346",
+    "text": "7.2 Indtjeningsevnen (C)",
+    "padding": "38px"
+  },
+  {
+    "id": "347",
+    "text": "7.2.1 Resultatopgørelse efter bidragsmetoden (C)",
+    "padding": "60px"
+  },
+  {
+    "id": "348",
+    "text": "7.2.2 Overskudsgrad (C)",
+    "padding": "60px"
+  },
+  {
+    "id": "349",
+    "text": "7.2.3 Nettoomsætning og variable omkostninger (C)",
+    "padding": "60px"
+  },
+  {
+    "id": "350",
+    "text": "7.2.4 Nettoomsætning og kapacitetsomkostninger (C)",
+    "padding": "60px"
+  },
+  {
+    "id": "351",
+    "text": "7.3 Økonomisk effektivitet i balancen (C)",
+    "padding": "38px"
+  },
+  {
+    "id": "352",
+    "text": "7.3.1 Den likvide beholdning (C)",
+    "padding": "60px"
+  },
+  {
+    "id": "353",
+    "text": "7.3.2 Køb af aktiver (C)",
+    "padding": "60px"
+  },
+  {
+    "id": "354",
+    "text": "7.4 Samlet økonomisk effektivitet (C)",
+    "padding": "38px"
+  },
+  {
+    "id": "304",
+    "text": "Opgaver til kapitel 7",
+    "padding": "38px"
+  },
+  {
+    "id": "305",
+    "text": "Opgaver 7.1: Økonomisk effektivitet i resultatopgørelsen",
+    "padding": "60px"
+  },
+  {
+    "id": "336",
+    "text": "Opgaver 7.2: Indtjeningsevnen (C)",
+    "padding": "60px"
+  },
+  {
+    "id": "355",
+    "text": "Opgaver 7.3: Økonomisk effektivitet i balancen (C)",
+    "padding": "60px"
+  },
+  {
+    "id": "356",
+    "text": "Opgaver 7.4: Samlet økonomisk effektivitet",
+    "padding": "60px"
+  },
+  {
+    "id": "338",
+    "text": "Caseopgaver til kapitel 7",
+    "padding": "60px"
+  },
+  {
+    "id": "337",
+    "text": "Begrebstrænning i kapitel 7",
+    "padding": "38px"
+  },
+  {
+    "id": "247",
+    "text": "Værktøjskasse",
+    "padding": "16px"
+  },
+  {
+    "id": "263",
+    "text": "Konteringsvejledning",
+    "padding": "38px"
+  },
+  {
+    "id": "366",
+    "text": "for personligt ejet virksomhed",
+    "padding": "60px"
+  },
+  {
+    "id": "365",
+    "text": "for selskaber",
+    "padding": "60px"
+  },
+  {
+    "id": "300",
+    "text": "Bogføringseksempler",
+    "padding": "38px"
+  },
+  {
+    "id": "301",
+    "text": "Kontant køb og salg samt omkostninger",
+    "padding": "60px"
+  },
+  {
+    "id": "306",
+    "text": "Salgsfremmende omkostninger",
+    "padding": "80px"
+  },
+  {
+    "id": "307",
+    "text": "Lokaleomkostninger",
+    "padding": "80px"
+  },
+  {
+    "id": "308",
+    "text": "Bilers driftsomkostninger",
+    "padding": "80px"
+  },
+  {
+    "id": "309",
+    "text": "Øvrige omkostninger",
+    "padding": "80px"
+  },
+  {
+    "id": "302",
+    "text": "Køb på kredit",
+    "padding": "60px"
+  },
+  {
+    "id": "303",
+    "text": "Salg på kredit",
+    "padding": "60px"
+  },
+  {
+    "id": "264",
+    "text": "Formelsamling",
+    "padding": "38px"
+  },
+  {
+    "id": "287",
+    "text": "Indtægter og omkostninger",
+    "padding": "60px"
+  },
+  {
+    "id": "288",
+    "text": "Indtjening",
+    "padding": "60px"
+  },
+  {
+    "id": "289",
+    "text": "Nulpunktsberegninger",
+    "padding": "60px"
+  },
+  {
+    "id": "290",
+    "text": "Personaleressourcernes effektivitet",
+    "padding": "60px"
+  },
+  {
+    "id": "291",
+    "text": "Logistik",
+    "padding": "60px"
+  },
+  {
+    "id": "292",
+    "text": "Procentregning og moms",
+    "padding": "60px"
+  },
+  {
+    "id": "363",
+    "text": "Skabeloner til årsregnskabet",
+    "padding": "38px"
+  },
+  {
+    "id": "380",
+    "text": "Skabeloner til budgettet",
+    "padding": "38px"
+  },
+  {
+    "id": "381",
+    "text": "Skabeloner til kalkulation",
+    "padding": "38px"
+  },
+  {
+    "id": "382",
+    "text": "Screencasts om Excel",
+    "padding": "38px"
+  },
+  {
+    "id": "32",
+    "text": "Ordforklaringer",
+    "padding": "16px"
+  },
+  {
+    "id": "515",
+    "text": "Lommeregner",
+    "padding": "16px"
+  }
+]
