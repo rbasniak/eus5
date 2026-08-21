@@ -1,0 +1,384 @@
+[
+  {
+    "da": "afskrivning",
+    "en": "depreciation",
+    "source": "glossary",
+    "da_forms": ["afskrivninger"],
+    "en_forms": ["depreciation", "depreciations"]
+  },
+  {
+    "da": "akkumulerede afskrivninger",
+    "en": "accumulated depreciation",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["accumulated depreciation", "accumulated depreciations"]
+  },
+  {
+    "da": "andre eksterne omkostninger",
+    "en": "other external costs",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["other external costs", "other external expenses"]
+  },
+  {
+    "da": "anlægsaktiver",
+    "en": "fixed assets",
+    "source": "glossary",
+    "da_forms": ["anlægsaktiv"],
+    "en_forms": ["fixed assets", "non-current assets", "noncurrent assets"]
+  },
+  {
+    "da": "anpartsselskab",
+    "en": "private limited company",
+    "source": "glossary",
+    "da_forms": ["ApS"],
+    "en_forms": ["private limited company", "private limited companies", "ApS"]
+  },
+  {
+    "da": "balance",
+    "en": "balance sheet",
+    "source": "glossary",
+    "da_forms": ["balancen"],
+    "en_forms": ["balance sheet", "balance sheets"]
+  },
+  {
+    "da": "bruttoavancebudget",
+    "en": "gross profit budget",
+    "source": "glossary",
+    "da_forms": ["bruttoavancebudgettet"],
+    "en_forms": ["gross profit budget", "gross profit budgets", "gross margin budget", "gross margin budgets"]
+  },
+  {
+    "da": "bruttoavanceprocent",
+    "en": "gross margin percentage",
+    "source": "glossary",
+    "da_forms": ["bruttoavanceprocenten"],
+    "en_forms": ["gross margin percentage", "gross profit percentage", "gross margin percent"]
+  },
+  {
+    "da": "budget",
+    "en": "budget",
+    "source": "glossary",
+    "da_forms": ["budgettet", "budgetter", "budgetterne"],
+    "en_forms": ["budget", "budgets"],
+    "max_occurrences": 15
+  },
+  {
+    "da": "budgetkontrol",
+    "en": "budget control",
+    "source": "glossary",
+    "da_forms": ["budgetkontrollen"],
+    "en_forms": ["budget control", "budget controls", "budgetary control"]
+  },
+  {
+    "da": "den lineære metode",
+    "en": "the straight-line method",
+    "source": "glossary",
+    "da_forms": ["lineære metode"],
+    "en_forms": ["the straight-line method", "straight-line method", "straight line method"]
+  },
+  {
+    "da": "egenkapital",
+    "en": "equity",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["equity", "equity capital"]
+  },
+  {
+    "da": "enkeltmandsvirksomhed",
+    "en": "sole proprietorship",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["sole proprietorship", "sole proprietorships", "sole trader business"]
+  },
+  {
+    "da": "indbetaling",
+    "en": "cash receipt",
+    "source": "glossary",
+    "da_forms": ["indbetalingen", "indbetalinger", "indbetalingerne"],
+    "en_forms": ["cash receipt", "cash receipts", "payment received", "payments received"]
+  },
+  {
+    "da": "indtægt",
+    "en": "income",
+    "source": "glossary",
+    "da_forms": ["indtægten", "indtægter", "indtægterne"],
+    "en_forms": ["income", "incomes"]
+  },
+  {
+    "da": "kasse",
+    "en": "cash account",
+    "source": "glossary",
+    "da_forms": ["kassen"],
+    "en_forms": ["cash account"]
+  },
+  {
+    "da": "kassekredit",
+    "en": "overdraft",
+    "source": "glossary",
+    "da_forms": ["kassekreditten"],
+    "en_forms": ["overdraft", "overdraft facility", "bank overdraft"]
+  },
+  {
+    "da": "kassekredit disponibel",
+    "en": "available overdraft",
+    "source": "glossary",
+    "da_forms": ["disponibelt beløb på kassekreditten"],
+    "en_forms": ["available overdraft", "overdraft available", "available amount on the overdraft"]
+  },
+  {
+    "da": "kostpris",
+    "en": "cost price",
+    "source": "glossary",
+    "da_forms": ["kostprisen"],
+    "en_forms": ["cost price", "cost prices", "purchase cost"]
+  },
+  {
+    "da": "kvartalsopdelte budgetter",
+    "en": "quarterly budgets",
+    "source": "glossary",
+    "da_forms": ["kvartalsopdelt budget", "kvartalsopdelte budget", "kvartalsopdelt bruttoavancebudget", "kvartalsopdelt resultatbudget", "kvartalsopdelt likviditetsbudget"],
+    "en_forms": ["quarterly budgets", "quarterly budget", "quarter-by-quarter budgets", "quarterly gross profit budget", "quarterly income budget", "quarterly liquidity budget"]
+  },
+  {
+    "da": "langfristet gæld",
+    "en": "long-term debt",
+    "source": "glossary",
+    "da_forms": ["langfristet lån", "langfristede lån"],
+    "en_forms": ["long-term debt", "long term debt", "long-term loan", "long term loan", "non-current liabilities"]
+  },
+  {
+    "da": "likviditetsbudget",
+    "en": "cash budget",
+    "source": "glossary",
+    "da_forms": ["likviditetsbudgettet"],
+    "en_forms": ["cash budget", "cash budgets", "liquidity budget", "liquidity budgets"],
+    "max_occurrences": 15
+  },
+  {
+    "da": "likviditetsreserve",
+    "en": "liquidity reserve",
+    "source": "glossary",
+    "da_forms": ["likviditetsreserven", "likviditetsreserver"],
+    "en_forms": ["liquidity reserve", "liquidity reserves", "cash reserve", "cash reserves"],
+    "max_occurrences": 12
+  },
+  {
+    "da": "moms",
+    "en": "VAT",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["VAT", "moms"]
+  },
+  {
+    "da": "nettoomsætning",
+    "en": "net turnover",
+    "source": "glossary",
+    "da_forms": ["nettoomsætningen"],
+    "en_forms": ["net turnover", "net revenue", "net sales"],
+    "max_occurrences": 15
+  },
+  {
+    "da": "omkostning",
+    "en": "cost",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["a cost"]
+  },
+  {
+    "da": "omkostninger",
+    "en": "costs",
+    "source": "glossary",
+    "da_forms": ["omkostningerne"],
+    "en_forms": ["costs", "expenses"],
+    "max_occurrences": 15
+  },
+  {
+    "da": "omsætning",
+    "en": "revenue",
+    "source": "glossary",
+    "da_forms": ["omsætningen"],
+    "en_forms": ["revenue", "turnover"],
+    "max_occurrences": 12
+  },
+  {
+    "da": "omsætningsaktiver",
+    "en": "current assets",
+    "source": "glossary",
+    "da_forms": ["omsætningsaktiv"],
+    "en_forms": ["current assets", "circulating assets"]
+  },
+  {
+    "da": "personaleomkostninger",
+    "en": "staff costs",
+    "source": "glossary",
+    "da_forms": ["personaleomkostningerne"],
+    "en_forms": ["staff costs", "personnel costs", "employee costs"]
+  },
+  {
+    "da": "produktionsmidler",
+    "en": "means of production",
+    "source": "glossary",
+    "da_forms": ["produktionsmiddel", "produktionsmidlerne"],
+    "en_forms": ["means of production", "factor of production", "factors of production"]
+  },
+  {
+    "da": "regnskab",
+    "en": "accounts",
+    "source": "glossary",
+    "da_forms": ["regnskabet", "regnskaber"],
+    "en_forms": ["accounts", "accounting records"],
+    "max_occurrences": 12
+  },
+  {
+    "da": "resultatbudget",
+    "en": "income budget",
+    "source": "glossary",
+    "da_forms": ["resultatbudgettet"],
+    "en_forms": ["income budget", "income budgets", "profit budget", "profit budgets", "budgeted income statement"],
+    "max_occurrences": 15
+  },
+  {
+    "da": "resultatopgørelse",
+    "en": "income statement",
+    "source": "glossary",
+    "da_forms": ["resultatopgørelsen"],
+    "en_forms": ["income statement", "income statements", "profit and loss statement", "profit and loss account"]
+  },
+  {
+    "da": "udbetaling",
+    "en": "cash payment",
+    "source": "glossary",
+    "da_forms": ["udbetalingen", "udbetalinger", "udbetalingerne"],
+    "en_forms": ["cash payment", "cash payments", "payment", "payments"]
+  },
+  {
+    "da": "udgift",
+    "en": "expenditure",
+    "source": "glossary",
+    "da_forms": ["udgiften", "udgifter"],
+    "en_forms": ["expenditure", "expenditures", "expense incurred", "expenses incurred"]
+  },
+  {
+    "da": "vareforbrug",
+    "en": "cost of goods sold",
+    "source": "glossary",
+    "da_forms": ["vareforbruget"],
+    "en_forms": ["cost of goods sold", "cost of sales", "goods consumption"],
+    "max_occurrences": 15
+  },
+  {
+    "da": "salgsbudget",
+    "en": "sales budget",
+    "source": "ai",
+    "da_forms": ["salgsbudgettet"],
+    "en_forms": ["sales budget", "sales budgets"]
+  },
+  {
+    "da": "bruttoavance",
+    "en": "gross profit",
+    "source": "ai",
+    "da_forms": ["bruttoavancen"],
+    "en_forms": ["gross profit", "gross margin"],
+    "max_occurrences": 15
+  },
+  {
+    "da": "afvigelse",
+    "en": "budget variance",
+    "source": "ai",
+    "da_forms": ["afvigelsen", "afvigelser"],
+    "en_forms": ["budget variance", "budget variances", "variance from budget", "variances from budget"]
+  },
+  {
+    "da": "overskud",
+    "en": "profit",
+    "source": "ai",
+    "da_forms": ["overskuddet"],
+    "en_forms": ["a profit", "the profit"]
+  },
+  {
+    "da": "underskud",
+    "en": "loss",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": ["a loss", "the loss"]
+  },
+  {
+    "da": "likviditet",
+    "en": "liquidity",
+    "source": "ai",
+    "da_forms": ["likviditeten"],
+    "en_forms": ["liquidity"],
+    "max_occurrences": 12
+  },
+  {
+    "da": "likviditetsvirkning",
+    "en": "liquidity effect",
+    "source": "ai",
+    "da_forms": ["samlede likviditetsvirkning", "den samlede likviditetsvirkning"],
+    "en_forms": ["liquidity effect", "liquidity impact", "total liquidity effect", "total liquidity impact"]
+  },
+  {
+    "da": "kassebeholdning",
+    "en": "cash on hand",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": ["cash on hand", "cash balance"]
+  },
+  {
+    "da": "bankindestående",
+    "en": "bank balance",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": ["bank balance", "bank balances", "cash at bank"]
+  },
+  {
+    "da": "kontant køb og salg",
+    "en": "cash purchases and sales",
+    "source": "ai",
+    "da_forms": ["kontant køb"],
+    "en_forms": ["cash purchases and sales", "cash purchase and sale"]
+  },
+  {
+    "da": "betalingstidspunkt",
+    "en": "time of payment",
+    "source": "ai",
+    "da_forms": ["betalingstidspunktet"],
+    "en_forms": ["time of payment", "payment date", "payment dates", "payment timing"]
+  },
+  {
+    "da": "budgettering",
+    "en": "budgeting",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": ["budgeting", "budget planning"]
+  },
+  {
+    "da": "likviditetsreserve ved årets begyndelse",
+    "en": "opening liquidity reserve",
+    "source": "ai",
+    "da_forms": ["likviditetsreserve ved kvartalets begyndelse"],
+    "en_forms": ["opening liquidity reserve", "liquidity reserve at the beginning of the period", "opening cash reserve"]
+  },
+  {
+    "da": "likviditetsreserve ultimo",
+    "en": "closing liquidity reserve",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": ["closing liquidity reserve", "liquidity reserve at the end of the period", "closing cash reserve"]
+  },
+  {
+    "da": "varesalg pr. kontant",
+    "en": "cash sales",
+    "source": "ai",
+    "da_forms": ["årets kontante varesalg", "indbetalinger fra varesalg pr. kontant"],
+    "en_forms": ["cash sales", "sales for cash", "cash revenue"]
+  },
+  {
+    "da": "varekøb pr. kontant",
+    "en": "cash purchases",
+    "source": "ai",
+    "da_forms": ["udbetalinger til varekøb pr. kontant"],
+    "en_forms": ["cash purchases", "purchases for cash"]
+  }
+]

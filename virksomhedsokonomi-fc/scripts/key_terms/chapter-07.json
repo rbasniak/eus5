@@ -1,0 +1,790 @@
+[
+  {
+    "da": "afskrivning",
+    "en": "depreciation",
+    "source": "glossary",
+    "da_forms": [
+      "Afskrivning",
+      "afskrivninger"
+    ],
+    "en_forms": [
+      "depreciation",
+      "depreciations"
+    ]
+  },
+  {
+    "da": "andre eksterne omkostninger",
+    "en": "other external costs",
+    "source": "glossary",
+    "da_forms": [
+      "Andre eksterne omkostninger"
+    ],
+    "en_forms": [
+      "other external costs",
+      "other external expenses"
+    ]
+  },
+  {
+    "da": "anpartsselskab",
+    "en": "private limited company",
+    "source": "glossary",
+    "da_forms": [
+      "ApS"
+    ],
+    "en_forms": [
+      "private limited company",
+      "private limited companies",
+      "ApS"
+    ]
+  },
+  {
+    "da": "balance",
+    "en": "balance sheet",
+    "source": "glossary",
+    "da_forms": [
+      "Balance",
+      "balancen"
+    ],
+    "en_forms": [
+      "balance sheet",
+      "balance sheets"
+    ],
+    "max_occurrences": 15
+  },
+  {
+    "da": "bruttoavanceprocent",
+    "en": "gross profit percentage",
+    "source": "glossary",
+    "da_forms": [
+      "Bruttoavanceprocent",
+      "bruttoavanceprocenten"
+    ],
+    "en_forms": [
+      "gross profit percentage",
+      "gross profit percentages",
+      "gross margin percentage",
+      "gross margin percent"
+    ]
+  },
+  {
+    "da": "budget",
+    "en": "budget",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": [
+      "budget",
+      "budgets"
+    ],
+    "max_occurrences": 12
+  },
+  {
+    "da": "budgetkontrol",
+    "en": "budget control",
+    "source": "glossary",
+    "da_forms": [
+      "Budgetkontrol"
+    ],
+    "en_forms": [
+      "budget control",
+      "budget controls"
+    ]
+  },
+  {
+    "da": "dækningsbidrag",
+    "en": "contribution margin",
+    "source": "glossary",
+    "da_forms": [
+      "Dækningsbidrag",
+      "dækningsbidraget"
+    ],
+    "en_forms": [
+      "contribution margin",
+      "contribution margins"
+    ]
+  },
+  {
+    "da": "dækningsgrad",
+    "en": "contribution margin ratio",
+    "source": "glossary",
+    "da_forms": [
+      "Dækningsgrad",
+      "dækningsgraden"
+    ],
+    "en_forms": [
+      "contribution margin ratio",
+      "contribution margin ratios",
+      "contribution ratio",
+      "contribution rate"
+    ]
+  },
+  {
+    "da": "egenkapital",
+    "en": "equity",
+    "source": "glossary",
+    "da_forms": [
+      "Egenkapital",
+      "egenkapitalen"
+    ],
+    "en_forms": [
+      "equity"
+    ]
+  },
+  {
+    "da": "handelsvirksomhed",
+    "en": "trading company",
+    "source": "glossary",
+    "da_forms": [
+      "handelsvirksomheder"
+    ],
+    "en_forms": [
+      "trading company",
+      "trading companies",
+      "commercial enterprise",
+      "commercial enterprises"
+    ]
+  },
+  {
+    "da": "indekstal",
+    "en": "index number",
+    "source": "glossary",
+    "da_forms": [
+      "Indekstal",
+      "indekstallene"
+    ],
+    "en_forms": [
+      "index number",
+      "index numbers",
+      "index figure",
+      "index figures"
+    ],
+    "max_occurrences": 15
+  },
+  {
+    "da": "indtjeningsevne",
+    "en": "earning capacity",
+    "source": "glossary",
+    "da_forms": [
+      "indtjeningsevnen"
+    ],
+    "en_forms": [
+      "earning capacity",
+      "earnings capacity",
+      "profitability"
+    ],
+    "max_occurrences": 15
+  },
+  {
+    "da": "indtægt",
+    "en": "income",
+    "source": "glossary",
+    "da_forms": [
+      "indtægten",
+      "indtægter"
+    ],
+    "en_forms": [
+      "income",
+      "incomes"
+    ]
+  },
+  {
+    "da": "kapacitetsomkostninger",
+    "en": "capacity costs",
+    "source": "glossary",
+    "da_forms": [
+      "Kapacitetsomkostninger",
+      "kapacitetsomkostningerne",
+      "samlede kapacitetsomkostninger"
+    ],
+    "en_forms": [
+      "capacity costs",
+      "capacity cost",
+      "fixed capacity costs",
+      "total capacity costs"
+    ],
+    "max_occurrences": 20
+  },
+  {
+    "da": "kasse",
+    "en": "cash on hand",
+    "source": "glossary",
+    "da_forms": [
+      "Kasse",
+      "kassen"
+    ],
+    "en_forms": [
+      "cash on hand",
+      "cash in hand"
+    ]
+  },
+  {
+    "da": "kassekredit",
+    "en": "overdraft",
+    "source": "glossary",
+    "da_forms": [
+      "Kassekredit",
+      "kassekreditten"
+    ],
+    "en_forms": [
+      "overdraft",
+      "bank overdraft",
+      "overdraft facility"
+    ]
+  },
+  {
+    "da": "kassekredit disponibel",
+    "en": "overdraft available",
+    "source": "glossary",
+    "da_forms": [
+      "Kassekredit disponibel",
+      "disponible beløb på kassekreditten"
+    ],
+    "en_forms": [
+      "overdraft available",
+      "available overdraft",
+      "available overdraft amount"
+    ]
+  },
+  {
+    "da": "konto",
+    "en": "account",
+    "source": "glossary",
+    "da_forms": [
+      "Konto",
+      "kontoen"
+    ],
+    "en_forms": [
+      "account"
+    ],
+    "max_occurrences": 8
+  },
+  {
+    "da": "kostpris",
+    "en": "cost price",
+    "source": "glossary",
+    "da_forms": [
+      "Kostpris",
+      "kostpriser",
+      "kostpriserne"
+    ],
+    "en_forms": [
+      "cost price",
+      "cost prices",
+      "purchase cost",
+      "purchase costs"
+    ]
+  },
+  {
+    "da": "lageromkostninger",
+    "en": "inventory costs",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": [
+      "inventory costs",
+      "inventory cost",
+      "storage costs",
+      "holding costs"
+    ]
+  },
+  {
+    "da": "moms",
+    "en": "VAT",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": [
+      "VAT",
+      "value added tax"
+    ]
+  },
+  {
+    "da": "momsafregning",
+    "en": "VAT settlement",
+    "source": "glossary",
+    "da_forms": [
+      "Momsafregning"
+    ],
+    "en_forms": [
+      "VAT settlement",
+      "VAT reconciliation"
+    ]
+  },
+  {
+    "da": "nettoomsætning",
+    "en": "net turnover",
+    "source": "glossary",
+    "da_forms": [
+      "Nettoomsætning",
+      "nettoomsætningen",
+      "budgetteret nettoomsætning"
+    ],
+    "en_forms": [
+      "net turnover",
+      "net revenue",
+      "budgeted net turnover"
+    ],
+    "max_occurrences": 25
+  },
+  {
+    "da": "omkostning",
+    "en": "cost",
+    "source": "glossary",
+    "da_forms": [
+      "omkostningen",
+      "Omkostninger",
+      "omkostninger",
+      "omkostningerne"
+    ],
+    "en_forms": [
+      "cost",
+      "costs",
+      "expense",
+      "expenses"
+    ],
+    "max_occurrences": 20
+  },
+  {
+    "da": "overskudsgrad",
+    "en": "profit margin",
+    "source": "glossary",
+    "da_forms": [
+      "Overskudsgraden",
+      "overskudsgraden",
+      "overskudsgrader"
+    ],
+    "en_forms": [
+      "profit margin",
+      "profit margins",
+      "operating margin",
+      "operating margins"
+    ],
+    "max_occurrences": 15
+  },
+  {
+    "da": "personaleomkostninger",
+    "en": "staff costs",
+    "source": "glossary",
+    "da_forms": [
+      "Personaleomkostninger",
+      "personaleomkostningerne"
+    ],
+    "en_forms": [
+      "staff costs",
+      "staff cost",
+      "personnel costs",
+      "personnel expenses"
+    ]
+  },
+  {
+    "da": "produktionsmidler",
+    "en": "means of production",
+    "source": "glossary",
+    "da_forms": [
+      "produktionsmiddel",
+      "produktionsmidlerne"
+    ],
+    "en_forms": [
+      "means of production",
+      "production asset",
+      "production assets"
+    ]
+  },
+  {
+    "da": "regnskab",
+    "en": "accounts",
+    "source": "glossary",
+    "da_forms": [
+      "regnskaber",
+      "årsregnskab",
+      "årsregnskaber"
+    ],
+    "en_forms": [
+      "accounts",
+      "accounting",
+      "annual accounts",
+      "annual report",
+      "annual reports"
+    ],
+    "max_occurrences": 12
+  },
+  {
+    "da": "resultatbudget",
+    "en": "income statement budget",
+    "source": "glossary",
+    "da_forms": [
+      "Resultatbudget",
+      "resultatbudgettet"
+    ],
+    "en_forms": [
+      "income statement budget",
+      "income statement budgets",
+      "profit budget",
+      "profit budgets"
+    ]
+  },
+  {
+    "da": "resultatopgørelse",
+    "en": "income statement",
+    "source": "glossary",
+    "da_forms": [
+      "Resultatopgørelse",
+      "resultatopgørelsen",
+      "resultatopgørelser",
+      "resultatopgørelserne"
+    ],
+    "en_forms": [
+      "income statement",
+      "income statements",
+      "profit and loss statement",
+      "profit and loss statements"
+    ],
+    "max_occurrences": 20
+  },
+  {
+    "da": "saldo",
+    "en": "account balance",
+    "source": "glossary",
+    "da_forms": [
+      "Saldo"
+    ],
+    "en_forms": [
+      "account balance",
+      "account balances",
+      "closing balance",
+      "closing balances"
+    ]
+  },
+  {
+    "da": "udbetaling",
+    "en": "cash payment",
+    "source": "glossary",
+    "da_forms": [
+      "udbetalingen",
+      "udbetalinger"
+    ],
+    "en_forms": [
+      "cash payment",
+      "cash payments",
+      "disbursement",
+      "disbursements"
+    ]
+  },
+  {
+    "da": "udgift",
+    "en": "expenditure",
+    "source": "glossary",
+    "da_forms": [
+      "udgifter"
+    ],
+    "en_forms": [
+      "expenditure",
+      "expenditures"
+    ]
+  },
+  {
+    "da": "vareforbrug",
+    "en": "cost of goods sold",
+    "source": "glossary",
+    "da_forms": [
+      "Vareforbrug",
+      "vareforbruget"
+    ],
+    "en_forms": [
+      "cost of goods sold",
+      "cost of sales",
+      "goods consumption"
+    ],
+    "max_occurrences": 20
+  },
+  {
+    "da": "variable omkostninger",
+    "en": "variable costs",
+    "source": "glossary",
+    "da_forms": [
+      "de variable omkostninger"
+    ],
+    "en_forms": [
+      "variable costs",
+      "variable cost"
+    ],
+    "max_occurrences": 15
+  },
+  {
+    "da": "økonomisk effektivitet",
+    "en": "economic efficiency",
+    "source": "ai",
+    "da_forms": [
+      "økonomiske effektivitet",
+      "den økonomiske effektivitet",
+      "samlede økonomiske effektivitet"
+    ],
+    "en_forms": [
+      "economic efficiency",
+      "financial efficiency",
+      "overall economic efficiency"
+    ],
+    "max_occurrences": 20
+  },
+  {
+    "da": "resultatopgørelse efter bidragsmetoden",
+    "en": "contribution-format income statement",
+    "source": "ai",
+    "da_forms": [
+      "resultatopgørelser efter bidragsmetoden",
+      "resultatopgørelser i bidragsform"
+    ],
+    "en_forms": [
+      "contribution-format income statement",
+      "contribution-format income statements",
+      "income statement using the contribution method",
+      "contribution margin income statement"
+    ]
+  },
+  {
+    "da": "bidragsmetoden",
+    "en": "contribution margin method",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": [
+      "contribution margin method",
+      "contribution method"
+    ]
+  },
+  {
+    "da": "bruttoavance",
+    "en": "gross profit",
+    "source": "ai",
+    "da_forms": [
+      "Bruttoavance",
+      "bruttoavancen"
+    ],
+    "en_forms": [
+      "gross profit",
+      "gross margin"
+    ]
+  },
+  {
+    "da": "variable salgsomkostninger",
+    "en": "variable selling costs",
+    "source": "ai",
+    "da_forms": [
+      "de variable salgsomkostninger"
+    ],
+    "en_forms": [
+      "variable selling costs",
+      "variable selling expenses",
+      "variable sales costs"
+    ]
+  },
+  {
+    "da": "salgsprovision",
+    "en": "sales commission",
+    "source": "ai",
+    "da_forms": [
+      "salgsprovisionen"
+    ],
+    "en_forms": [
+      "sales commission",
+      "sales commissions"
+    ]
+  },
+  {
+    "da": "nøgletal",
+    "en": "key financial ratio",
+    "source": "ai",
+    "da_forms": [
+      "nøgletallet",
+      "nøgletallene",
+      "nøgletalsberegninger",
+      "nøgletalssammenligning",
+      "nøgletalssammenligninger"
+    ],
+    "en_forms": [
+      "key financial ratio",
+      "key financial ratios",
+      "financial ratio",
+      "financial ratios",
+      "key figure",
+      "key figures"
+    ],
+    "max_occurrences": 15
+  },
+  {
+    "da": "basisår",
+    "en": "base year",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": [
+      "base year",
+      "base years"
+    ]
+  },
+  {
+    "da": "analyseperiode",
+    "en": "analysis period",
+    "source": "ai",
+    "da_forms": [
+      "analyseperioden"
+    ],
+    "en_forms": [
+      "analysis period",
+      "analysis periods"
+    ]
+  },
+  {
+    "da": "procentpoint",
+    "en": "percentage point",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": [
+      "percentage point",
+      "percentage points"
+    ]
+  },
+  {
+    "da": "likvid beholdning",
+    "en": "cash balance",
+    "source": "ai",
+    "da_forms": [
+      "den likvide beholdning",
+      "likvide beholdning"
+    ],
+    "en_forms": [
+      "cash balance",
+      "cash balances",
+      "cash holdings"
+    ],
+    "max_occurrences": 12
+  },
+  {
+    "da": "likvide midler",
+    "en": "liquid funds",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": [
+      "liquid funds",
+      "cash funds"
+    ]
+  },
+  {
+    "da": "betalingsbetingelser",
+    "en": "payment terms",
+    "source": "ai",
+    "da_forms": [
+      "betalingsbetingelse"
+    ],
+    "en_forms": [
+      "payment terms",
+      "payment condition",
+      "payment conditions"
+    ]
+  },
+  {
+    "da": "betalingsrabat",
+    "en": "cash discount",
+    "source": "ai",
+    "da_forms": [
+      "betalingsrabatten"
+    ],
+    "en_forms": [
+      "cash discount",
+      "cash discounts",
+      "payment discount",
+      "payment discounts"
+    ]
+  },
+  {
+    "da": "renteomkostninger",
+    "en": "interest costs",
+    "source": "ai",
+    "da_forms": [
+      "renteomkostning",
+      "renteomkostningerne"
+    ],
+    "en_forms": [
+      "interest costs",
+      "interest cost",
+      "interest expenses",
+      "interest expense"
+    ]
+  },
+  {
+    "da": "likviditetsbudget",
+    "en": "cash budget",
+    "source": "ai",
+    "da_forms": [
+      "likviditetsbudgettet"
+    ],
+    "en_forms": [
+      "cash budget",
+      "cash budgets",
+      "liquidity budget",
+      "liquidity budgets"
+    ]
+  },
+  {
+    "da": "benchmarking",
+    "en": "benchmarking",
+    "source": "ai",
+    "da_forms": [
+      "branchesammenligning"
+    ],
+    "en_forms": [
+      "benchmarking",
+      "industry comparison",
+      "industry comparisons"
+    ]
+  },
+  {
+    "da": "ændring i afsætning",
+    "en": "change in sales volume",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": [
+      "change in sales volume",
+      "changes in sales volume",
+      "change in unit sales"
+    ]
+  },
+  {
+    "da": "ændring i salgspris",
+    "en": "change in selling price",
+    "source": "ai",
+    "da_forms": [
+      "ændring i salgspriser"
+    ],
+    "en_forms": [
+      "change in selling price",
+      "changes in selling price",
+      "change in selling prices",
+      "changes in selling prices"
+    ]
+  },
+  {
+    "da": "ændring i kostpris",
+    "en": "change in cost price",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": [
+      "change in cost price",
+      "changes in cost price",
+      "change in cost prices",
+      "changes in cost prices"
+    ]
+  },
+  {
+    "da": "sammensætning af salget",
+    "en": "sales mix",
+    "source": "ai",
+    "da_forms": [
+      "sammensætningen af salget",
+      "sammensætningen i salget",
+      "ændring i sammensætningen i salget",
+      "ændringer i sammensætningen i salget"
+    ],
+    "en_forms": [
+      "sales mix",
+      "change in sales mix",
+      "changes in sales mix",
+      "composition of sales"
+    ]
+  }
+]

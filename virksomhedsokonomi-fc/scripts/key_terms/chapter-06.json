@@ -1,0 +1,660 @@
+[
+  {
+    "da": "ERP-system",
+    "en": "ERP system",
+    "source": "glossary",
+    "da_forms": [
+      "ERP-systemet",
+      "ERP-systemer",
+      "ERP-systemerne",
+      "ERP-regnskabssystemet"
+    ],
+    "en_forms": [
+      "ERP system",
+      "ERP systems",
+      "enterprise resource planning system",
+      "enterprise resource planning systems",
+      "ERP accounting system"
+    ],
+    "max_occurrences": 25
+  },
+  {
+    "da": "bogføring",
+    "en": "bookkeeping",
+    "source": "glossary",
+    "da_forms": [
+      "bogføringen"
+    ],
+    "en_forms": [
+      "bookkeeping"
+    ],
+    "max_occurrences": 15
+  },
+  {
+    "da": "indtægt",
+    "en": "income",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": [
+      "income",
+      "incomes"
+    ]
+  },
+  {
+    "da": "lagermodul",
+    "en": "inventory module",
+    "source": "glossary",
+    "da_forms": [
+      "lagermodulet"
+    ],
+    "en_forms": [
+      "inventory module",
+      "inventory modules",
+      "warehouse module",
+      "warehouse modules"
+    ],
+    "max_occurrences": 15
+  },
+  {
+    "da": "nettoomsætning",
+    "en": "net turnover",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": [
+      "net turnover",
+      "net revenue"
+    ]
+  },
+  {
+    "da": "omkostning",
+    "en": "cost",
+    "source": "glossary",
+    "da_forms": [
+      "omkostninger"
+    ],
+    "en_forms": [
+      "cost",
+      "costs",
+      "expense",
+      "expenses"
+    ],
+    "max_occurrences": 15
+  },
+  {
+    "da": "regnskab",
+    "en": "accounts",
+    "source": "glossary",
+    "da_forms": [
+      "regnskabsoplysninger"
+    ],
+    "en_forms": [
+      "accounts",
+      "accounting",
+      "accounting information"
+    ],
+    "max_occurrences": 12
+  },
+  {
+    "da": "tillægsmodul",
+    "en": "add-on module",
+    "source": "glossary",
+    "da_forms": [
+      "tillægsmodulet",
+      "tillægsmoduler"
+    ],
+    "en_forms": [
+      "add-on module",
+      "add-on modules",
+      "additional module",
+      "additional modules",
+      "supplementary module",
+      "supplementary modules"
+    ]
+  },
+  {
+    "da": "vareforbrug",
+    "en": "cost of goods sold",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": [
+      "cost of goods sold",
+      "cost of sales",
+      "goods consumption"
+    ]
+  },
+  {
+    "da": "økonomimodul",
+    "en": "accounting module",
+    "source": "glossary",
+    "da_forms": [
+      "økonomimodulet",
+      "Finansmodulet",
+      "finansmodulet"
+    ],
+    "en_forms": [
+      "accounting module",
+      "accounting modules",
+      "financial module",
+      "financial modules",
+      "finance module",
+      "finance modules"
+    ]
+  },
+  {
+    "da": "økonomisystem",
+    "en": "accounting system",
+    "source": "ai",
+    "da_forms": [
+      "økonomisystemet",
+      "integreret økonomisystem"
+    ],
+    "en_forms": [
+      "accounting system",
+      "accounting systems",
+      "financial system",
+      "financial systems",
+      "integrated accounting system"
+    ]
+  },
+  {
+    "da": "kreditormodul",
+    "en": "accounts payable module",
+    "source": "ai",
+    "da_forms": [
+      "kreditormodulet"
+    ],
+    "en_forms": [
+      "accounts payable module",
+      "creditor module"
+    ]
+  },
+  {
+    "da": "debitormodul",
+    "en": "accounts receivable module",
+    "source": "ai",
+    "da_forms": [
+      "debitormodulet"
+    ],
+    "en_forms": [
+      "accounts receivable module",
+      "debtor module"
+    ]
+  },
+  {
+    "da": "integreret ERP-system",
+    "en": "integrated ERP system",
+    "source": "ai",
+    "da_forms": [
+      "integrerede ERP-system"
+    ],
+    "en_forms": [
+      "integrated ERP system",
+      "integrated ERP systems"
+    ]
+  },
+  {
+    "da": "database",
+    "en": "database",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": [
+      "database",
+      "databases"
+    ]
+  },
+  {
+    "da": "bilag",
+    "en": "accounting document",
+    "source": "ai",
+    "da_forms": [
+      "bilagene"
+    ],
+    "en_forms": [
+      "accounting document",
+      "accounting documents",
+      "voucher",
+      "vouchers"
+    ],
+    "max_occurrences": 12
+  },
+  {
+    "da": "registrering",
+    "en": "recording",
+    "source": "ai",
+    "da_forms": [
+      "registreringer"
+    ],
+    "en_forms": [
+      "recording",
+      "recordings",
+      "registration",
+      "registrations"
+    ],
+    "max_occurrences": 12
+  },
+  {
+    "da": "regnskabspost",
+    "en": "accounting item",
+    "source": "ai",
+    "da_forms": [
+      "regnskabsposter"
+    ],
+    "en_forms": [
+      "accounting item",
+      "accounting items",
+      "financial statement item",
+      "financial statement items"
+    ]
+  },
+  {
+    "da": "kontoplan",
+    "en": "chart of accounts",
+    "source": "ai",
+    "da_forms": [
+      "kontoplanen"
+    ],
+    "en_forms": [
+      "chart of accounts"
+    ]
+  },
+  {
+    "da": "kassekladde",
+    "en": "cash journal",
+    "source": "ai",
+    "da_forms": [
+      "kassekladden"
+    ],
+    "en_forms": [
+      "cash journal",
+      "cash journals",
+      "cash book journal"
+    ]
+  },
+  {
+    "da": "postering",
+    "en": "accounting entry",
+    "source": "ai",
+    "da_forms": [
+      "posteringer"
+    ],
+    "en_forms": [
+      "accounting entry",
+      "accounting entries",
+      "posting",
+      "postings"
+    ]
+  },
+  {
+    "da": "varelager",
+    "en": "inventory",
+    "source": "ai",
+    "da_forms": [
+      "varelageret"
+    ],
+    "en_forms": [
+      "inventory",
+      "inventories",
+      "stock of goods"
+    ],
+    "max_occurrences": 12
+  },
+  {
+    "da": "lagerbeholdning",
+    "en": "inventory balance",
+    "source": "ai",
+    "da_forms": [
+      "lagerbeholdningen"
+    ],
+    "en_forms": [
+      "inventory balance",
+      "inventory balances",
+      "stock balance",
+      "stock level",
+      "stock levels"
+    ]
+  },
+  {
+    "da": "lagerliste",
+    "en": "inventory list",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": [
+      "inventory list",
+      "inventory lists",
+      "stock list",
+      "stock lists"
+    ]
+  },
+  {
+    "da": "varekontokort",
+    "en": "inventory account card",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": [
+      "inventory account card",
+      "inventory account cards",
+      "item account card",
+      "item account cards"
+    ]
+  },
+  {
+    "da": "indkøbsordre",
+    "en": "purchase order",
+    "source": "ai",
+    "da_forms": [
+      "indkøbsordren",
+      "PO"
+    ],
+    "en_forms": [
+      "purchase order",
+      "purchase orders",
+      "PO",
+      "POs"
+    ]
+  },
+  {
+    "da": "købsfaktura",
+    "en": "purchase invoice",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": [
+      "purchase invoice",
+      "purchase invoices",
+      "supplier invoice",
+      "supplier invoices"
+    ]
+  },
+  {
+    "da": "salgsordre",
+    "en": "sales order",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": [
+      "sales order",
+      "sales orders"
+    ]
+  },
+  {
+    "da": "salgsfaktura",
+    "en": "sales invoice",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": [
+      "sales invoice",
+      "sales invoices",
+      "customer invoice",
+      "customer invoices"
+    ]
+  },
+  {
+    "da": "bruttoavance",
+    "en": "gross profit",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": [
+      "gross profit",
+      "gross margin"
+    ]
+  },
+  {
+    "da": "kreditor",
+    "en": "creditor",
+    "source": "ai",
+    "da_forms": [
+      "kreditorer",
+      "kreditorerne"
+    ],
+    "en_forms": [
+      "creditor",
+      "creditors",
+      "trade creditor",
+      "trade creditors",
+      "supplier",
+      "suppliers"
+    ],
+    "max_occurrences": 15
+  },
+  {
+    "da": "debitor",
+    "en": "debtor",
+    "source": "ai",
+    "da_forms": [
+      "debitorer",
+      "debitorerne"
+    ],
+    "en_forms": [
+      "debtor",
+      "debtors",
+      "customer debtor",
+      "customer debtors"
+    ],
+    "max_occurrences": 15
+  },
+  {
+    "da": "betalingsbetingelser",
+    "en": "payment terms",
+    "source": "ai",
+    "da_forms": [
+      "betalingsbetingelsen"
+    ],
+    "en_forms": [
+      "payment terms",
+      "payment condition",
+      "payment conditions"
+    ]
+  },
+  {
+    "da": "betalingsfrist",
+    "en": "payment deadline",
+    "source": "ai",
+    "da_forms": [
+      "betalingsfristen"
+    ],
+    "en_forms": [
+      "payment deadline",
+      "payment deadlines",
+      "due date",
+      "due dates"
+    ]
+  },
+  {
+    "da": "skyldige beløb",
+    "en": "amounts payable",
+    "source": "ai",
+    "da_forms": [
+      "skyldigt beløb",
+      "det skyldige beløb"
+    ],
+    "en_forms": [
+      "amounts payable",
+      "amount payable",
+      "outstanding amount",
+      "outstanding amounts"
+    ]
+  },
+  {
+    "da": "tilgodehavende",
+    "en": "receivable",
+    "source": "ai",
+    "da_forms": [
+      "tilgodehavendet",
+      "tilgodehavender",
+      "tilgodehavende beløb",
+      "tilgode hos kunderne"
+    ],
+    "en_forms": [
+      "receivable",
+      "receivables",
+      "amount receivable",
+      "amounts receivable",
+      "amounts due from customers"
+    ],
+    "max_occurrences": 12
+  },
+  {
+    "da": "likvide beholdninger",
+    "en": "cash holdings",
+    "source": "ai",
+    "da_forms": [
+      "likviditet"
+    ],
+    "en_forms": [
+      "cash holdings",
+      "cash holding",
+      "cash balance",
+      "cash balances",
+      "liquidity"
+    ],
+    "max_occurrences": 10
+  },
+  {
+    "da": "debitorsaldoliste",
+    "en": "accounts receivable balance list",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": [
+      "accounts receivable balance list",
+      "debtor balance list"
+    ]
+  },
+  {
+    "da": "lagerstyring",
+    "en": "inventory management",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": [
+      "inventory management",
+      "stock management"
+    ]
+  },
+  {
+    "da": "returvarer",
+    "en": "returned goods",
+    "source": "ai",
+    "da_forms": [
+      "returvarer og -logistik"
+    ],
+    "en_forms": [
+      "returned goods",
+      "returned item",
+      "returned items",
+      "returns and return logistics"
+    ]
+  },
+  {
+    "da": "forretningssystem",
+    "en": "business system",
+    "source": "ai",
+    "da_forms": [
+      "forretningssystemer",
+      "forretningssystemerne"
+    ],
+    "en_forms": [
+      "business system",
+      "business systems"
+    ]
+  },
+  {
+    "da": "cybersikkerhed",
+    "en": "cybersecurity",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": [
+      "cybersecurity",
+      "cyber security"
+    ]
+  },
+  {
+    "da": "cyberangreb",
+    "en": "cyberattack",
+    "source": "ai",
+    "da_forms": [
+      "hackerangreb"
+    ],
+    "en_forms": [
+      "cyberattack",
+      "cyberattacks",
+      "cyber attack",
+      "cyber attacks",
+      "hacker attack",
+      "hacker attacks"
+    ]
+  },
+  {
+    "da": "ransomware",
+    "en": "ransomware",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": [
+      "ransomware"
+    ]
+  },
+  {
+    "da": "phishing-angreb",
+    "en": "phishing attack",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": [
+      "phishing attack",
+      "phishing attacks"
+    ]
+  },
+  {
+    "da": "brugeradgang",
+    "en": "user access",
+    "source": "ai",
+    "da_forms": [
+      "brugeradgange"
+    ],
+    "en_forms": [
+      "user access",
+      "user accesses",
+      "user permission",
+      "user permissions"
+    ]
+  },
+  {
+    "da": "læseadgang",
+    "en": "read access",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": [
+      "read access",
+      "read-only access"
+    ]
+  },
+  {
+    "da": "skriveadgang",
+    "en": "write access",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": [
+      "write access",
+      "editing access"
+    ]
+  },
+  {
+    "da": "backup",
+    "en": "backup",
+    "source": "ai",
+    "da_forms": [
+      "backup af systemer og data"
+    ],
+    "en_forms": [
+      "backup",
+      "backups",
+      "backup of systems and data"
+    ],
+    "max_occurrences": 8
+  },
+  {
+    "da": "sikkerhedslogning",
+    "en": "security logging",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": [
+      "security logging",
+      "security log"
+    ]
+  }
+]

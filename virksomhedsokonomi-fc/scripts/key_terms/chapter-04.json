@@ -1,0 +1,441 @@
+[
+  {
+    "da": "afskrivning",
+    "en": "depreciation",
+    "source": "glossary",
+    "da_forms": ["afskrivningen", "afskrivninger", "afskrivningerne"],
+    "en_forms": ["depreciation", "depreciations"],
+    "max_occurrences": 15
+  },
+  {
+    "da": "afskrivningsplan",
+    "en": "depreciation schedule",
+    "source": "glossary",
+    "da_forms": ["afskrivningsplanen"],
+    "en_forms": ["depreciation schedule", "depreciation plan"]
+  },
+  {
+    "da": "akkumulerede afskrivninger",
+    "en": "accumulated depreciation",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["accumulated depreciation"]
+  },
+  {
+    "da": "andre eksterne omkostninger",
+    "en": "other external costs",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["other external costs", "other external expenses"]
+  },
+  {
+    "da": "anlægsaktiver",
+    "en": "fixed assets",
+    "source": "glossary",
+    "da_forms": ["anlægsaktiv", "anlægsaktiverne"],
+    "en_forms": ["fixed assets", "fixed asset"]
+  },
+  {
+    "da": "balance",
+    "en": "balance sheet",
+    "source": "glossary",
+    "da_forms": ["balancen"],
+    "en_forms": ["balance sheet", "balance sheets"]
+  },
+  {
+    "da": "budget",
+    "en": "budget",
+    "source": "glossary",
+    "da_forms": ["budgettet", "budgetter"],
+    "en_forms": ["budget", "budgets"]
+  },
+  {
+    "da": "budgetkontrol",
+    "en": "budget control",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["budget control", "budgetary control"]
+  },
+  {
+    "da": "degressive variable omkostninger",
+    "en": "degressive variable costs",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["degressive variable costs"]
+  },
+  {
+    "da": "den lineære metode",
+    "en": "straight-line method",
+    "source": "glossary",
+    "da_forms": ["den lineære afskrivningsmetode"],
+    "en_forms": ["straight-line method", "linear method", "straight line method"]
+  },
+  {
+    "da": "dækningsbidrag",
+    "en": "contribution margin",
+    "source": "glossary",
+    "da_forms": ["dækningsbidraget", "dækningsbidrag i alt"],
+    "en_forms": ["contribution margin", "contribution margins", "total contribution margin"],
+    "max_occurrences": 20
+  },
+  {
+    "da": "dækningsgrad",
+    "en": "contribution margin ratio",
+    "source": "glossary",
+    "da_forms": ["dækningsgraden"],
+    "en_forms": ["contribution margin ratio", "contribution ratio"]
+  },
+  {
+    "da": "efterkalkulation",
+    "en": "post-calculation",
+    "source": "glossary",
+    "da_forms": ["efterkalkulationen"],
+    "en_forms": ["post-calculation", "post calculation", "subsequent calculation"]
+  },
+  {
+    "da": "egenkapital",
+    "en": "equity",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["equity"]
+  },
+  {
+    "da": "forkalkulation",
+    "en": "pre-calculation",
+    "source": "glossary",
+    "da_forms": ["forkalkulationen", "forkalkulationer"],
+    "en_forms": ["pre-calculation", "pre calculation", "preliminary calculation"]
+  },
+  {
+    "da": "handelsvirksomhed",
+    "en": "trading company",
+    "source": "glossary",
+    "da_forms": ["handelsvirksomheder"],
+    "en_forms": ["trading company", "trading companies"]
+  },
+  {
+    "da": "indekstal",
+    "en": "index number",
+    "source": "glossary",
+    "da_forms": ["indekstallet", "indekstallene"],
+    "en_forms": ["index number", "index numbers", "index figure", "index figures"]
+  },
+  {
+    "da": "kalkulation",
+    "en": "costing",
+    "source": "glossary",
+    "da_forms": ["kalkulationen", "kalkulationer"],
+    "en_forms": ["costing", "cost calculations", "cost calculation"]
+  },
+  {
+    "da": "kalkulationsfaktor",
+    "en": "calculation factor",
+    "source": "glossary",
+    "da_forms": ["kalkulationsfaktoren"],
+    "en_forms": ["calculation factor", "costing factor"]
+  },
+  {
+    "da": "kapacitetsomkostninger",
+    "en": "capacity costs",
+    "source": "glossary",
+    "da_forms": ["kapacitetsomkostning", "kapacitetsomkostningerne", "faste omkostninger"],
+    "en_forms": ["capacity costs", "fixed costs"],
+    "max_occurrences": 20
+  },
+  {
+    "da": "konto",
+    "en": "account",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["account"],
+    "max_occurrences": 8
+  },
+  {
+    "da": "kostpris",
+    "en": "cost price",
+    "source": "glossary",
+    "da_forms": ["kostprisen"],
+    "en_forms": ["cost price", "cost prices"]
+  },
+  {
+    "da": "købsmoms",
+    "en": "purchase VAT",
+    "source": "glossary",
+    "da_forms": ["købsmomsen"],
+    "en_forms": ["purchase VAT", "input VAT"]
+  },
+  {
+    "da": "logistikomkostninger",
+    "en": "logistics costs",
+    "source": "glossary",
+    "da_forms": ["logistikomkostning"],
+    "en_forms": ["logistics costs", "logistic costs"]
+  },
+  {
+    "da": "moms",
+    "en": "VAT",
+    "source": "glossary",
+    "da_forms": ["momsen"],
+    "en_forms": ["VAT", "moms"],
+    "max_occurrences": 15
+  },
+  {
+    "da": "nettoomsætning",
+    "en": "net turnover",
+    "source": "glossary",
+    "da_forms": ["nettoomsætningen"],
+    "en_forms": ["net turnover", "net revenue"]
+  },
+  {
+    "da": "omkostning",
+    "en": "cost",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["cost"],
+    "max_occurrences": 12
+  },
+  {
+    "da": "omkostninger",
+    "en": "costs",
+    "source": "glossary",
+    "da_forms": ["omkostningerne"],
+    "en_forms": ["costs", "expenses"],
+    "max_occurrences": 20
+  },
+  {
+    "da": "omsætning",
+    "en": "revenue",
+    "source": "glossary",
+    "da_forms": ["omsætningen"],
+    "en_forms": ["revenue", "turnover"],
+    "max_occurrences": 15
+  },
+  {
+    "da": "omsætningsaktiver",
+    "en": "current assets",
+    "source": "glossary",
+    "da_forms": ["omsætningsaktiv", "omsætningsaktiverne"],
+    "en_forms": ["current assets", "current asset"]
+  },
+  {
+    "da": "ordreomkostninger",
+    "en": "ordering costs",
+    "source": "glossary",
+    "da_forms": ["ordreomkostning"],
+    "en_forms": ["ordering costs", "order costs"]
+  },
+  {
+    "da": "personaleomkostninger",
+    "en": "staff costs",
+    "source": "glossary",
+    "da_forms": ["personaleomkostning", "personaleomkostningerne"],
+    "en_forms": ["staff costs", "personnel costs", "employee costs"]
+  },
+  {
+    "da": "produktionsmidler",
+    "en": "factors of production",
+    "source": "glossary",
+    "da_forms": ["produktionsmiddel", "produktionsmidlerne"],
+    "en_forms": ["factors of production", "means of production", "production resources"]
+  },
+  {
+    "da": "produktionsvirksomhed",
+    "en": "production company",
+    "source": "glossary",
+    "da_forms": ["produktionsvirksomheder"],
+    "en_forms": ["production company", "production companies", "manufacturing company", "manufacturing companies"]
+  },
+  {
+    "da": "progressive variable omkostninger",
+    "en": "progressive variable costs",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["progressive variable costs"]
+  },
+  {
+    "da": "proportionale variable omkostninger",
+    "en": "proportional variable costs",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["proportional variable costs"]
+  },
+  {
+    "da": "præstationsløn",
+    "en": "performance-related pay",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["performance-related pay", "performance related pay", "performance pay"]
+  },
+  {
+    "da": "regnskab",
+    "en": "accounts",
+    "source": "glossary",
+    "da_forms": ["regnskabet", "regnskaber"],
+    "en_forms": ["accounts", "financial accounts"]
+  },
+  {
+    "da": "resultatbudget",
+    "en": "budgeted income statement",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["budgeted income statement", "profit budget"]
+  },
+  {
+    "da": "resultatopgørelse",
+    "en": "income statement",
+    "source": "glossary",
+    "da_forms": ["resultatopgørelsen"],
+    "en_forms": ["income statement", "income statements", "profit and loss statement"]
+  },
+  {
+    "da": "saldo",
+    "en": "account balance",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["account balance", "closing balance"]
+  },
+  {
+    "da": "saldometoden",
+    "en": "declining-balance method",
+    "source": "glossary",
+    "da_forms": ["saldometode"],
+    "en_forms": ["declining-balance method", "declining balance method", "reducing-balance method"]
+  },
+  {
+    "da": "samlede omkostninger",
+    "en": "total costs",
+    "source": "glossary",
+    "da_forms": ["de samlede omkostninger"],
+    "en_forms": ["total costs", "total cost"]
+  },
+  {
+    "da": "scrapværdi",
+    "en": "residual value",
+    "source": "glossary",
+    "da_forms": ["scrapværdien"],
+    "en_forms": ["residual value", "scrap value", "salvage value"]
+  },
+  {
+    "da": "servicevirksomhed",
+    "en": "service company",
+    "source": "glossary",
+    "da_forms": ["servicevirksomheden", "servicevirksomheder"],
+    "en_forms": ["service company", "service companies"]
+  },
+  {
+    "da": "tidløn",
+    "en": "time-based pay",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["time-based pay", "time based pay", "hourly pay"]
+  },
+  {
+    "da": "udbetaling",
+    "en": "payment",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["payment", "payments", "cash payment", "cash payments"]
+  },
+  {
+    "da": "valutakurs",
+    "en": "exchange rate",
+    "source": "glossary",
+    "da_forms": ["valutakursen", "valutakurser"],
+    "en_forms": ["exchange rate", "exchange rates"]
+  },
+  {
+    "da": "vareforbrug",
+    "en": "cost of goods sold",
+    "source": "glossary",
+    "da_forms": ["vareforbruget"],
+    "en_forms": ["cost of goods sold", "goods consumption"]
+  },
+  {
+    "da": "variable enhedsomkostninger",
+    "en": "variable unit costs",
+    "source": "glossary",
+    "da_forms": ["de variable enhedsomkostninger"],
+    "en_forms": ["variable unit costs", "variable cost per unit"]
+  },
+  {
+    "da": "variable omkostninger",
+    "en": "variable costs",
+    "source": "glossary",
+    "da_forms": ["variabel omkostning", "de variable omkostninger"],
+    "en_forms": ["variable costs", "variable cost"],
+    "max_occurrences": 20
+  },
+  {
+    "da": "afsætning",
+    "en": "sales volume",
+    "source": "ai",
+    "da_forms": ["afsætningen", "afsætningens"],
+    "en_forms": ["sales volume", "sales quantity"],
+    "max_occurrences": 15
+  },
+  {
+    "da": "samlede enhedsomkostninger",
+    "en": "total unit costs",
+    "source": "ai",
+    "da_forms": ["de samlede enhedsomkostninger"],
+    "en_forms": ["total unit costs", "total cost per unit"]
+  },
+  {
+    "da": "dækningsbidrag pr. enhed",
+    "en": "contribution margin per unit",
+    "source": "ai",
+    "da_forms": ["dækningsbidraget pr. enhed"],
+    "en_forms": ["contribution margin per unit", "unit contribution margin"]
+  },
+  {
+    "da": "levetid",
+    "en": "useful life",
+    "source": "ai",
+    "da_forms": ["levetiden"],
+    "en_forms": ["useful life", "service life"]
+  },
+  {
+    "da": "hjemtagelsesomkostninger",
+    "en": "landing costs",
+    "source": "ai",
+    "da_forms": ["hjemtagelsesomkostning", "hjemtagelsesomkostningerne"],
+    "en_forms": ["landing costs", "landed costs", "import costs"]
+  },
+  {
+    "da": "indkøbspris",
+    "en": "purchase price",
+    "source": "ai",
+    "da_forms": ["indkøbsprisen"],
+    "en_forms": ["purchase price", "purchase prices"],
+    "max_occurrences": 12
+  },
+  {
+    "da": "salgspris",
+    "en": "selling price",
+    "source": "ai",
+    "da_forms": ["salgsprisen", "salgspriser"],
+    "en_forms": ["selling price", "selling prices", "sales price", "sales prices"],
+    "max_occurrences": 12
+  },
+  {
+    "da": "nulpunktsafsætning",
+    "en": "break-even sales volume",
+    "source": "ai",
+    "da_forms": ["nulpunktsafsætningen"],
+    "en_forms": ["break-even sales volume", "break even sales volume"]
+  },
+  {
+    "da": "reklamenulpunkt",
+    "en": "advertising break-even point",
+    "source": "ai",
+    "da_forms": ["reklamenulpunktet"],
+    "en_forms": ["advertising break-even point", "advertising break even point"]
+  },
+  {
+    "da": "nulpunktsomsætning",
+    "en": "break-even revenue",
+    "source": "ai",
+    "da_forms": ["nulpunktsomsætningen"],
+    "en_forms": ["break-even revenue", "break even revenue", "break-even turnover", "break even turnover"]
+  }
+]

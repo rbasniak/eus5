@@ -1,0 +1,435 @@
+[
+  {
+    "da": "afskrivning",
+    "en": "depreciation",
+    "source": "glossary",
+    "da_forms": ["afskrivninger"],
+    "en_forms": ["depreciation", "depreciations"]
+  },
+  {
+    "da": "akkumulerede afskrivninger",
+    "en": "accumulated depreciation",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["accumulated depreciation", "accumulated depreciations"]
+  },
+  {
+    "da": "aktieselskab",
+    "en": "public limited company",
+    "source": "glossary",
+    "da_forms": ["aktieselskaber"],
+    "en_forms": ["public limited company", "public limited companies", "joint stock company", "joint stock companies", "A/S"]
+  },
+  {
+    "da": "andre eksterne omkostninger",
+    "en": "other external costs",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["other external costs", "other external expenses"]
+  },
+  {
+    "da": "anlægsaktiver",
+    "en": "fixed assets",
+    "source": "glossary",
+    "da_forms": ["anlægsaktiv", "anlægsaktiverne"],
+    "en_forms": ["fixed assets", "non-current assets", "noncurrent assets"]
+  },
+  {
+    "da": "anpartsselskab",
+    "en": "private limited company",
+    "source": "glossary",
+    "da_forms": ["anpartsselskaber", "ApS", "Aps"],
+    "en_forms": ["private limited company", "private limited companies", "ApS", "Aps"]
+  },
+  {
+    "da": "balance",
+    "en": "balance sheet",
+    "source": "glossary",
+    "da_forms": ["balancen", "balancer"],
+    "en_forms": ["balance sheet", "balance sheets"]
+  },
+  {
+    "da": "bogføring",
+    "en": "bookkeeping",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["bookkeeping", "book-keeping"]
+  },
+  {
+    "da": "bruttoavanceprocent",
+    "en": "gross margin percentage",
+    "source": "glossary",
+    "da_forms": ["bruttoavanceprocenten"],
+    "en_forms": ["gross margin percentage", "gross profit percentage", "gross margin percent"]
+  },
+  {
+    "da": "budget",
+    "en": "budget",
+    "source": "glossary",
+    "da_forms": ["budgettet", "budgetter"],
+    "en_forms": ["budget", "budgets"],
+    "max_occurrences": 12
+  },
+  {
+    "da": "ERP-system",
+    "en": "ERP system",
+    "source": "glossary",
+    "da_forms": ["ERP-systemet", "ERP-systemer", "ERP"],
+    "en_forms": ["ERP system", "ERP systems", "ERP"],
+    "max_occurrences": 15
+  },
+  {
+    "da": "egenkapital",
+    "en": "equity",
+    "source": "glossary",
+    "da_forms": ["egenkapitalen"],
+    "en_forms": ["equity", "equity capital"],
+    "max_occurrences": 15
+  },
+  {
+    "da": "enkeltmandsvirksomhed",
+    "en": "sole proprietorship",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["sole proprietorship", "sole proprietorships", "sole trader business"]
+  },
+  {
+    "da": "fremmedkapital",
+    "en": "debt capital",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["debt capital", "external capital", "borrowed capital"]
+  },
+  {
+    "da": "gældsforpligtelser",
+    "en": "liabilities",
+    "source": "glossary",
+    "da_forms": ["gældsforpligtelse", "gældsforpligtelserne"],
+    "en_forms": ["liabilities", "debt obligations", "debt obligation"]
+  },
+  {
+    "da": "handelsvirksomhed",
+    "en": "trading company",
+    "source": "glossary",
+    "da_forms": ["handelsvirksomheden"],
+    "en_forms": ["trading company", "trading companies", "commercial enterprise"]
+  },
+  {
+    "da": "indtægt",
+    "en": "income",
+    "source": "glossary",
+    "da_forms": ["indtægter", "indtægterne"],
+    "en_forms": ["income", "incomes"]
+  },
+  {
+    "da": "interessentskab",
+    "en": "partnership",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["partnership", "partnerships", "I/S"]
+  },
+  {
+    "da": "kasse",
+    "en": "cash on hand",
+    "source": "glossary",
+    "da_forms": ["kassen", "kassebeholdning", "kassebeholdningen"],
+    "en_forms": ["cash on hand", "cash balance"]
+  },
+  {
+    "da": "kassekredit",
+    "en": "overdraft",
+    "source": "glossary",
+    "da_forms": ["kassekreditten"],
+    "en_forms": ["overdraft", "overdraft facility", "bank overdraft"]
+  },
+  {
+    "da": "kassekredit disponibel",
+    "en": "available overdraft",
+    "source": "glossary",
+    "da_forms": ["disponibelt beløb på kassekreditten"],
+    "en_forms": ["available overdraft", "overdraft available", "available amount on the overdraft"]
+  },
+  {
+    "da": "konto",
+    "en": "account",
+    "source": "glossary",
+    "da_forms": ["kontoen", "konti", "kontiene"],
+    "en_forms": ["account", "accounts"],
+    "max_occurrences": 15
+  },
+  {
+    "da": "kortfristet gæld",
+    "en": "short-term debt",
+    "source": "glossary",
+    "da_forms": ["kortfristede gældsforpligtelser"],
+    "en_forms": ["short-term debt", "short term debt", "current liabilities"]
+  },
+  {
+    "da": "kostpris",
+    "en": "cost price",
+    "source": "glossary",
+    "da_forms": ["kostprisen", "kostpriser", "kostpriserne"],
+    "en_forms": ["cost price", "cost prices", "purchase cost"]
+  },
+  {
+    "da": "købsmoms",
+    "en": "purchase VAT",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["purchase VAT", "input VAT"]
+  },
+  {
+    "da": "langfristet gæld",
+    "en": "long-term debt",
+    "source": "glossary",
+    "da_forms": ["langfristet lån", "langfristede gældsforpligtelser"],
+    "en_forms": ["long-term debt", "long term debt", "long-term loan", "long term loan", "non-current liabilities"]
+  },
+  {
+    "da": "moms",
+    "en": "VAT",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["VAT", "moms"]
+  },
+  {
+    "da": "momsafregning",
+    "en": "VAT settlement",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["VAT settlement"]
+  },
+  {
+    "da": "nettoomsætning",
+    "en": "net turnover",
+    "source": "glossary",
+    "da_forms": ["nettoomsætningen"],
+    "en_forms": ["net turnover", "net revenue", "net sales"],
+    "max_occurrences": 15
+  },
+  {
+    "da": "omkostning",
+    "en": "cost",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["a cost"]
+  },
+  {
+    "da": "omkostninger",
+    "en": "costs",
+    "source": "glossary",
+    "da_forms": ["omkostningerne"],
+    "en_forms": ["costs", "expenses"],
+    "max_occurrences": 15
+  },
+  {
+    "da": "omsætning",
+    "en": "revenue",
+    "source": "glossary",
+    "da_forms": ["omsætningen"],
+    "en_forms": ["revenue", "turnover"],
+    "max_occurrences": 12
+  },
+  {
+    "da": "omsætningsaktiver",
+    "en": "current assets",
+    "source": "glossary",
+    "da_forms": ["omsætningsaktiv", "omsætningsaktiverne"],
+    "en_forms": ["current assets", "circulating assets"]
+  },
+  {
+    "da": "personaleomkostninger",
+    "en": "staff costs",
+    "source": "glossary",
+    "da_forms": ["personaleomkostningerne"],
+    "en_forms": ["staff costs", "personnel costs", "employee costs"]
+  },
+  {
+    "da": "produktionsmidler",
+    "en": "means of production",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["means of production", "factor of production", "factors of production"]
+  },
+  {
+    "da": "produktionsvirksomhed",
+    "en": "production company",
+    "source": "glossary",
+    "da_forms": ["produktionsvirksomheden", "produktionsvirksomheder"],
+    "en_forms": ["production company", "production companies", "manufacturing company", "manufacturing companies"]
+  },
+  {
+    "da": "regnskab",
+    "en": "financial records",
+    "source": "glossary",
+    "da_forms": ["regnskabet", "regnskaber", "regnskaberne"],
+    "en_forms": ["financial records", "accounting records"],
+    "max_occurrences": 15
+  },
+  {
+    "da": "resultatopgørelse",
+    "en": "income statement",
+    "source": "glossary",
+    "da_forms": ["resultatopgørelsen"],
+    "en_forms": ["income statement", "income statements", "profit and loss statement", "profit and loss account"],
+    "max_occurrences": 15
+  },
+  {
+    "da": "saldo",
+    "en": "balance on an account",
+    "source": "glossary",
+    "da_forms": ["saldoen", "saldi", "saldiene"],
+    "en_forms": ["account balance", "account balances", "balance on an account"]
+  },
+  {
+    "da": "saldobalance",
+    "en": "trial balance",
+    "source": "glossary",
+    "da_forms": ["saldobalancen"],
+    "en_forms": ["trial balance", "trial balances"]
+  },
+  {
+    "da": "salgsmoms",
+    "en": "sales VAT",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["sales VAT", "output VAT"]
+  },
+  {
+    "da": "samlede omkostninger",
+    "en": "total costs",
+    "source": "glossary",
+    "da_forms": ["de samlede omkostninger"],
+    "en_forms": ["total costs", "total expenses"]
+  },
+  {
+    "da": "servicevirksomhed",
+    "en": "service company",
+    "source": "glossary",
+    "da_forms": ["servicevirksomheder"],
+    "en_forms": ["service company", "service companies", "service business", "service businesses"]
+  },
+  {
+    "da": "udbetaling",
+    "en": "payment",
+    "source": "glossary",
+    "da_forms": ["udbetalinger"],
+    "en_forms": ["payment", "payments", "cash payment", "cash payments"]
+  },
+  {
+    "da": "vareforbrug",
+    "en": "cost of goods sold",
+    "source": "glossary",
+    "da_forms": ["vareforbruget"],
+    "en_forms": ["cost of goods sold", "cost of sales", "goods consumption"],
+    "max_occurrences": 15
+  },
+  {
+    "da": "varestrøm",
+    "en": "flow of goods",
+    "source": "glossary",
+    "da_forms": ["varestrømmen", "varestrømme"],
+    "en_forms": ["flow of goods", "goods flow", "goods flows"]
+  },
+  {
+    "da": "virksomhedens økonomiske proces",
+    "en": "the company's economic process",
+    "source": "glossary",
+    "da_forms": ["økonomiske processer"],
+    "en_forms": ["the company's economic process", "the company’s economic process", "economic processes"]
+  },
+  {
+    "da": "Virksomhedsguiden",
+    "en": "Danish Business Guide",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["Danish Business Guide", "Virksomhedsguiden"]
+  },
+  {
+    "da": "bruttoavance",
+    "en": "gross profit",
+    "source": "ai",
+    "da_forms": ["bruttoavancen"],
+    "en_forms": ["gross profit", "gross margin"],
+    "max_occurrences": 15
+  },
+  {
+    "da": "aktiver",
+    "en": "assets",
+    "source": "ai",
+    "da_forms": ["aktiv", "aktiverne"],
+    "en_forms": ["assets"],
+    "max_occurrences": 12
+  },
+  {
+    "da": "passiver",
+    "en": "equity and liabilities",
+    "source": "ai",
+    "da_forms": ["passiverne"],
+    "en_forms": ["equity and liabilities", "liabilities side"]
+  },
+  {
+    "da": "årsregnskab",
+    "en": "annual accounts",
+    "source": "ai",
+    "da_forms": ["årsregnskabet", "årsregnskaber"],
+    "en_forms": ["annual accounts", "annual financial statements", "annual account"],
+    "max_occurrences": 15
+  },
+  {
+    "da": "bilag",
+    "en": "accounting voucher",
+    "source": "ai",
+    "da_forms": ["bilaget", "bilagene"],
+    "en_forms": ["accounting voucher", "accounting vouchers", "source document", "source documents"]
+  },
+  {
+    "da": "debet",
+    "en": "debit",
+    "source": "ai",
+    "da_forms": ["debetside"],
+    "en_forms": ["debit", "debit side"]
+  },
+  {
+    "da": "debetsaldo",
+    "en": "debit balance",
+    "source": "ai",
+    "da_forms": ["debetsaldoen"],
+    "en_forms": ["debit balance", "debit balances"]
+  },
+  {
+    "da": "kreditsaldo",
+    "en": "credit balance",
+    "source": "ai",
+    "da_forms": ["kreditsaldoen"],
+    "en_forms": ["credit balance", "credit balances"]
+  },
+  {
+    "da": "indtjeningsbidrag",
+    "en": "earnings contribution",
+    "source": "ai",
+    "da_forms": ["indtjeningsbidraget"],
+    "en_forms": ["earnings contribution", "contribution to earnings"]
+  },
+  {
+    "da": "resultat før renter",
+    "en": "profit before interest",
+    "source": "ai",
+    "da_forms": ["resultatet før renter"],
+    "en_forms": ["profit before interest", "result before interest", "earnings before interest"]
+  },
+  {
+    "da": "resultat før skat",
+    "en": "profit before tax",
+    "source": "ai",
+    "da_forms": ["resultatet før skat"],
+    "en_forms": ["profit before tax", "result before tax", "earnings before tax"]
+  },
+  {
+    "da": "årets resultat",
+    "en": "profit for the year",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": ["profit for the year", "result for the year", "net profit for the year"]
+  }
+]

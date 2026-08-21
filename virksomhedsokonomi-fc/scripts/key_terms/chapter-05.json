@@ -1,0 +1,421 @@
+[
+  {
+    "da": "andre eksterne omkostninger",
+    "en": "other external costs",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["other external costs", "other external expenses"]
+  },
+  {
+    "da": "bestillingspunkt",
+    "en": "reorder point",
+    "source": "glossary",
+    "da_forms": ["bestillingspunktet"],
+    "en_forms": ["reorder point", "re-order point"]
+  },
+  {
+    "da": "bogføring",
+    "en": "bookkeeping",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["bookkeeping"]
+  },
+  {
+    "da": "den optimale indkøbsstørrelse",
+    "en": "optimal order quantity",
+    "source": "glossary",
+    "da_forms": ["optimal indkøbsstørrelse", "den optimale indkøbsstørrelse pr. gang"],
+    "en_forms": ["optimal order quantity", "the optimal order quantity", "optimum order quantity"]
+  },
+  {
+    "da": "dækningsbidrag",
+    "en": "contribution margin",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["contribution margin", "contribution margins"]
+  },
+  {
+    "da": "dækningsgrad",
+    "en": "contribution margin ratio",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["contribution margin ratio", "contribution ratio"]
+  },
+  {
+    "da": "ERP-system",
+    "en": "ERP system",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["ERP system", "ERP systems"]
+  },
+  {
+    "da": "handelsvirksomhed",
+    "en": "trading company",
+    "source": "glossary",
+    "da_forms": ["handelsvirksomheden", "handelsvirksomheder"],
+    "en_forms": ["trading company", "trading companies"]
+  },
+  {
+    "da": "indbetaling",
+    "en": "cash receipt",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["cash receipt", "cash receipts", "incoming payment", "incoming payments"]
+  },
+  {
+    "da": "indkøb efter bestillingspunkt",
+    "en": "reorder-point purchasing",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["reorder-point purchasing", "reorder point purchasing", "purchasing by reorder point"]
+  },
+  {
+    "da": "insourcing",
+    "en": "insourcing",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["insourcing", "insource", "insourced"]
+  },
+  {
+    "da": "kapacitetsomkostninger",
+    "en": "capacity costs",
+    "source": "glossary",
+    "da_forms": ["kapacitetsomkostning"],
+    "en_forms": ["capacity costs", "fixed costs"]
+  },
+  {
+    "da": "kassekredit",
+    "en": "overdraft",
+    "source": "glossary",
+    "da_forms": ["kassekreditten"],
+    "en_forms": ["overdraft", "bank overdraft"]
+  },
+  {
+    "da": "kernekompetence",
+    "en": "core competence",
+    "source": "glossary",
+    "da_forms": ["kernekompetencer"],
+    "en_forms": ["core competence", "core competences", "core competency", "core competencies"]
+  },
+  {
+    "da": "kostpris",
+    "en": "cost price",
+    "source": "glossary",
+    "da_forms": ["kostprisen"],
+    "en_forms": ["cost price"]
+  },
+  {
+    "da": "lageromkostninger",
+    "en": "inventory holding costs",
+    "source": "glossary",
+    "da_forms": ["lageromkostning", "lageromkostningerne"],
+    "en_forms": ["inventory holding costs", "inventory costs", "storage costs", "holding costs"],
+    "max_occurrences": 15
+  },
+  {
+    "da": "leveringsservice",
+    "en": "delivery service",
+    "source": "glossary",
+    "da_forms": ["leveringsservicen"],
+    "en_forms": ["delivery service", "delivery services"],
+    "max_occurrences": 15
+  },
+  {
+    "da": "logistik",
+    "en": "logistics",
+    "source": "glossary",
+    "da_forms": ["logistikken"],
+    "en_forms": ["logistics"],
+    "max_occurrences": 20
+  },
+  {
+    "da": "logistikomkostninger",
+    "en": "logistics costs",
+    "source": "glossary",
+    "da_forms": ["logistikomkostning", "logistikomkostningerne"],
+    "en_forms": ["logistics costs", "logistic costs"],
+    "max_occurrences": 15
+  },
+  {
+    "da": "logistikproces",
+    "en": "logistics process",
+    "source": "glossary",
+    "da_forms": ["logistikprocessen"],
+    "en_forms": ["logistics process", "logistics processes", "logistic process"]
+  },
+  {
+    "da": "logistisk effektivitet",
+    "en": "logistics efficiency",
+    "source": "glossary",
+    "da_forms": ["den logistiske effektivitet"],
+    "en_forms": ["logistics efficiency", "logistic efficiency"]
+  },
+  {
+    "da": "make or buy",
+    "en": "make or buy",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["make or buy", "make-or-buy"]
+  },
+  {
+    "da": "omkostninger",
+    "en": "costs",
+    "source": "glossary",
+    "da_forms": ["omkostningerne"],
+    "en_forms": ["costs", "expenses"],
+    "max_occurrences": 15
+  },
+  {
+    "da": "omsætning",
+    "en": "revenue",
+    "source": "glossary",
+    "da_forms": ["omsætningen"],
+    "en_forms": ["revenue", "turnover"]
+  },
+  {
+    "da": "ordreomkostninger",
+    "en": "ordering costs",
+    "source": "glossary",
+    "da_forms": ["ordreomkostning", "ordreomkostningerne", "bestillingsomkostninger", "indkøbsomkostninger"],
+    "en_forms": ["ordering costs", "order costs", "procurement costs"]
+  },
+  {
+    "da": "outsourcing",
+    "en": "outsourcing",
+    "source": "glossary",
+    "da_forms": ["outsourcer", "outsourcet"],
+    "en_forms": ["outsourcing", "outsource", "outsourced"]
+  },
+  {
+    "da": "perifere opgaver",
+    "en": "peripheral tasks",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["peripheral tasks", "peripheral task", "non-core tasks"]
+  },
+  {
+    "da": "periodisk indkøb",
+    "en": "periodic purchasing",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["periodic purchasing", "periodic procurement"]
+  },
+  {
+    "da": "personaleomkostninger",
+    "en": "staff costs",
+    "source": "glossary",
+    "da_forms": ["personaleomkostning"],
+    "en_forms": ["staff costs", "personnel costs", "employee costs"]
+  },
+  {
+    "da": "produktionsmidler",
+    "en": "factors of production",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["factors of production", "means of production", "production resources"]
+  },
+  {
+    "da": "produktionsvirksomhed",
+    "en": "production company",
+    "source": "glossary",
+    "da_forms": ["produktionsvirksomheden"],
+    "en_forms": ["production company", "production companies", "manufacturing company", "manufacturing companies"]
+  },
+  {
+    "da": "regnskab",
+    "en": "accounts",
+    "source": "glossary",
+    "da_forms": ["regnskabet", "regnskaber", "årsregnskab"],
+    "en_forms": ["accounts", "financial accounts", "annual accounts"]
+  },
+  {
+    "da": "resultatopgørelse",
+    "en": "income statement",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["income statement", "profit and loss statement"]
+  },
+  {
+    "da": "samlede omkostninger",
+    "en": "total costs",
+    "source": "glossary",
+    "da_forms": ["de samlede omkostninger"],
+    "en_forms": ["total costs", "total cost"]
+  },
+  {
+    "da": "servicevirksomhed",
+    "en": "service company",
+    "source": "glossary",
+    "da_forms": ["servicevirksomheder"],
+    "en_forms": ["service company", "service companies"]
+  },
+  {
+    "da": "vareforbrug",
+    "en": "cost of goods sold",
+    "source": "glossary",
+    "da_forms": ["vareforbruget"],
+    "en_forms": ["cost of goods sold", "goods consumption"]
+  },
+  {
+    "da": "varestrøm",
+    "en": "flow of goods",
+    "source": "glossary",
+    "da_forms": ["varestrømmen", "varestrømme"],
+    "en_forms": ["flow of goods", "goods flow", "flows of goods"]
+  },
+  {
+    "da": "variable omkostninger",
+    "en": "variable costs",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["variable costs", "variable cost"]
+  },
+  {
+    "da": "indgående logistik",
+    "en": "inbound logistics",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": ["inbound logistics"]
+  },
+  {
+    "da": "intern transport",
+    "en": "internal transport",
+    "source": "ai",
+    "da_forms": ["den interne transport"],
+    "en_forms": ["internal transport"]
+  },
+  {
+    "da": "udgående logistik",
+    "en": "outbound logistics",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": ["outbound logistics"]
+  },
+  {
+    "da": "funktionsprincippet",
+    "en": "functional principle",
+    "source": "ai",
+    "da_forms": ["funktionsprincip"],
+    "en_forms": ["functional principle", "function principle"]
+  },
+  {
+    "da": "objektprincippet",
+    "en": "object principle",
+    "source": "ai",
+    "da_forms": ["objektprincip"],
+    "en_forms": ["object principle"]
+  },
+  {
+    "da": "centralisering af logistikfunktionen",
+    "en": "centralisation of the logistics function",
+    "source": "ai",
+    "da_forms": ["centralisering af logistikopgaverne"],
+    "en_forms": ["centralisation of the logistics function", "centralization of the logistics function"]
+  },
+  {
+    "da": "decentralisering af logistikfunktionen",
+    "en": "decentralisation of the logistics function",
+    "source": "ai",
+    "da_forms": ["decentralisering af logistikopgaverne"],
+    "en_forms": ["decentralisation of the logistics function", "decentralization of the logistics function"]
+  },
+  {
+    "da": "emballage- og pakkeomkostninger",
+    "en": "packaging and packing costs",
+    "source": "ai",
+    "da_forms": ["pakkeomkostninger"],
+    "en_forms": ["packaging and packing costs", "packaging costs", "packing costs"]
+  },
+  {
+    "da": "transportomkostninger",
+    "en": "transport costs",
+    "source": "ai",
+    "da_forms": ["transportomkostning"],
+    "en_forms": ["transport costs", "transportation costs"]
+  },
+  {
+    "da": "administrative logistikomkostninger",
+    "en": "administrative logistics costs",
+    "source": "ai",
+    "da_forms": ["administrative logistikomkostning"],
+    "en_forms": ["administrative logistics costs", "administrative logistic costs"]
+  },
+  {
+    "da": "mangelomkostninger",
+    "en": "stockout costs",
+    "source": "ai",
+    "da_forms": ["mangelomkostning"],
+    "en_forms": ["stockout costs", "stock-out costs", "shortage costs"]
+  },
+  {
+    "da": "leveringstid",
+    "en": "delivery time",
+    "source": "ai",
+    "da_forms": ["leveringstiden", "leveringstider"],
+    "en_forms": ["delivery time", "delivery times", "lead time", "lead times"]
+  },
+  {
+    "da": "lagerservicegrad",
+    "en": "inventory service level",
+    "source": "ai",
+    "da_forms": ["lagerservicegraden"],
+    "en_forms": ["inventory service level", "stock service level"]
+  },
+  {
+    "da": "leveringsoverholdelse",
+    "en": "delivery reliability",
+    "source": "ai",
+    "da_forms": ["leveringsoverholdelsen"],
+    "en_forms": ["delivery reliability", "on-time delivery performance"]
+  },
+  {
+    "da": "leveringsfleksibilitet",
+    "en": "delivery flexibility",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": ["delivery flexibility"]
+  },
+  {
+    "da": "leveringsinformation",
+    "en": "delivery information",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": ["delivery information"]
+  },
+  {
+    "da": "lagermotiver",
+    "en": "motives for holding inventory",
+    "source": "ai",
+    "da_forms": ["lagermotiv", "lagermotiverne"],
+    "en_forms": ["motives for holding inventory", "inventory motives", "reasons for holding inventory"]
+  },
+  {
+    "da": "disponeringssystem",
+    "en": "inventory replenishment system",
+    "source": "ai",
+    "da_forms": ["disponeringssystemer"],
+    "en_forms": ["inventory replenishment system", "replenishment system", "purchasing system"]
+  },
+  {
+    "da": "gennemsnitligt varelager",
+    "en": "average inventory",
+    "source": "ai",
+    "da_forms": ["det gennemsnitlige varelager", "gennemsnitslager", "gennemsnitslageret"],
+    "en_forms": ["average inventory", "average stock"]
+  },
+  {
+    "da": "sikkerhedslager",
+    "en": "safety stock",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": ["safety stock", "buffer stock"]
+  },
+  {
+    "da": "varelager",
+    "en": "inventory",
+    "source": "ai",
+    "da_forms": ["varelageret", "varelagre"],
+    "en_forms": ["inventory", "inventories", "stock of goods"],
+    "max_occurrences": 15
+  }
+]
