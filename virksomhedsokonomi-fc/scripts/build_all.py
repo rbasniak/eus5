@@ -12,6 +12,7 @@ from bs4 import BeautifulSoup, NavigableString, Tag
 from deep_translator import GoogleTranslator
 
 from extract import extract_chapter
+from key_terms import annotate_key_terms
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE_ROOT = ROOT.parent
@@ -544,8 +545,18 @@ def build_chapter(folder: Path, output_file: str, num: int, tr: Translator) -> d
     tr.translate_many(collect_strings(article) + [data["title"]])
     bilingualize(article, tr)
     add_boxes(article)
-    inner = article.decode_contents()
     toc = toc_html(article)
+    vocabulary = annotate_key_terms(article, num)
+    if vocabulary["terms"]:
+        print(
+            "  vocabulary:"
+            f" {vocabulary['terms']} terms,"
+            f" {vocabulary['existing']} source glossary,"
+            f" {vocabulary['da']} Danish matches,"
+            f" {vocabulary['en']} English matches",
+            flush=True,
+        )
+    inner = article.decode_contents()
     title_en = tr.translate(data["title"])
     return {
         "num": num,

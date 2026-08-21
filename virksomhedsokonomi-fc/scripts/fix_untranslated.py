@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 from build_all import Translator, looks_danish, purge_failed_translations  # noqa: E402
+from key_terms import annotate_key_terms  # noqa: E402
 
 MANUAL: dict[str, str] = {
     "Introduktion": "Introduction",
@@ -109,6 +110,15 @@ def apply_fixes(soup: BeautifulSoup, translations: dict[str, str]) -> int:
     return changed
 
 
+def restore_key_terms(soup: BeautifulSoup, path: Path) -> None:
+    match = re.match(r"kapitel-(\d+)\.html$", path.name)
+    if not match:
+        return
+    article = soup.select_one("main.article")
+    if article is not None:
+        annotate_key_terms(article, int(match.group(1)))
+
+
 def purge_identity_cache(tr: Translator) -> int:
     remove = []
     for key, value in tr.cache.items():
@@ -173,6 +183,7 @@ def main() -> None:
         soup = BeautifulSoup(path.read_text(encoding="utf-8"), "html.parser")
         changed = apply_fixes(soup, translations)
         if changed:
+            restore_key_terms(soup, path)
             path.write_text(soup.decode(formatter="html"), encoding="utf-8")
             print(f"{path.name}: fixed {changed}", flush=True)
             total += changed

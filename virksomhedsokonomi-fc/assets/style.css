@@ -290,6 +290,74 @@ blockquote p {
   font-weight: 600;
 }
 
+.vocab-term {
+  cursor: help;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.vocab-term:focus-visible,
+.vocab-term[aria-expanded="true"] {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.vocab-tooltip {
+  position: fixed;
+  z-index: 1000;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas:
+    "label audio"
+    "translation audio";
+  column-gap: 0.75rem;
+  min-width: 9rem;
+  max-width: min(22rem, calc(100vw - 1.25rem));
+  padding: 0.65rem 0.75rem;
+  color: var(--text);
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: 0.65rem;
+  box-shadow: 0 10px 30px rgb(15 23 42 / 20%);
+}
+
+.vocab-tooltip[hidden] {
+  display: none;
+}
+
+.vocab-tooltip-label {
+  grid-area: label;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.vocab-tooltip-translation {
+  grid-area: translation;
+}
+
+.vocab-tts {
+  grid-area: audio;
+  align-self: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  padding: 0;
+  cursor: pointer;
+  background: var(--accent-soft);
+  border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--line));
+  border-radius: 999px;
+  font-size: 1rem;
+}
+
+.vocab-tts:hover,
+.vocab-tts:focus-visible {
+  background: color-mix(in srgb, var(--accent) 22%, var(--bg-card));
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
 a {
   color: var(--accent);
 }

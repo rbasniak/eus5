@@ -1,0 +1,355 @@
+[
+  {
+    "da": "moms",
+    "en": "VAT",
+    "source": "glossary",
+    "da_forms": ["momsen", "momsbeløb", "momsbeløbet"],
+    "en_forms": ["VAT", "moms"]
+  },
+  {
+    "da": "købsmoms",
+    "en": "purchase VAT",
+    "source": "glossary",
+    "da_forms": ["købsmomsen"],
+    "en_forms": ["purchase VAT", "input VAT"]
+  },
+  {
+    "da": "salgsmoms",
+    "en": "sales VAT",
+    "source": "glossary",
+    "da_forms": ["salgsmomsen"],
+    "en_forms": ["sales VAT", "output VAT"]
+  },
+  {
+    "da": "momsafregning",
+    "en": "VAT settlement",
+    "source": "glossary",
+    "da_forms": ["momsafregningen"],
+    "en_forms": ["VAT settlement"]
+  },
+  {
+    "da": "produktionsvirksomhed",
+    "en": "production company",
+    "source": "glossary",
+    "da_forms": ["produktionsvirksomheden", "produktionsvirksomheder"],
+    "en_forms": ["production company", "production companies", "manufacturing company", "manufacturing companies"]
+  },
+  {
+    "da": "handelsvirksomhed",
+    "en": "trading company",
+    "source": "glossary",
+    "da_forms": ["handelsvirksomheden", "handelsvirksomheder"],
+    "en_forms": ["trading company", "trading companies"]
+  },
+  {
+    "da": "servicevirksomhed",
+    "en": "service company",
+    "source": "glossary",
+    "da_forms": ["servicevirksomheden", "servicevirksomheder"],
+    "en_forms": ["service company", "service companies"]
+  },
+  {
+    "da": "enkeltmandsvirksomhed",
+    "en": "sole proprietorship",
+    "source": "glossary",
+    "da_forms": ["enkeltmandsvirksomheden", "enkeltmandsvirksomheder"],
+    "en_forms": ["sole proprietorship", "sole proprietorships"]
+  },
+  {
+    "da": "interessentskab",
+    "en": "partnership",
+    "source": "glossary",
+    "da_forms": ["interessentskabet", "interessenter", "I/S"],
+    "en_forms": ["partnership", "stakeholdership", "I/S"]
+  },
+  {
+    "da": "anpartsselskab",
+    "en": "private limited company",
+    "source": "glossary",
+    "da_forms": ["anpartsselskabet", "anpartsselskaber", "ApS"],
+    "en_forms": ["private limited company", "private limited companies", "ApS"]
+  },
+  {
+    "da": "aktieselskab",
+    "en": "public limited company",
+    "source": "glossary",
+    "da_forms": ["aktieselskabet", "aktieselskaber", "A/S"],
+    "en_forms": ["public limited company", "public limited companies", "joint stock company", "joint stock companies", "A/S"]
+  },
+  {
+    "da": "egenkapital",
+    "en": "equity",
+    "source": "glossary",
+    "da_forms": ["egenkapitalen"],
+    "en_forms": ["equity"]
+  },
+  {
+    "da": "fremmedkapital",
+    "en": "debt capital",
+    "source": "glossary",
+    "da_forms": ["fremmedkapitalen"],
+    "en_forms": ["debt capital", "external capital", "borrowing capital", "foreign capital"]
+  },
+  {
+    "da": "gældsforpligtelser",
+    "en": "debt obligations",
+    "source": "glossary",
+    "da_forms": ["gældsforpligtelse", "gældsforpligtelsen"],
+    "en_forms": ["debt obligations", "debt obligation"]
+  },
+  {
+    "da": "kassekredit",
+    "en": "overdraft",
+    "source": "glossary",
+    "da_forms": ["kassekreditten"],
+    "en_forms": ["overdraft"]
+  },
+  {
+    "da": "kassekredit disponibel",
+    "en": "overdraft available",
+    "source": "glossary",
+    "da_forms": ["disponibel kassekredit"],
+    "en_forms": ["overdraft available", "available overdraft"]
+  },
+  {
+    "da": "kortfristet gæld",
+    "en": "short-term debt",
+    "source": "glossary",
+    "da_forms": [],
+    "en_forms": ["short-term debt", "short term debt"]
+  },
+  {
+    "da": "langfristet gæld",
+    "en": "long-term debt",
+    "source": "glossary",
+    "da_forms": ["langfristet lån", "langfristede lån"],
+    "en_forms": ["long-term debt", "long term debt", "long-term loan", "long term loan"]
+  },
+  {
+    "da": "omsætning",
+    "en": "revenue",
+    "source": "glossary",
+    "da_forms": ["omsætningen"],
+    "en_forms": ["revenue", "turnover"]
+  },
+  {
+    "da": "nettoomsætning",
+    "en": "net turnover",
+    "source": "glossary",
+    "da_forms": ["nettoomsætningen"],
+    "en_forms": ["net turnover", "net revenue"]
+  },
+  {
+    "da": "omkostninger",
+    "en": "costs",
+    "source": "glossary",
+    "da_forms": ["omkostningen", "omkostningerne"],
+    "en_forms": ["costs"]
+  },
+  {
+    "da": "kostpris",
+    "en": "cost price",
+    "source": "glossary",
+    "da_forms": ["kostprisen"],
+    "en_forms": ["cost price"]
+  },
+  {
+    "da": "budget",
+    "en": "budget",
+    "source": "glossary",
+    "da_forms": ["budgettet", "budgetter"],
+    "en_forms": ["budget", "budgets"]
+  },
+  {
+    "da": "regnskab",
+    "en": "accounts",
+    "source": "glossary",
+    "da_forms": ["regnskabet", "regnskabsår"],
+    "en_forms": ["accounts", "keep accounts"]
+  },
+  {
+    "da": "holdingselskab",
+    "en": "holding company",
+    "source": "glossary",
+    "da_forms": ["holdingselskabet", "holdingselskaber"],
+    "en_forms": ["holding company", "holding companies"]
+  },
+  {
+    "da": "logistik",
+    "en": "logistics",
+    "source": "glossary",
+    "da_forms": ["logistikken"],
+    "en_forms": ["logistics"]
+  },
+  {
+    "da": "virksomhedstype",
+    "en": "type of company",
+    "source": "ai",
+    "da_forms": ["virksomhedstypen", "virksomhedstyper"],
+    "en_forms": ["type of company", "types of companies", "company type", "company types", "business type", "business types"],
+    "max_occurrences": 12
+  },
+  {
+    "da": "ejerform",
+    "en": "form of ownership",
+    "source": "ai",
+    "da_forms": ["ejerformen", "ejerformer"],
+    "en_forms": ["form of ownership", "forms of ownership", "ownership form", "ownership forms"],
+    "max_occurrences": 12
+  },
+  {
+    "da": "finansieringsform",
+    "en": "form of financing",
+    "source": "ai",
+    "da_forms": ["finansieringsformer"],
+    "en_forms": ["form of financing", "forms of financing"]
+  },
+  {
+    "da": "momssystem",
+    "en": "VAT system",
+    "source": "ai",
+    "da_forms": ["momssystemet"],
+    "en_forms": ["VAT system"]
+  },
+  {
+    "da": "blandet virksomhed",
+    "en": "mixed company",
+    "source": "ai",
+    "da_forms": ["blandede virksomheder"],
+    "en_forms": ["mixed company", "mixed companies"]
+  },
+  {
+    "da": "detailhandel",
+    "en": "retail trade",
+    "source": "ai",
+    "da_forms": ["detailhandelen", "detailvirksomhed", "detailvirksomheden", "detailvirksomheder", "detailforretninger", "detaillist", "detaillister", "detailhandelsvirksomhed"],
+    "en_forms": ["retail trade", "retail company", "retail companies", "retail business", "retail businesses"]
+  },
+  {
+    "da": "engroshandel",
+    "en": "wholesale trade",
+    "source": "ai",
+    "da_forms": ["engrosvirksomhed", "engrosvirksomheden", "engrosvirksomheder", "grossist", "grossisten", "grossister", "grossistvirksomheder"],
+    "en_forms": ["wholesale trade", "wholesale company", "wholesale companies", "wholesaler", "wholesalers"]
+  },
+  {
+    "da": "distributionskæde",
+    "en": "distribution chain",
+    "source": "ai",
+    "da_forms": ["distributionskæden"],
+    "en_forms": ["distribution chain", "distribution chains"]
+  },
+  {
+    "da": "personlig hæftelse",
+    "en": "personal liability",
+    "source": "ai",
+    "da_forms": ["hæfter personligt", "personligt hæftende"],
+    "en_forms": ["personal liability", "personally liable"]
+  },
+  {
+    "da": "solidarisk hæftelse",
+    "en": "joint and several liability",
+    "source": "ai",
+    "da_forms": ["hæfter solidarisk", "personligt og solidarisk", "solidarisk"],
+    "en_forms": ["joint and several liability", "jointly and severally liable", "personally and jointly liable", "jointly liable"]
+  },
+  {
+    "da": "begrænset hæftelse",
+    "en": "limited liability",
+    "source": "ai",
+    "da_forms": ["hæfter begrænset"],
+    "en_forms": ["limited liability"]
+  },
+  {
+    "da": "aktiekapital",
+    "en": "share capital",
+    "source": "ai",
+    "da_forms": ["aktiekapitalen", "indskudskapitalen"],
+    "en_forms": ["share capital", "contributed capital"]
+  },
+  {
+    "da": "aktionær",
+    "en": "shareholder",
+    "source": "ai",
+    "da_forms": ["aktionæren", "aktionærer", "aktionærerne"],
+    "en_forms": ["shareholder", "shareholders"]
+  },
+  {
+    "da": "anpartshaver",
+    "en": "shareholder of an ApS",
+    "source": "ai",
+    "da_forms": ["anpartshaveren", "anpartshavere", "anpartshaverne"],
+    "en_forms": ["shareholder of an ApS", "shareholders of an ApS"]
+  },
+  {
+    "da": "generalforsamling",
+    "en": "general meeting",
+    "source": "ai",
+    "da_forms": ["generalforsamlingen"],
+    "en_forms": ["general meeting", "general meetings"]
+  },
+  {
+    "da": "bestyrelse",
+    "en": "board of directors",
+    "source": "ai",
+    "da_forms": ["bestyrelsen"],
+    "en_forms": ["board of directors"]
+  },
+  {
+    "da": "direktion",
+    "en": "executive board",
+    "source": "ai",
+    "da_forms": ["direktionen"],
+    "en_forms": ["executive board"]
+  },
+  {
+    "da": "tilsynsråd",
+    "en": "supervisory board",
+    "source": "ai",
+    "da_forms": ["tilsynsrådet"],
+    "en_forms": ["supervisory board"]
+  },
+  {
+    "da": "etableringsbudget",
+    "en": "establishment budget",
+    "source": "ai",
+    "da_forms": ["etableringsbudgettet"],
+    "en_forms": ["establishment budget", "start-up budget", "startup budget"]
+  },
+  {
+    "da": "eksklusive moms",
+    "en": "excluding VAT",
+    "source": "ai",
+    "da_forms": ["pris eksklusive moms", "prisen eksklusive moms", "pris uden moms", "prisen uden moms"],
+    "en_forms": ["excluding VAT", "price excluding VAT", "price without VAT"]
+  },
+  {
+    "da": "inklusive moms",
+    "en": "including VAT",
+    "source": "ai",
+    "da_forms": ["pris inklusive moms", "prisen inklusive moms", "pris med moms", "prisen med moms"],
+    "en_forms": ["including VAT", "price including VAT", "price with VAT"]
+  },
+  {
+    "da": "serviceydelse",
+    "en": "service",
+    "source": "ai",
+    "da_forms": ["serviceydelsen", "serviceydelser", "tjenesteydelse", "tjenesteydelser"],
+    "en_forms": ["service", "services"],
+    "max_occurrences": 8
+  },
+  {
+    "da": "momsregistrering",
+    "en": "VAT registration",
+    "source": "ai",
+    "da_forms": ["momsregistreret", "momsregistreres"],
+    "en_forms": ["VAT registration", "VAT-registered", "VAT registered"]
+  },
+  {
+    "da": "meromsætningsafgift",
+    "en": "value added tax",
+    "source": "ai",
+    "da_forms": [],
+    "en_forms": ["value added tax"]
+  }
+]
