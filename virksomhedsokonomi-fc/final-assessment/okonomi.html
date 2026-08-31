@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <title>Shaping New Tomorrow - Oral Presentation Practice</title>
+  <link rel="stylesheet" href="../assets/style.css">
+  <style>
+    .assessment-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .assessment-header h1 {
+      margin-bottom: 0.25rem;
+    }
+
+    .slide {
+      position: relative;
+      margin: 0 0 1.5rem;
+      padding: 1.25rem 1.25rem 0.45rem;
+      border: 1px solid var(--line);
+      border-radius: 0.85rem;
+      background: var(--bg-card);
+      box-shadow: var(--shadow);
+    }
+
+    .slide h2 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      margin: 0 0 1rem;
+      padding: 0;
+      border: 0;
+    }
+
+    .slide p {
+      margin-bottom: 1rem;
+    }
+
+    .slide.is-playing {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-soft), var(--shadow);
+    }
+
+    .tts-button,
+    .stop-button {
+      appearance: none;
+      border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--line));
+      border-radius: 999px;
+      padding: 0.5rem 0.85rem;
+      color: var(--ink);
+      background: var(--accent-soft);
+      font: inherit;
+      font-size: 0.82rem;
+      font-weight: 700;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    .tts-button:hover,
+    .tts-button:focus-visible,
+    .stop-button:hover,
+    .stop-button:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+
+    .stop-button {
+      background: var(--bg-card);
+    }
+
+    .tts-da {
+      background: color-mix(in srgb, var(--accent) 16%, transparent);
+      border-radius: 0.25rem;
+      padding: 0.05em 0.22em;
+      font-weight: 650;
+      cursor: pointer;
+    }
+
+    .tts-da:hover,
+    .tts-da:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+
+    .status {
+      min-height: 1.5em;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      .assessment-header,
+      .slide h2 {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="lang-bar">
+    <div class="lang-bar-inner">
+      <div class="brand"><a href="../virksomhedsokonomi-fc.html">Virksomhedsøkonomi</a> · Final assessment</div>
+      <button class="stop-button" id="stop-all" type="button">Stop audio</button>
+    </div>
+  </header>
+
+  <div class="wrap wrap-wide">
+    <main class="article">
+      <div class="assessment-header">
+        <div>
+          <p class="kicker">Oral presentation practice</p>
+          <h1>Shaping New Tomorrow</h1>
+          <p class="note">English narration with Danish pronunciation for technical terms.</p>
+        </div>
+      </div>
+      <p class="status" id="status" aria-live="polite">Choose a slide to start its audio.</p>
+
+      <section class="slide" data-slide="1">
+        <h2><span>Slide 1</span><button class="tts-button" type="button">🔊 Play slide</button></h2>
+        <p><span class="tts-part tts-en">As an introduction, Shaping New Tomorrow is a </span><span class="tts-part tts-da">handelsvirksomhed</span><span class="tts-part tts-en"> operating within </span><span class="tts-part tts-da">detailhandel</span><span class="tts-part tts-en">, with clothing as its principal product category.</span></p>
+        <p><span class="tts-part tts-en">Its </span><span class="tts-part tts-da">ejerform</span><span class="tts-part tts-en"> is an </span><span class="tts-part tts-da">anpartsselskab (ApS)</span><span class="tts-part tts-en">, the </span><span class="tts-part tts-da">anpartskapitalen</span><span class="tts-part tts-en" data-speech="63,000 kroner"> is approximately 63.000kr.</span></p>
+        <p><span class="tts-part tts-en">Today, the company is owned by Shaping New Tomorrow Holding ApS.</span></p>
+        <p><span class="tts-part tts-en">Today I'll explain Shaping New Tomorrow's </span><span class="tts-part tts-da">indtjeningsevne</span><span class="tts-part tts-en"> and </span><span class="tts-part tts-da">likviditet</span><span class="tts-part tts-en"> from 2018/19 to 2020/21.</span></p>
+        <p><span class="tts-part tts-en">The company grows from 2 to 6 stores, and </span><span class="tts-part tts-da">nettoomsætning</span><span class="tts-part tts-en"> rises strongly.</span></p>
+        <p><span class="tts-part tts-en">The key question is whether this growth also improves profitability.</span></p>
+      </section>
+
+      <section class="slide" data-slide="2">
+        <h2><span>Slide 2</span><button class="tts-button" type="button">🔊 Play slide</button></h2>
+        <p><span class="tts-part tts-en">First, we see very strong growth in </span><span class="tts-part tts-da">nettoomsætning</span><span class="tts-part tts-en">.</span></p>
+        <p><span class="tts-part tts-en">It increases from 78.6 to 300 million kroner, and the </span><span class="tts-part tts-da">indeks</span><span class="tts-part tts-en"> goes from 100 to 382.</span></p>
+        <p><span class="tts-part tts-en">This is positive, but growth alone doesn't show if Shaping New Tomorrow earns efficiently.</span></p>
+      </section>
+
+      <section class="slide" data-slide="3">
+        <h2><span>Slide 3</span><button class="tts-button" type="button">🔊 Play slide</button></h2>
+        <p><span class="tts-part tts-en">Here I look at </span><span class="tts-part tts-da" data-speech="Bruttoavanceprocent">BAP (Bruttoavanceprocent)</span><span class="tts-part tts-en"> and </span><span class="tts-part tts-da" data-speech="Dækningsgrad">DG (Dækningsgrad)</span><span class="tts-part tts-en">.</span></p>
+        <p><span class="tts-part tts-en">Both are fairly stable over the three years, and in year 3 they are close to or above year 1.</span></p>
+        <p><span class="tts-part tts-en">This means the main problem is not </span><span class="tts-part tts-da">vareforbrug</span><span class="tts-part tts-en"> or </span><span class="tts-part tts-da">variable omkostninger</span><span class="tts-part tts-en">, but costs later in the </span><span class="tts-part tts-da">resultatopgørelse</span><span class="tts-part tts-en">.</span></p>
+      </section>
+
+      <section class="slide" data-slide="4">
+        <h2><span>Slide 4</span><button class="tts-button" type="button">🔊 Play slide</button></h2>
+        <p><span class="tts-part tts-en">The main issue is </span><span class="tts-part tts-da">kapacitetsomkostninger</span><span class="tts-part tts-en">.</span></p>
+        <p><span class="tts-part tts-en">Their index reaches 886, compared with 382 for </span><span class="tts-part tts-da">nettoomsætning</span><span class="tts-part tts-en">.</span></p>
+        <p><span class="tts-part tts-en">A likely reason is the expansion from 2 to 6 stores, which increases rent, staff and other fixed operating costs.</span></p>
+      </section>
+
+      <section class="slide" data-slide="5">
+        <h2><span>Slide 5</span><button class="tts-button" type="button">🔊 Play slide</button></h2>
+        <p><span class="tts-part tts-en">This slide shows the effect on </span><span class="tts-part tts-da">indtjeningsevne</span><span class="tts-part tts-en">.</span></p>
+        <p><span class="tts-part tts-da">Årets resultat før renter</span><span class="tts-part tts-en"> rises, but </span><span class="tts-part tts-da" data-speech="Overskudsgrad">OG (Overskudsgrad)</span><span class="tts-part tts-en"> falls from 37% to 16%.</span></p>
+        <p><span class="tts-part tts-en">So Shaping New Tomorrow earns more in total, but much less for each krone of sales.</span></p>
+      </section>
+
+      <section class="slide" data-slide="6">
+        <h2><span>Slide 6</span><button class="tts-button" type="button">🔊 Play slide</button></h2>
+        <p><span class="tts-part tts-en">To improve </span><span class="tts-part tts-da">resultatet</span><span class="tts-part tts-en">, Shaping New Tomorrow should focus on profitability per store.</span></p>
+        <p><span class="tts-part tts-en">Management should control </span><span class="tts-part tts-da">kapacitetsomkostninger</span><span class="tts-part tts-en">, measure the return from e-shop and promotion, and only open new stores when break-even and cash needs are clear.</span></p>
+        <p><span class="tts-part tts-en">The high index for </span><span class="tts-part tts-da">eksterne omkostninger</span><span class="tts-part tts-en"> and </span><span class="tts-part tts-da">afskrivninger</span><span class="tts-part tts-en"> shows why this is important.</span></p>
+      </section>
+
+      <section class="slide" data-slide="7">
+        <h2><span>Slide 7</span><button class="tts-button" type="button">🔊 Play slide</button></h2>
+        <p><span class="tts-part tts-en">Finally, </span><span class="tts-part tts-da">resultat</span><span class="tts-part tts-en"> and </span><span class="tts-part tts-da">likviditet</span><span class="tts-part tts-en"> are not the same.</span></p>
+        <p><span class="tts-part tts-en">Cash can be tied up in </span><span class="tts-part tts-da">lager</span><span class="tts-part tts-en"> and investments even when the company has a profit.</span></p>
+        <p><span class="tts-part tts-en">Shaping New Tomorrow should reduce </span><span class="tts-part tts-da">lagerbinding</span><span class="tts-part tts-en">, negotiate longer payment terms, and phase investments more carefully.</span></p>
+        <p><span class="tts-part tts-en">The goal is profitable growth with stronger cash flow.</span></p>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    (() => {
+      let currentAudio = null;
+      let currentSlide = null;
+      let queue = [];
+      let queueIndex = 0;
+
+      const status = document.querySelector("#status");
+      const stopButton = document.querySelector("#stop-all");
+
+      function googleTtsUrl(text, lang) {
+        const params = new URLSearchParams({
+          ie: "UTF-8",
+          client: "tw-ob",
+          tl: lang,
+          q: text.trim()
+        });
+        return `https://translate.google.com/translate_tts?${params.toString()}`;
+      }
+
+      function stopAudio() {
+        if (currentAudio) {
+          currentAudio.pause();
+          currentAudio.src = "";
+          currentAudio = null;
+        }
+        queue = [];
+        queueIndex = 0;
+        document.querySelectorAll(".slide").forEach((slide) => slide.classList.remove("is-playing"));
+        currentSlide = null;
+        status.textContent = "Audio stopped.";
+      }
+
+      function playNext() {
+        if (!currentSlide || queueIndex >= queue.length) {
+          if (currentSlide) {
+            currentSlide.classList.remove("is-playing");
+            status.textContent = `Slide ${currentSlide.dataset.slide} finished.`;
+          }
+          currentAudio = null;
+          currentSlide = null;
+          return;
+        }
+
+        const part = queue[queueIndex];
+        queueIndex += 1;
+        const audio = new Audio(googleTtsUrl(part.text, part.lang));
+        currentAudio = audio;
+        status.textContent = `Playing slide ${currentSlide.dataset.slide} (${part.lang === "da" ? "Danish term" : "English"})...`;
+        audio.onended = playNext;
+        audio.onerror = () => {
+          currentAudio = null;
+          status.textContent = "Google Translate TTS could not be loaded. Try again.";
+          currentSlide.classList.remove("is-playing");
+          currentSlide = null;
+        };
+        const playPromise = audio.play();
+        if (playPromise) {
+          playPromise.catch(() => {
+            currentAudio = null;
+            status.textContent = "Audio playback was blocked. Click the slide button again.";
+            currentSlide.classList.remove("is-playing");
+            currentSlide = null;
+          });
+        }
+      }
+
+      function playTerm(term) {
+        stopAudio();
+        const text = term.dataset.speech || term.textContent;
+        const audio = new Audio(googleTtsUrl(text, "da"));
+        currentAudio = audio;
+        status.textContent = `Playing Danish term: ${text.trim()}`;
+        audio.onended = () => {
+          currentAudio = null;
+          status.textContent = "Danish term finished.";
+        };
+        audio.onerror = () => {
+          currentAudio = null;
+          status.textContent = "Google Translate TTS could not be loaded. Try again.";
+        };
+        const playPromise = audio.play();
+        if (playPromise) {
+          playPromise.catch(() => {
+            currentAudio = null;
+            status.textContent = "Audio playback was blocked. Click the term again.";
+          });
+        }
+      }
+
+      function playSlide(slide) {
+        stopAudio();
+        currentSlide = slide;
+        currentSlide.classList.add("is-playing");
+        queue = [...slide.querySelectorAll(".tts-part")]
+          .map((part) => ({
+            text: part.dataset.speech || part.textContent,
+            lang: part.classList.contains("tts-da") ? "da" : "en"
+          }))
+          .filter((part) => part.text.trim() && !/^[.!?,;:]+$/.test(part.text.trim()));
+        queueIndex = 0;
+        playNext();
+      }
+
+      document.querySelectorAll(".slide .tts-button").forEach((button) => {
+        button.addEventListener("click", () => playSlide(button.closest(".slide")));
+      });
+
+      document.querySelectorAll(".tts-da").forEach((term) => {
+        term.setAttribute("role", "button");
+        term.setAttribute("tabindex", "0");
+        term.setAttribute("title", "Play Danish pronunciation");
+        term.addEventListener("click", () => playTerm(term));
+        term.addEventListener("keydown", (event) => {
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            playTerm(term);
+          }
+        });
+      });
+
+      stopButton.addEventListener("click", stopAudio);
+    })();
+  </script>
+</body>
+</html>
