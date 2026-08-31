@@ -143,16 +143,6 @@
       document.querySelector(".article").prepend(status);
       status.textContent = "Choose a slide to start its audio.";
 
-      function googleTtsUrl(text, lang) {
-        const params = new URLSearchParams({
-          ie: "UTF-8",
-          client: "tw-ob",
-          tl: lang,
-          q: text.trim()
-        });
-        return `https://translate.google.com/translate_tts?${params.toString()}`;
-      }
-
       function stopAudio() {
         if (currentAudio) {
           currentAudio.pause();
@@ -179,9 +169,9 @@
 
         const part = queue[queueIndex];
         queueIndex += 1;
-        const audio = new Audio(googleTtsUrl(part.text, part.lang));
+        const audio = new Audio(part.src);
         currentAudio = audio;
-        status.textContent = `Playing slide ${currentSlide.dataset.slide} (${part.lang === "da" ? "Danish term" : "English"})...`;
+        status.textContent = `Playing slide ${currentSlide.dataset.slide}...`;
         audio.onended = playNext;
         audio.onerror = () => {
           currentAudio = null;
@@ -203,7 +193,9 @@
       function playTerm(term) {
         stopAudio();
         const text = term.dataset.speech || term.textContent;
-        const audio = new Audio(googleTtsUrl(text, "da"));
+        const audio = new Audio(
+          `../assets/final-assessment-audio/terms/term-${encodeURIComponent(text.trim())}.mp3`
+        );
         currentAudio = audio;
         status.textContent = `Playing Danish term: ${text.trim()}`;
         audio.onended = () => {
@@ -228,12 +220,11 @@
           stopAudio();
           currentSlide = button.closest(".slide");
           currentSlide.classList.add("is-playing");
-          queue = [...currentSlide.querySelectorAll(".tts-part")]
-            .map((part) => ({
-              text: part.dataset.speech || part.textContent,
-              lang: part.classList.contains("tts-da") ? "da" : "en"
+          queue = [...currentSlide.querySelectorAll("p")]
+            .map((paragraph, index) => ({
+              src: `../assets/final-assessment-audio/logistik/slide-${currentSlide.dataset.slide}-sentence-${index + 1}.mp3`
             }))
-            .filter((part) => part.text.trim() && !/^[.!?,;:]+$/.test(part.text.trim()));
+            .filter((part) => part.src);
           queueIndex = 0;
           playNext();
         });
